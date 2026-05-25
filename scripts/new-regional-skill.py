@@ -55,6 +55,28 @@ def build_skill(args: argparse.Namespace) -> None:
 
     sources = [line.strip() for line in args.source if line.strip()]
     source_lines = "\n".join(f"- {source}" for source in sources) or "- Add source links before raising this skill above Level 1."
+    examples = [line.strip() for line in args.example if line.strip()]
+    if examples:
+        example_lines = []
+        for raw_example in examples:
+            parts = [part.strip() for part in raw_example.split("|")]
+            if len(parts) < 3:
+                raise SystemExit("--example must use: Indonesian|Target language|Meaning or note")
+            indonesia, target, meaning = parts[:3]
+            note = parts[3] if len(parts) > 3 else "Use only for the context covered by the source."
+            example_lines.append(
+                f"- Indonesian: \"{indonesia}\"\n"
+                f"  Bahasa {language}: \"{target}\"\n"
+                f"  Meaning/note: {meaning}\n"
+                f"  Usage: {note}"
+            )
+        target_examples = "\n".join(example_lines)
+    else:
+        target_examples = (
+            f"- No target-language sentence was supplied to the generator. Before committing "
+            f"`{slug}`, add at least one verified Bahasa {language} example from a dictionary, "
+            "grammar, source text, or native-speaker sample."
+        )
 
     write(
         skill_dir / "SKILL.md",
@@ -294,11 +316,7 @@ Use this skill for:
 
 ## Target-Language Examples
 
-Use this section for actual Bahasa {language} examples after verified vocabulary, phrases, or native-speaker samples are available.
-
-- Indonesian: "Mari jaga bahasa daerah kita."
-- Bahasa {language}: `[add verified Bahasa {language} sentence here]`
-- Note: keep unverified words in Indonesian and mark them for review.
+{target_examples}
 
 ## Source-Aware Generation
 
@@ -336,6 +354,12 @@ def main() -> int:
     parser.add_argument("--display", help="Display name.")
     parser.add_argument("--short", help="25-64 character UI description.")
     parser.add_argument("--source", action="append", default=[], help="Reference source line. Repeatable.")
+    parser.add_argument(
+        "--example",
+        action="append",
+        default=[],
+        help="Target example as Indonesian|Target language|Meaning or note|Usage note. Repeatable.",
+    )
     parser.add_argument("--force", action="store_true", help="Overwrite an existing skill directory.")
     args = parser.parse_args()
     build_skill(args)

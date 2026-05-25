@@ -36,6 +36,20 @@ Because of that, Tutur should use a registry-first workflow:
 5. Commit and push.
 6. Continue to the next language.
 
+Use `docs/language-rollout-queue.md` as the active queue. Update it after each batch when the next sourced language list is ready.
+
+## Register Coverage
+
+Each ready language skill should include contextual examples for ordinary, casual, public/formal, professional-adjacent, and adat-sensitive use when the source base supports those contexts. If the skill lacks enough source material, it must show safe output shapes and short verified target-language examples instead of invented long translations.
+
+For languages with speech levels or social registers, document the level choice before generating:
+
+- everyday peer-to-peer,
+- respectful elder-facing,
+- public announcement,
+- formal/professional,
+- adat/ceremonial caution.
+
 ## Skill Quality Levels
 
 - **Level 1: Guardrail skill.** Good for low-resource languages. It prevents fake fluency, asks for source text, and keeps cultural cautions.
