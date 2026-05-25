@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Jawa"
+  short_description: "Skill bahasa Jawa berunggah-ungguh"
+  default_prompt: "Use $tutur-jawa to adapt this text with a cautious Bahasa Jawa regional register."

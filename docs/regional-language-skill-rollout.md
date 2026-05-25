@@ -78,6 +78,7 @@ Regional-language skills created:
 - Gayo
 - Minangkabau
 - Sunda
+- Jawa
 
 Recommended court-register follow-up:
 
