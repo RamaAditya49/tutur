@@ -44,6 +44,7 @@ Source confidence: Level 2. Public grammar, dictionary, and Peta Bahasa referenc
 
 ## Resources
 
+- `references/offline-brief.md`: compact local brief for agents without internet access.
 - `references/sources.md`: source links and confidence level.
 - `references/style-guide.md`: practical register and safety rules.
 - `references/examples.md`: safe usage examples.

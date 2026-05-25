@@ -1,0 +1,88 @@
+{
+  "name": "tutur",
+  "version": "0.1.0",
+  "description": "Offline-first AI-agent skills for Indonesian writing and Indonesian regional-language work.",
+  "skillFormat": "SKILL.md",
+  "skills": [
+    {
+      "name": "tutur-humanizer",
+      "category": "indonesian-writing",
+      "status": "ready",
+      "confidence": "working-editor",
+      "path": "skills/tutur-humanizer",
+      "summary": "Humanize Indonesian writing across formal, professional, casual, slang, and sales contexts."
+    },
+    {
+      "name": "tutur-kedhaton-solo",
+      "category": "court-register",
+      "status": "ready",
+      "confidence": "guarded-register",
+      "path": "skills/tutur-kedhaton-solo",
+      "summary": "Cautious Keraton Solo / Surakarta Basa Kedhaton register."
+    },
+    {
+      "name": "tutur-bagongan-jogja",
+      "category": "court-register",
+      "status": "ready",
+      "confidence": "guarded-register",
+      "path": "skills/tutur-bagongan-jogja",
+      "summary": "Cautious Keraton Jogja / Yogyakarta Basa Bagongan register."
+    },
+    {
+      "name": "tutur-aceh",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-aceh",
+      "summary": "Cautious Bahasa Aceh drafting and review."
+    },
+    {
+      "name": "tutur-gayo",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-gayo",
+      "summary": "Cautious Bahasa Gayo drafting and review."
+    },
+    {
+      "name": "tutur-minangkabau",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-minangkabau",
+      "summary": "Cautious Bahasa Minangkabau drafting and review."
+    },
+    {
+      "name": "tutur-sunda",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-sunda",
+      "summary": "Cautious Bahasa Sunda drafting and review with speech-level handling."
+    },
+    {
+      "name": "tutur-jawa",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-jawa",
+      "summary": "Cautious Bahasa Jawa drafting and review with speech-level and dialect handling."
+    },
+    {
+      "name": "tutur-madura",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-madura",
+      "summary": "Cautious Bahasa Madura drafting and review with dialect and politeness handling."
+    },
+    {
+      "name": "tutur-bali",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-bali",
+      "summary": "Cautious Bahasa Bali drafting and review with anggah-ungguh handling."
+    }
+  ]
+}

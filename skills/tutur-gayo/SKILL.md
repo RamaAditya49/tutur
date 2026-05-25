@@ -43,6 +43,7 @@ Source confidence: Level 2. Bahasa Gayo has KBDA Daring entries and older Badan 
 
 ## Resources
 
+- `references/offline-brief.md`: compact local brief for agents without internet access.
 - `references/sources.md`: source links and confidence level.
 - `references/style-guide.md`: practical register and safety rules.
 - `references/examples.md`: safe usage examples.

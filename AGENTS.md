@@ -1,0 +1,30 @@
+# AGENTS.md
+
+This repository contains portable AI-agent skills for Indonesian writing and regional-language work.
+
+## Working Rules
+
+- Keep every skill offline-first. Do not rely on a live website as the only source of guidance.
+- Keep `SKILL.md` concise. Put reusable details in `references/`.
+- Every ready skill must have:
+  - `SKILL.md`
+  - `agents/openai.yaml`
+  - `references/offline-brief.md`
+  - `references/sources.md`
+  - `references/examples.md`
+- Regional and court-language skills must be conservative. Do not invent vocabulary, ritual language, titles, or cultural formulas.
+- For each new regional language, commit and push after the skill validates before starting another language.
+
+## Validation
+
+Run:
+
+```bash
+./scripts/validate-skills.sh
+```
+
+Do not call a skill ready if validation fails.
+
+## Install Docs
+
+Agent installation docs live in `docs/agent-installation.md`.

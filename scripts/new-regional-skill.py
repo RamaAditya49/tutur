@@ -104,6 +104,8 @@ Region/context: {region}
 
 - `references/sources.md`: source links and confidence level.
 - `references/style-guide.md`: practical register and safety rules.
+- `references/offline-brief.md`: compact local brief for agents without internet access.
+- `references/examples.md`: safe usage examples.
 """,
     )
 
@@ -141,6 +143,41 @@ This skill should support careful drafting and review. It should not claim full 
     )
 
     write(
+        skill_dir / "references" / "offline-brief.md",
+        f"""
+# Offline Brief
+
+## Local Facts
+
+- Purpose: support cautious drafting and review for Bahasa {language}.
+- Region/context: {region}
+- Source confidence: Level 1 until richer local references are added.
+- This skill should work without browsing.
+
+## Guardrails
+
+- Do not invent vocabulary.
+- Do not assume one dialect represents all speakers.
+- Do not use the language for sacred, ritual, legal, educational, or official text without review.
+- Preserve Indonesian terms when the regional equivalent is unknown.
+- Ask for a user-provided sample when voice, dialect, or register matters.
+
+## Sample Prompts
+
+- "Use ${slug} to review this Bahasa {language} draft."
+- "Make a cautious Bahasa {language} version of this short message."
+- "Check whether this text sounds like real Bahasa {language} or just Indonesian with local words."
+
+## Safe Output Patterns
+
+- For translation: ask for audience and dialect if the text matters publicly.
+- For review: flag uncertain vocabulary, grammar interference, and register risks.
+- For unknown terms: keep Indonesian and mark them for verification.
+- For public use: recommend review by a competent speaker or language institution.
+""",
+    )
+
+    write(
         skill_dir / "references" / "style-guide.md",
         f"""
 # Style Guide
@@ -167,6 +204,38 @@ Use this skill for:
 - localized greetings or short public text,
 - review of AI-generated local-language output,
 - identifying uncertainty before publication.
+""",
+    )
+
+    write(
+        skill_dir / "references" / "examples.md",
+        f"""
+# Examples
+
+## Cautious Drafting
+
+Input:
+
+> Buat teks pendek untuk mengajak anak muda menjaga Bahasa {language}.
+
+Safe response shape:
+
+1. Ask for target audience and dialect if needed.
+2. Draft a clear Indonesian baseline.
+3. Use Bahasa {language} only where wording can be verified from sources or a user-provided sample.
+4. Mark uncertain terms for speaker review.
+
+## Review Mode
+
+Input:
+
+> Cek apakah teks ini terdengar seperti Bahasa {language} asli.
+
+Safe response shape:
+
+1. Flag Indonesian grammar with local-word decoration.
+2. Flag unsupported vocabulary.
+3. Recommend native-speaker review for public use.
 """,
     )
 

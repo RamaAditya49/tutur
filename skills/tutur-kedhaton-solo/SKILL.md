@@ -49,6 +49,7 @@ Read `references/style-guide.md` before using pronouns. When unsure, rewrite to 
 
 ## Resources
 
+- `references/offline-brief.md`: compact local brief for agents without internet access.
 - `references/sources.md`: research base and source links.
 - `references/style-guide.md`: Surakarta Kedhaton usage rules.
 - `references/lexicon.md`: cautious lexicon and terms to avoid inventing.

@@ -42,6 +42,7 @@ Basa Bagongan is associated with the Keraton Kasultanan Yogyakarta. It is often 
 
 ## Resources
 
+- `references/offline-brief.md`: compact local brief for agents without internet access.
 - `references/sources.md`: research base and source links.
 - `references/style-guide.md`: Yogyakarta Bagongan usage rules.
 - `references/lexicon.md`: cautious starter lexicon.

@@ -14,6 +14,8 @@ for skill_dir in "$ROOT_DIR"/skills/*; do
   python3 "$VALIDATOR" "$skill_dir"
 done
 
+python3 "$ROOT_DIR/scripts/check-local-resources.py"
+
 python3 "$ROOT_DIR/skills/tutur-humanizer/scripts/scan_ai_id.py" --pretty <<'TEXT'
 Di era digital yang terus berkembang, bisnis membutuhkan solusi inovatif untuk meningkatkan efisiensi secara optimal.
 TEXT
