@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Humanizer"
+  short_description: "Humanisasi tulisan Indonesia"
+  default_prompt: "Use $tutur-humanizer to make this Indonesian text sound natural while preserving meaning and voice."
