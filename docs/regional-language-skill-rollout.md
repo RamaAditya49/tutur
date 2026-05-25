@@ -76,6 +76,7 @@ Regional-language skills created:
 
 - Aceh
 - Gayo
+- Minangkabau
 
 Recommended court-register follow-up:
 
