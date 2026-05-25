@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Bali"
+  short_description: "Skill bahasa Bali beranggah-ungguh"
+  default_prompt: "Use $tutur-bali to adapt this text with a cautious Bahasa Bali regional register."

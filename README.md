@@ -17,6 +17,7 @@ The first skill is `tutur-humanizer`: a humanizer for Indonesian text that can h
 | `tutur-sunda` | Ready | Draft or review Bahasa Sunda with careful speech-level handling. |
 | `tutur-jawa` | Ready | Draft or review Bahasa Jawa with careful speech-level and dialect handling. |
 | `tutur-madura` | Ready | Draft or review Bahasa Madura with careful speech-level and dialect handling. |
+| `tutur-bali` | Ready | Draft or review Bahasa Bali with careful anggah-ungguh handling. |
 
 Planned skills:
 
@@ -51,6 +52,7 @@ tutur/
     └── tutur-sunda/
     └── tutur-jawa/
     └── tutur-madura/
+    └── tutur-bali/
 ```
 
 ## Install
@@ -68,6 +70,7 @@ cp -R skills/tutur-minangkabau "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/tutur-sunda "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/tutur-jawa "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/tutur-madura "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R skills/tutur-bali "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
 Then invoke it with:
@@ -82,6 +85,7 @@ Use $tutur-minangkabau to review this Bahasa Minangkabau draft.
 Use $tutur-sunda to review this Bahasa Sunda draft.
 Use $tutur-jawa to review this Bahasa Jawa draft.
 Use $tutur-madura to review this Bahasa Madura draft.
+Use $tutur-bali to review this Bahasa Bali draft.
 ```
 
 ## Research Base

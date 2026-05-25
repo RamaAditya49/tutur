@@ -80,6 +80,7 @@ Regional-language skills created:
 - Sunda
 - Jawa
 - Madura
+- Bali
 
 Recommended court-register follow-up:
 
