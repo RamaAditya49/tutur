@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Kedhaton Solo"
+  short_description: "Ragam kedhaton khas Surakarta"
+  default_prompt: "Use $tutur-kedhaton-solo to adapt this text into a careful Surakarta court-inspired register."
