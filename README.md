@@ -38,6 +38,7 @@ Tutur is not a "translate everything confidently" package. Indonesian regional l
 | `tutur-bugis` | Ready | Yes | Produce or review Bahasa Bugis with politeness marker and Lontara/script caution. |
 | `tutur-makassar` | Ready | Yes | Produce or review Bahasa Makassar with politeness marker, script, and Makassar Malay distinction. |
 | `tutur-batak-toba` | Ready | Yes | Produce or review Bahasa Batak Toba with kinship, marga, adat, and script caution. |
+| `tutur-lampung` | Ready | Yes | Produce or review Bahasa Lampung with Api/A, Nyo/O, and aksara caution. |
 
 Planned skills:
 
@@ -103,7 +104,8 @@ tutur/
     ├── tutur-banjar/
     ├── tutur-bugis/
     ├── tutur-makassar/
-    └── tutur-batak-toba/
+    ├── tutur-batak-toba/
+    └── tutur-lampung/
 ```
 
 ## Quick Install
@@ -139,7 +141,8 @@ for skill in \
   tutur-banjar \
   tutur-bugis \
   tutur-makassar \
-  tutur-batak-toba
+  tutur-batak-toba \
+  tutur-lampung
 do
   npx --yes clawhub --workdir ~/.openclaw/workspace --dir skills install "$skill"
 done
@@ -233,6 +236,7 @@ Use $tutur-banjar to make this WhatsApp reminder sound Banjar-aware but still cl
 Use $tutur-bugis to make this community invitation Bugis-aware with tabe' but not overtranslated.
 Use $tutur-makassar to make this tourism welcome text Makassar-aware without confusing it with Makassar Malay.
 Use $tutur-batak-toba to make this Horas/Mauliate greeting without guessing kinship terms.
+Use $tutur-lampung to create Api/A and Nyo/O variants for this short greeting.
 ```
 
 ## Offline Resources

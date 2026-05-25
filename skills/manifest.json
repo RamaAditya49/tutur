@@ -146,6 +146,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-batak-toba",
       "summary": "Source-aware Bahasa Batak Toba generation and review with kinship, marga, adat, and script caution."
+    },
+    {
+      "name": "tutur-lampung",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-lampung",
+      "summary": "Source-aware Bahasa Lampung generation and review with Api/A, Nyo/O, and aksara caution."
     }
   ]
 }
