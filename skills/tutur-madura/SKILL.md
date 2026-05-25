@@ -13,6 +13,12 @@ Region/context: Pulau Madura, Tapal Kuda Jawa Timur, Bawean, dan komunitas Madur
 
 Source confidence: Level 2. Public dictionary, grammar, and Peta Bahasa references exist, but dialect and speech-level choices require extra caution.
 
+## Search And Discovery
+
+Relevant searches: Bahasa Madura, kamus Bahasa Madura, contoh Bahasa Madura, belajar Bahasa Madura, terjemahan Indonesia Madura, translate Bahasa Madura, Madura halus, Madura Sumenep, bahasa Tapal Kuda, AI skill Bahasa Madura.
+
+Use this skill for source-aware Madurese generation and review. It is not a certified translator and must keep speech level, dialect, public, adat, legal, educational, or official text under competent speaker review when uncertain.
+
 ## Workflow
 
 1. Identify the task.

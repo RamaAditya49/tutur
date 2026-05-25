@@ -16,6 +16,7 @@ This repository contains portable AI-agent skills for Indonesian writing and reg
   - `references/examples.md`
 - Regional and court-language skills must be source-aware and usable offline. Do not invent vocabulary, ritual language, titles, or cultural formulas.
 - For each new regional language, commit and push after the skill validates before starting another language.
+- Treat `SKILL.md` as the public/SEO landing document for each skill. Add a `Search And Discovery` section with honest search terms and safety boundaries instead of creating per-skill README files.
 
 ## Validation
 

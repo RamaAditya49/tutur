@@ -38,6 +38,7 @@ references/lexicon.md
 - Frontmatter must include only `name` and `description`.
 - Description must explain what the skill does and when to use it.
 - Body should cover workflow, output style, and resource map.
+- Body should include a short `Search And Discovery` section for public ClawHub/agent discovery.
 - Do not put long dictionaries or long source notes in `SKILL.md`.
 
 ## Regional Language Rules

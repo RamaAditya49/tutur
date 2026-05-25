@@ -13,6 +13,12 @@ Region/context: Jawa Barat, Banten, dan komunitas Sunda di wilayah lain
 
 Source confidence: Level 2. Public grammar, dictionary, and Peta Bahasa references exist, but undak-usuk basa and dialect choices require extra caution.
 
+## Search And Discovery
+
+Relevant searches: Bahasa Sunda, kamus Bahasa Sunda, contoh Bahasa Sunda, belajar Bahasa Sunda, terjemahan Indonesia Sunda, translate Bahasa Sunda, Sunda lemes, Sunda loma, undak-usuk basa Sunda, AI skill Bahasa Sunda.
+
+Use this skill for source-aware Sundanese generation and review. It is not a certified translator and must keep speech level, dialect, public, legal, educational, or official text under competent speaker review when uncertain.
+
 ## Workflow
 
 1. Identify the task.

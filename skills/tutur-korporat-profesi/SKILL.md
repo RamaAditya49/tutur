@@ -11,6 +11,12 @@ Use this skill to write Indonesian professional communication that matches the r
 
 Default to clear, concise Indonesian. Use English corporate terms only when the audience naturally uses them.
 
+## Search And Discovery
+
+Relevant searches: bahasa sales Indonesia, script sales WhatsApp, customer service bahasa Indonesia, template chat CS, bahasa admin kantor, bahasa HRD rekrutmen, email profesional Indonesia, corporate communication Indonesia, bahasa kerja sales CS admin HRD, copywriting profesional Indonesia.
+
+Use this skill for role-aware corporate writing. It must follow company policy and must not invent prices, salary, discounts, guarantees, legal claims, refund rules, or SLAs.
+
 ## Workflow
 
 1. Identify the role and objective.
@@ -54,4 +60,3 @@ Default to clear, concise Indonesian. Use English corporate terms only when the 
 - `references/sources.md`: research base and source notes.
 - `references/style-guide.md`: role-by-role language rules.
 - `references/examples.md`: target-register examples.
-

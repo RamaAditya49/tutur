@@ -34,6 +34,7 @@ Tutur is not a "translate everything confidently" package. Indonesian regional l
 | `tutur-madura` | Ready | Yes | Produce or review Bahasa Madura with careful speech-level and dialect handling. |
 | `tutur-bali` | Ready | Yes | Produce or review Bahasa Bali with careful anggah-ungguh handling. |
 | `tutur-sasak` | Ready | Yes | Produce or review Bahasa Sasak with dialect and speech-level caution. |
+| `tutur-banjar` | Ready | Yes | Produce or review Bahasa Banjar with Banjar Kuala/Hulu and polite pronoun caution. |
 
 Planned skills:
 
@@ -49,7 +50,6 @@ Planned skills:
 - `tutur-jaktim`
 - `tutur-bekasi`
 - `tutur-betawi-jakarta`
-- `tutur-banjar`
 - `tutur-bugis`
 - `tutur-makassar`
 - `tutur-batak-toba`
@@ -99,7 +99,8 @@ tutur/
     ├── tutur-jawa/
     ├── tutur-madura/
     ├── tutur-bali/
-    └── tutur-sasak/
+    ├── tutur-sasak/
+    └── tutur-banjar/
 ```
 
 ## Quick Install
@@ -131,7 +132,8 @@ for skill in \
   tutur-jawa \
   tutur-madura \
   tutur-bali \
-  tutur-sasak
+  tutur-sasak \
+  tutur-banjar
 do
   npx --yes clawhub --workdir ~/.openclaw/workspace --dir skills install "$skill"
 done
@@ -199,6 +201,8 @@ Detailed install notes: [docs/agent-installation.md](docs/agent-installation.md)
 
 Language/register coverage guide: [docs/language-skills.md](docs/language-skills.md)
 
+SEO/discovery standard for published skill pages: [docs/seo-guidelines.md](docs/seo-guidelines.md)
+
 ## How Agents Should Use A Skill
 
 1. Match the user request to a skill by name or description.
@@ -219,6 +223,7 @@ Use $tutur-kedhaton-solo to make a source-aware Keraton Solo-style output.
 Use $tutur-korporat-profesi to rewrite this HRD rejection email.
 Use $tutur-jabodetabek-urban to make this caption sound Jaksel but not forced.
 Use $tutur-sasak to review whether this Lombok tourism copy uses safe Sasak phrases.
+Use $tutur-banjar to make this WhatsApp reminder sound Banjar-aware but still clear.
 ```
 
 ## Offline Resources

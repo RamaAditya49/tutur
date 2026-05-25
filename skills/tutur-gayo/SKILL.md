@@ -13,6 +13,12 @@ Region/context: Dataran tinggi Aceh, terutama komunitas Gayo
 
 Source confidence: Level 2. Bahasa Gayo has KBDA Daring entries and older Badan Bahasa dictionary/grammar materials, but this skill should still avoid unsourced translation and dialect claims.
 
+## Search And Discovery
+
+Relevant searches: Bahasa Gayo, kamus Bahasa Gayo, contoh Bahasa Gayo, belajar Bahasa Gayo, terjemahan Indonesia Gayo, translate Bahasa Gayo, Gayo language, bahasa daerah Aceh Tengah, AI skill Bahasa Gayo.
+
+Use this skill for source-aware Gayo generation and review. It is not a certified translator and must defer dialect-sensitive, adat, public, legal, or official text to competent speaker review.
+
 ## Workflow
 
 1. Identify the task.

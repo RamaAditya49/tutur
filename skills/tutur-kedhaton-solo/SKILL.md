@@ -11,6 +11,12 @@ Use this skill to adapt text toward the Surakarta court register known as Basa K
 
 Default to modest, respectful, Surakarta-leaning Javanese court diction. If the user needs a ceremonial script, palace protocol, ritual utterance, inscription, or manuscript-level accuracy, mark it for Surakarta court-language expert review.
 
+## Search And Discovery
+
+Relevant searches: bahasa Keraton Solo, Basa Kedhaton, bahasa Kedhaton Surakarta, bahasa Keraton Surakarta, abdi dalem Solo, Javanese court register, bahasa Jawa keraton, Keraton Solo style.
+
+Use this skill for source-aware court-inspired review and adaptation. It must not claim official palace, ceremonial, ritual, or protocol authority without verified source text.
+
 ## Workflow
 
 1. Identify the target.

@@ -13,6 +13,12 @@ Region/context: Jawa Tengah, DI Yogyakarta, Jawa Timur, diaspora Jawa, dan varia
 
 Source confidence: Level 2. Public dictionary and grammar references exist, but dialect and unggah-ungguh choices require extra caution.
 
+## Search And Discovery
+
+Relevant searches: Bahasa Jawa, kamus Bahasa Jawa, contoh Bahasa Jawa, belajar Bahasa Jawa, terjemahan Indonesia Jawa, translate Bahasa Jawa, Jawa ngoko, Jawa krama, unggah-ungguh Jawa, AI skill Bahasa Jawa.
+
+Use this skill for source-aware Javanese generation and review. It is not a certified translator and must keep speech level, dialect, court, ritual, public, legal, educational, or official text under competent speaker review when uncertain.
+
 ## Workflow
 
 1. Identify the task.

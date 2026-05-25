@@ -29,6 +29,7 @@ This document gives agentic tools a compact index of Tutur's current language an
 | `tutur-madura` | Short community/everyday Madurese copy. | Ask region and politeness target before public use. | Review required for ceremony or high-politeness contexts. | Account for Sumenep, Bawean, Bangkalan, Pamekasan, Sampang, and Tapal Kuda variation. |
 | `tutur-bali` | Everyday greetings and community copy. | Use careful public wording with anggah-ungguh awareness. | Review required for temple, ritual, adat, and status-sensitive text. | Do not improvise sacred formulas. |
 | `tutur-sasak` | Everyday Sasak phrases such as greetings, thanks, and etiquette cues when source-backed. | Use short reviewed phrases plus Indonesian support text for public output. | Review required for adat, ritual, and status-sensitive Sasak halus. | Sasak has dialect and social-level variation; ask target dialect when it matters. |
+| `tutur-banjar` | Everyday Banjar phrases such as `ulun`, `pian`, `apa habar?`, and `bujur` when source-backed. | Use Banjar-aware Indonesian with clear public facts. | Review required for adat, religious, wedding, and formal community text. | Ask whether the target is Banjar Kuala, Banjar Hulu, or general Banjar. |
 
 ## Agent Loading Rule
 
@@ -42,4 +43,3 @@ For any skill, load:
 6. `references/style-guide.md` or `references/lexicon.md` when present
 
 If the target use is public, ritual, legal, educational, or official, keep uncertainty visible and recommend competent speaker review.
-

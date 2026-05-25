@@ -114,6 +114,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-sasak",
       "summary": "Source-aware Bahasa Sasak generation and review with dialect and speech-level caution."
+    },
+    {
+      "name": "tutur-banjar",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-banjar",
+      "summary": "Source-aware Bahasa Banjar generation and review with Banjar Kuala/Hulu and pronoun politeness caution."
     }
   ]
 }

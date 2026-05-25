@@ -94,6 +94,14 @@ Use this skill to produce, adapt, or review text related to Bahasa {language}. P
 
 Region/context: {region}
 
+Source confidence: Level 1 until richer local references are added.
+
+## Search And Discovery
+
+Relevant searches: Bahasa {language}, kamus Bahasa {language}, contoh Bahasa {language}, belajar Bahasa {language}, terjemahan Indonesia {language}, translate Bahasa {language}, bahasa daerah {language}, AI skill Bahasa {language}.
+
+Use this skill for source-aware Bahasa {language} generation and review. It is not a certified translator and must keep dialect, adat, ritual, public, legal, educational, or official text under competent speaker review when uncertain.
+
 ## Workflow
 
 1. Identify the task.

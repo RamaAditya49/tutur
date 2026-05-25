@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Banjar"
+  short_description: "Bahasa Banjar source-aware"
+  default_prompt: "Use $tutur-banjar to adapt this text with a source-aware Bahasa Banjar regional register."

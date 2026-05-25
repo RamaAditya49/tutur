@@ -13,6 +13,12 @@ Region/context: Aceh; also used by Acehnese communities outside Aceh
 
 Source confidence: Level 2. There is an official Balai Bahasa Aceh dictionary site and an official peta bahasa reference, but this skill still should not invent vocabulary or decide dialect questions alone.
 
+## Search And Discovery
+
+Relevant searches: Bahasa Aceh, kamus Bahasa Aceh, KBDA Aceh, contoh Bahasa Aceh, belajar Bahasa Aceh, terjemahan Indonesia Aceh, translate Bahasa Aceh, Acehnese language, bahasa daerah Aceh, AI skill Bahasa Aceh.
+
+Use this skill for source-aware Acehnese generation and review. It is not a certified translator and must defer dialect-sensitive, public, ritual, religious, legal, or official text to competent speaker review.
+
 ## Workflow
 
 1. Identify the task.

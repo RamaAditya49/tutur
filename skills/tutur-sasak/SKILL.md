@@ -13,6 +13,12 @@ Region/context: Pulau Lombok, Nusa Tenggara Barat; sebaran diaspora di Bali, Sul
 
 Use short Sasak phrases confidently only when covered by local resources or a user sample. For long public, formal, adat, legal, or ceremonial output, keep operational meaning in Indonesian and request competent Sasak speaker review.
 
+## Search And Discovery
+
+Relevant searches: Bahasa Sasak, kamus Bahasa Sasak, contoh Bahasa Sasak, belajar Bahasa Sasak, terjemahan Indonesia Sasak, translate Bahasa Sasak, Sasak Lombok, Sasak halus, bahasa Lombok, AI skill Bahasa Sasak.
+
+Use this skill for source-aware Sasak generation and review. It is not a certified translator and must keep dialect, Sasak halus, adat, ritual, public, legal, educational, or official text under competent speaker review when uncertain.
+
 ## Workflow
 
 1. Identify the task.

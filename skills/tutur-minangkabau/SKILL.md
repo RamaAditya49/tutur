@@ -13,6 +13,12 @@ Region/context: Sumatra Barat, rantau Minangkabau, dan komunitas Minang
 
 Source confidence: Level 2. Public dictionary and grammar references exist, but dialect and register choices still need care.
 
+## Search And Discovery
+
+Relevant searches: Bahasa Minangkabau, Bahasa Minang, kamus Bahasa Minang, contoh Bahasa Minang, belajar Bahasa Minangkabau, terjemahan Indonesia Minang, translate Bahasa Minang, adat Minangkabau language, AI skill Bahasa Minang.
+
+Use this skill for source-aware Minangkabau generation and review. It is not a certified translator and must defer adat, title, kinship, ceremonial, public, legal, or official text to knowledgeable speaker review.
+
 ## Workflow
 
 1. Identify the task.

@@ -11,6 +11,12 @@ Use this skill to make Indonesian writing sound like it came from a real person.
 
 Default to clear Indonesian that is natural in writing: mostly baku, not bureaucratic, not slang-heavy. Shift register only when the user asks for a specific target such as resmi, formal, profesional, santai, gaul, or sales.
 
+## Search And Discovery
+
+Relevant searches: humanizer bahasa Indonesia, humanize Indonesian text, parafrase bahasa Indonesia natural, rewrite AI text Indonesia, tulisan formal KBBI, tulisan profesional Indonesia, bahasa gaul Indonesia, copywriting Indonesia, Indonesian writing skill.
+
+Use this skill as a natural Indonesian editor and AI-writing cleanup skill. It is not a fact checker and must not invent citations, numbers, claims, or proof.
+
 ## Workflow
 
 1. Identify the target register from the request.

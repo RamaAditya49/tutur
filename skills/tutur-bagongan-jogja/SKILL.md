@@ -11,6 +11,12 @@ Use this skill to adapt text toward the Yogyakarta court register known as Basa 
 
 Basa Bagongan is associated with the Keraton Kasultanan Yogyakarta. It is often described as respectful but less hierarchically polished than high krama, with a distinct court identity and limited special vocabulary.
 
+## Search And Discovery
+
+Relevant searches: bahasa Keraton Jogja, Basa Bagongan, bahasa Bagongan Yogyakarta, bahasa Keraton Yogyakarta, abdi dalem Jogja, Javanese court register, bahasa Jawa keraton Jogja, Keraton Jogja style.
+
+Use this skill for source-aware Bagongan-style adaptation and review. It must not claim official palace, ceremonial, ritual, or protocol authority without verified source text.
+
 ## Workflow
 
 1. Identify the target.

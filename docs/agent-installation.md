@@ -76,7 +76,8 @@ for skill in \
   tutur-jawa \
   tutur-madura \
   tutur-bali \
-  tutur-sasak
+  tutur-sasak \
+  tutur-banjar
 do
   npx --yes clawhub --workdir "$HOME/.openclaw/workspace" --dir skills install "$skill"
 done

@@ -11,6 +11,12 @@ Use this skill to write or review informal Indonesian urban styles associated wi
 
 This is a sociolect/style skill, not a claim that all people from a place speak the same way.
 
+## Search And Discovery
+
+Relevant searches: bahasa Jaksel, slang Jaksel, anak Jaksel code mix, bahasa Jaktim, bahasa Bekasi, slang Jabodetabek, caption Jaksel, chat gaul Jakarta, corporate casual Jaksel, Indonesian English code-mix.
+
+Use this skill for urban style adaptation and review. It must avoid class, area, ethnic, and neighborhood stereotypes.
+
 ## Workflow
 
 1. Identify the target style.
@@ -45,4 +51,3 @@ This is a sociolect/style skill, not a claim that all people from a place speak 
 - `references/sources.md`: research base and source notes.
 - `references/style-guide.md`: style-specific rules.
 - `references/examples.md`: target-style examples.
-

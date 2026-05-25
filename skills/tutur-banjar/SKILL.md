@@ -1,23 +1,23 @@
 ---
-name: tutur-bali
-description: Produce, adapt, or review text for Bahasa Bali with an offline-first regional-language workflow. Use when the user asks for Bahasa Bali, Bali regional diction, local-language adaptation, or culturally aware Indonesian-to-Bali wording without claiming native-level fluency or inventing undocumented vocabulary.
+name: tutur-banjar
+description: Produce, adapt, or review text for Bahasa Banjar with an offline-first regional-language workflow. Use when the user asks for Bahasa Banjar, Banjar regional diction, local-language adaptation, or culturally aware Indonesian-to-Banjar wording without claiming native-level fluency or inventing undocumented vocabulary.
 ---
 
-# Tutur Bali
+# Tutur Banjar
 
 ## Overview
 
-Use this skill to produce, adapt, or review text related to Bahasa Bali. Produce usable ordinary-context output from local resources. Mark uncertain wording instead of pretending it is verified.
+Use this skill to produce, adapt, or review text related to Bahasa Banjar. Produce usable ordinary-context output from local resources. Mark uncertain wording instead of pretending it is verified.
 
-Region/context: Bali, Nusa Penida, Lombok bagian barat, dan komunitas Bali diaspora
+Region/context: Kalimantan Selatan dan komunitas Banjar di Kalimantan serta diaspora; dialek utama Banjar Kuala dan Banjar Hulu
 
-Source confidence: Level 2. Public dictionary and anggah-ungguh references exist, but ritual, adat, caste/status, and speech-level choices require expert caution.
+Source confidence: Level 2. Public Kemdikbud/Balai Bahasa dictionaries and Glottolog/ISO identity references exist, but dialect, politeness, public, and official wording still need review.
 
 ## Search And Discovery
 
-Relevant searches: Bahasa Bali, kamus Bahasa Bali, contoh Bahasa Bali, belajar Bahasa Bali, terjemahan Indonesia Bali, translate Bahasa Bali, Bali alus, anggah-ungguh Basa Bali, bahasa Bali sehari-hari, AI skill Bahasa Bali.
+Relevant searches: Bahasa Banjar, kamus Bahasa Banjar, contoh Bahasa Banjar, belajar Bahasa Banjar, terjemahan Indonesia Banjar, translate Bahasa Banjar, Banjar Kuala, Banjar Hulu, ulun pian, AI skill Bahasa Banjar.
 
-Use this skill for source-aware Balinese generation and review. It is not a certified translator and must keep anggah-ungguh, adat, temple, ritual, public, legal, educational, or official text under competent speaker review when uncertain.
+Use this skill for source-aware Banjarese generation and review. It is not a certified translator and must keep dialect, public, adat, legal, educational, or official text under competent speaker review when uncertain.
 
 ## Workflow
 
@@ -28,8 +28,7 @@ Use this skill for source-aware Balinese generation and review. It is not a cert
 
 2. Check source confidence.
    - Use `references/sources.md` first.
-   - Identify whether the user needs everyday Bali, alus, ceremonial/adat, tourism-facing, or Nusa Penida/Bali Aga context.
-   - Use dictionary and anggah-ungguh references for important word and structure choices.
+   - Use Banjar dictionaries and dialect notes for important word choices.
    - If a local spelling or dialect choice is unclear, preserve the Indonesian term and add a short note.
 
 3. Compose with source discipline.
