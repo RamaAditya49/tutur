@@ -1,6 +1,6 @@
 # Tutur
 
-Tutur is a public, offline-first skill collection for Indonesian writing and Indonesian regional-language work.
+Tutur is a public, offline-first skill collection for Indonesian writing, professional registers, urban slang, court registers, and Indonesian regional-language work.
 
 The repository is built for AI agents and coding tools that understand the common skill-folder pattern:
 
@@ -11,7 +11,7 @@ skill-name/
 └── references/
 ```
 
-Every skill keeps its main instructions in `SKILL.md` and its reusable local context under `references/`. Agents should not need internet access to understand the intent, risks, examples, and safe usage of a skill.
+Every skill keeps its main instructions in `SKILL.md` and its reusable local context under `references/`. Agents should not need internet access to understand the intent, risks, examples, source notes, and safe usage of a skill.
 
 ## What This Is
 
@@ -33,6 +33,7 @@ Tutur is not a "translate everything confidently" package. Indonesian regional l
 | `tutur-jawa` | Ready | Yes | Produce or review Bahasa Jawa with careful speech-level and dialect handling. |
 | `tutur-madura` | Ready | Yes | Produce or review Bahasa Madura with careful speech-level and dialect handling. |
 | `tutur-bali` | Ready | Yes | Produce or review Bahasa Bali with careful anggah-ungguh handling. |
+| `tutur-sasak` | Ready | Yes | Produce or review Bahasa Sasak with dialect and speech-level caution. |
 
 Planned skills:
 
@@ -48,7 +49,6 @@ Planned skills:
 - `tutur-jaktim`
 - `tutur-bekasi`
 - `tutur-betawi-jakarta`
-- `tutur-sasak`
 - `tutur-banjar`
 - `tutur-bugis`
 - `tutur-makassar`
@@ -98,10 +98,58 @@ tutur/
     ├── tutur-sunda/
     ├── tutur-jawa/
     ├── tutur-madura/
-    └── tutur-bali/
+    ├── tutur-bali/
+    └── tutur-sasak/
 ```
 
 ## Quick Install
+
+### ClawHub
+
+ClawHub is the recommended public install path for OpenClaw users:
+
+```bash
+npx --yes clawhub install tutur-humanizer
+npx --yes clawhub install tutur-jawa
+npx --yes clawhub install tutur-korporat-profesi
+```
+
+Install every published Tutur skill into an OpenClaw-compatible skills directory:
+
+```bash
+mkdir -p ~/.openclaw/workspace/skills
+for skill in \
+  tutur-humanizer \
+  tutur-korporat-profesi \
+  tutur-jabodetabek-urban \
+  tutur-kedhaton-solo \
+  tutur-bagongan-jogja \
+  tutur-aceh \
+  tutur-gayo \
+  tutur-minangkabau \
+  tutur-sunda \
+  tutur-jawa \
+  tutur-madura \
+  tutur-bali \
+  tutur-sasak
+do
+  npx --yes clawhub --workdir ~/.openclaw/workspace --dir skills install "$skill"
+done
+```
+
+Update installed skills:
+
+```bash
+npx --yes clawhub update
+```
+
+Inspect before installing:
+
+```bash
+npx --yes clawhub inspect tutur-sasak
+```
+
+### Git Clone
 
 Clone the repo:
 
@@ -149,6 +197,8 @@ Agents that need a machine-readable list can read `skills/manifest.json`.
 
 Detailed install notes: [docs/agent-installation.md](docs/agent-installation.md)
 
+Language/register coverage guide: [docs/language-skills.md](docs/language-skills.md)
+
 ## How Agents Should Use A Skill
 
 1. Match the user request to a skill by name or description.
@@ -168,6 +218,7 @@ Use $tutur-bali to check whether this temple announcement needs expert review.
 Use $tutur-kedhaton-solo to make a source-aware Keraton Solo-style output.
 Use $tutur-korporat-profesi to rewrite this HRD rejection email.
 Use $tutur-jabodetabek-urban to make this caption sound Jaksel but not forced.
+Use $tutur-sasak to review whether this Lombok tourism copy uses safe Sasak phrases.
 ```
 
 ## Offline Resources
@@ -212,6 +263,21 @@ Core Indonesian references:
 - Pedoman Umum Pembentukan Istilah: https://badanbahasa.kemendikdasmen.go.id/resource/doc/files/Pedoman_Umum_Pembentukan_Istilah_PBN_0.pdf
 
 Regional/court references are summarized locally inside each skill under `references/`. Links are still kept in `sources.md`, but agents should not depend on live internet to understand the skill.
+
+## ClawHub Publishing
+
+Maintainers publish from the terminal after local validation and git push. GitHub Actions is not required.
+
+```bash
+set -a
+. ./.env.local
+set +a
+npx --yes clawhub login --token "$CLAWHUB_TOKEN" --no-browser
+npx --yes clawhub --workdir "$PWD" --dir skills sync --root "$PWD/skills" --dry-run --all --changelog "Tutur skill update" --tags latest
+npx --yes clawhub --workdir "$PWD" --dir skills sync --root "$PWD/skills" --all --changelog "Tutur skill update" --tags latest
+```
+
+The `.env.local` file is ignored by git. Never commit ClawHub tokens.
 
 ## Contributing
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Sasak"
+  short_description: "Bahasa Sasak Lombok source-aware"
+  default_prompt: "Use $tutur-sasak to adapt this text with a source-aware Bahasa Sasak regional register."

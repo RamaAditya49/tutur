@@ -106,6 +106,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-bali",
       "summary": "Source-aware Bahasa Bali generation and review with anggah-ungguh handling."
+    },
+    {
+      "name": "tutur-sasak",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-sasak",
+      "summary": "Source-aware Bahasa Sasak generation and review with dialect and speech-level caution."
     }
   ]
 }

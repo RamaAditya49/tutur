@@ -42,6 +42,58 @@ The installer never deletes a skill silently:
 - `--replace`: move the existing skill to `.<name>.backup-<timestamp>` and copy the new skill,
 - `--mode symlink`: create symlinks instead of copying.
 
+## ClawHub Public Install
+
+OpenClaw users should prefer ClawHub when they want published Tutur skills without cloning the repository.
+
+Install one skill:
+
+```bash
+npx --yes clawhub install tutur-humanizer
+npx --yes clawhub install tutur-sasak
+```
+
+Install into an explicit OpenClaw workspace:
+
+```bash
+npx --yes clawhub --workdir "$HOME/.openclaw/workspace" --dir skills install tutur-jawa
+```
+
+Install every published Tutur skill:
+
+```bash
+mkdir -p "$HOME/.openclaw/workspace/skills"
+for skill in \
+  tutur-humanizer \
+  tutur-korporat-profesi \
+  tutur-jabodetabek-urban \
+  tutur-kedhaton-solo \
+  tutur-bagongan-jogja \
+  tutur-aceh \
+  tutur-gayo \
+  tutur-minangkabau \
+  tutur-sunda \
+  tutur-jawa \
+  tutur-madura \
+  tutur-bali \
+  tutur-sasak
+do
+  npx --yes clawhub --workdir "$HOME/.openclaw/workspace" --dir skills install "$skill"
+done
+```
+
+Update:
+
+```bash
+npx --yes clawhub --workdir "$HOME/.openclaw/workspace" --dir skills update
+```
+
+Inspect a skill before installing:
+
+```bash
+npx --yes clawhub inspect tutur-korporat-profesi
+```
+
 ## Codex / OpenAI Skill-Compatible Agents
 
 Install to:

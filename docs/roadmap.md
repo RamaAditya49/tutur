@@ -13,6 +13,15 @@
   - `tutur-gaul`
   - `tutur-korporat-profesi`
   - `tutur-jabodetabek-urban`
+- Add initial regional rollout skills:
+  - `tutur-aceh`
+  - `tutur-gayo`
+  - `tutur-minangkabau`
+  - `tutur-sunda`
+  - `tutur-jawa`
+  - `tutur-madura`
+  - `tutur-bali`
+  - `tutur-sasak`
 - Add court-register skills:
   - `tutur-kedhaton-solo`
   - `tutur-bagongan-jogja`

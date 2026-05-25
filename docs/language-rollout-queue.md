@@ -45,47 +45,47 @@ If a language has speech levels, dialects, or ritual restrictions, those must ap
 - `tutur-jawa`
 - `tutur-madura`
 - `tutur-bali`
+- `tutur-sasak`
 
 ## Active Queue
 
-1. `tutur-sasak`
-2. `tutur-banjar`
-3. `tutur-bugis`
-4. `tutur-makassar`
-5. `tutur-batak-toba`
-6. `tutur-lampung`
-7. `tutur-betawi`
-8. `tutur-palembang`
-9. `tutur-rejang`
-10. `tutur-kerinci`
-11. `tutur-komering`
-12. `tutur-karo`
-13. `tutur-simalungun`
-14. `tutur-mandailing`
-15. `tutur-pakpak`
-16. `tutur-nias`
-17. `tutur-mentawai`
-18. `tutur-dayak-ngaju`
-19. `tutur-maanyan`
-20. `tutur-kutai`
-21. `tutur-paser`
-22. `tutur-tidung`
-23. `tutur-bajau`
-24. `tutur-toraja`
-25. `tutur-mandar`
-26. `tutur-tolaki`
-27. `tutur-muna`
-28. `tutur-wolio`
-29. `tutur-gorontalo`
-30. `tutur-minahasa-tombulu`
-31. `tutur-bima`
-32. `tutur-sumbawa`
-33. `tutur-manggarai`
-34. `tutur-dawan`
-35. `tutur-tetun`
-36. `tutur-ambon-malay`
-37. `tutur-ternate`
-38. `tutur-papua-malay`
+1. `tutur-banjar`
+2. `tutur-bugis`
+3. `tutur-makassar`
+4. `tutur-batak-toba`
+5. `tutur-lampung`
+6. `tutur-betawi`
+7. `tutur-palembang`
+8. `tutur-rejang`
+9. `tutur-kerinci`
+10. `tutur-komering`
+11. `tutur-karo`
+12. `tutur-simalungun`
+13. `tutur-mandailing`
+14. `tutur-pakpak`
+15. `tutur-nias`
+16. `tutur-mentawai`
+17. `tutur-dayak-ngaju`
+18. `tutur-maanyan`
+19. `tutur-kutai`
+20. `tutur-paser`
+21. `tutur-tidung`
+22. `tutur-bajau`
+23. `tutur-toraja`
+24. `tutur-mandar`
+25. `tutur-tolaki`
+26. `tutur-muna`
+27. `tutur-wolio`
+28. `tutur-gorontalo`
+29. `tutur-minahasa-tombulu`
+30. `tutur-bima`
+31. `tutur-sumbawa`
+32. `tutur-manggarai`
+33. `tutur-dawan`
+34. `tutur-tetun`
+35. `tutur-ambon-malay`
+36. `tutur-ternate`
+37. `tutur-papua-malay`
 
 This queue is intentionally not final. After each batch, add the next documented languages from Labbineka/Peta Bahasa and continue.
 
@@ -96,4 +96,3 @@ This queue is intentionally not final. After each batch, add the next documented
 3. Glottolog, ISO 639-3, WALS, PHOIBLE, ABVD, ASJP for identity and classification.
 4. Peer-reviewed papers and university theses.
 5. Community dictionaries or phrase lists only as supporting material, never as sole authority for formal or public output.
-
