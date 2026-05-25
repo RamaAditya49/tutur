@@ -130,6 +130,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-bugis",
       "summary": "Source-aware Bahasa Bugis generation and review with politeness marker and Lontara/script caution."
+    },
+    {
+      "name": "tutur-makassar",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-makassar",
+      "summary": "Source-aware Bahasa Makassar generation and review with politeness marker, script, and Makassar Malay distinction."
     }
   ]
 }
