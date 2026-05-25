@@ -13,15 +13,23 @@
   - `tutur-gaul`
   - `tutur-profesional`
   - `tutur-salesman`
+- Add court-register skills:
+  - `tutur-kedhaton-solo`
+  - `tutur-bagongan-jogja`
+  - `tutur-mangkunegaran`
+  - `tutur-pakualaman`
+  - `tutur-cirebon`
 
 ## Phase 3
 
 - Add examples from real anonymized writing patterns.
 - Add a larger Indonesian phrase scanner.
 - Add optional presets for brand voice, document type, and audience.
+- Expand regional and court registers with stronger source material and expert-reviewed examples.
 
 ## Non-Goals
 
 - Tutur is not a grammar checker only.
 - Tutur is not meant to force all writing into formal Indonesian.
 - Tutur should not invent facts, citations, or claims while rewriting.
+- Tutur should not claim authentic ritual or palace-protocol language without verified sources.
