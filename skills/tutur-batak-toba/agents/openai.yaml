@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Batak Toba"
+  short_description: "Bahasa Batak Toba source-aware"
+  default_prompt: "Use $tutur-batak-toba to adapt this text with a source-aware Bahasa Batak Toba regional register."

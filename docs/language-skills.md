@@ -32,6 +32,7 @@ This document gives agentic tools a compact index of Tutur's current language an
 | `tutur-banjar` | Everyday Banjar phrases such as `ulun`, `pian`, `apa habar?`, and `bujur` when source-backed. | Use Banjar-aware Indonesian with clear public facts. | Review required for adat, religious, wedding, and formal community text. | Ask whether the target is Banjar Kuala, Banjar Hulu, or general Banjar. |
 | `tutur-bugis` | Everyday Bugis politeness cues such as `tabe'`, `iye`, `idi'`, and `Basa Ugi` when source-backed. | Use Bugis-aware Indonesian with clear public facts. | Review required for adat, religious, wedding, Lontara/script, and formal community text. | Ask target Bugis area/community before public use. |
 | `tutur-makassar` | Everyday Makassar cues such as `tabe'`, `iye'`, and `Basa Mangkasara` when source-backed. | Use Makassar-aware Indonesian with clear public facts. | Review required for adat, religious, wedding, Lontara/script, and formal community text. | Distinguish Bahasa Makassar from Makassar Malay or local Indonesian accent. |
+| `tutur-batak-toba` | Everyday Batak Toba greetings such as `Horas`, `Mauliate`, and `Hata Batak Toba` when source-backed. | Use Batak Toba-aware Indonesian with clear public facts. | Review required for adat, wedding, marga, church/ritual, kinship, and Batak script text. | Do not guess kinship terms such as `Amang`, `Inang`, `Lae`, `Ito`, `Tulang`, `Hula-hula`, `Boru`, or `Dongan tubu`. |
 
 ## Agent Loading Rule
 

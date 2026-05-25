@@ -138,6 +138,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-makassar",
       "summary": "Source-aware Bahasa Makassar generation and review with politeness marker, script, and Makassar Malay distinction."
+    },
+    {
+      "name": "tutur-batak-toba",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-batak-toba",
+      "summary": "Source-aware Bahasa Batak Toba generation and review with kinship, marga, adat, and script caution."
     }
   ]
 }
