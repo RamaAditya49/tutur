@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Bugis"
+  short_description: "Bahasa Bugis source-aware"
+  default_prompt: "Use $tutur-bugis to adapt this text with a source-aware Bahasa Bugis regional register."

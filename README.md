@@ -35,6 +35,7 @@ Tutur is not a "translate everything confidently" package. Indonesian regional l
 | `tutur-bali` | Ready | Yes | Produce or review Bahasa Bali with careful anggah-ungguh handling. |
 | `tutur-sasak` | Ready | Yes | Produce or review Bahasa Sasak with dialect and speech-level caution. |
 | `tutur-banjar` | Ready | Yes | Produce or review Bahasa Banjar with Banjar Kuala/Hulu and polite pronoun caution. |
+| `tutur-bugis` | Ready | Yes | Produce or review Bahasa Bugis with politeness marker and Lontara/script caution. |
 
 Planned skills:
 
@@ -50,7 +51,6 @@ Planned skills:
 - `tutur-jaktim`
 - `tutur-bekasi`
 - `tutur-betawi-jakarta`
-- `tutur-bugis`
 - `tutur-makassar`
 - `tutur-batak-toba`
 - `tutur-mangkunegaran`
@@ -100,7 +100,8 @@ tutur/
     ├── tutur-madura/
     ├── tutur-bali/
     ├── tutur-sasak/
-    └── tutur-banjar/
+    ├── tutur-banjar/
+    └── tutur-bugis/
 ```
 
 ## Quick Install
@@ -133,7 +134,8 @@ for skill in \
   tutur-madura \
   tutur-bali \
   tutur-sasak \
-  tutur-banjar
+  tutur-banjar \
+  tutur-bugis
 do
   npx --yes clawhub --workdir ~/.openclaw/workspace --dir skills install "$skill"
 done
@@ -224,6 +226,7 @@ Use $tutur-korporat-profesi to rewrite this HRD rejection email.
 Use $tutur-jabodetabek-urban to make this caption sound Jaksel but not forced.
 Use $tutur-sasak to review whether this Lombok tourism copy uses safe Sasak phrases.
 Use $tutur-banjar to make this WhatsApp reminder sound Banjar-aware but still clear.
+Use $tutur-bugis to make this community invitation Bugis-aware with tabe' but not overtranslated.
 ```
 
 ## Offline Resources

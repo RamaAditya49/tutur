@@ -122,6 +122,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-banjar",
       "summary": "Source-aware Bahasa Banjar generation and review with Banjar Kuala/Hulu and pronoun politeness caution."
+    },
+    {
+      "name": "tutur-bugis",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-bugis",
+      "summary": "Source-aware Bahasa Bugis generation and review with politeness marker and Lontara/script caution."
     }
   ]
 }

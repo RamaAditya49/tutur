@@ -23,6 +23,7 @@
   - `tutur-bali`
   - `tutur-sasak`
   - `tutur-banjar`
+  - `tutur-bugis`
 - Add court-register skills:
   - `tutur-kedhaton-solo`
   - `tutur-bagongan-jogja`
