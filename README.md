@@ -14,6 +14,7 @@ The first skill is `tutur-humanizer`: a humanizer for Indonesian text that can h
 | `tutur-aceh` | Ready | Draft or review Bahasa Aceh with a cautious source-backed workflow. |
 | `tutur-gayo` | Ready | Draft or review Bahasa Gayo with a cautious source-backed workflow. |
 | `tutur-minangkabau` | Ready | Draft or review Bahasa Minangkabau with a cautious source-backed workflow. |
+| `tutur-sunda` | Ready | Draft or review Bahasa Sunda with careful speech-level handling. |
 
 Planned skills:
 
@@ -45,6 +46,7 @@ tutur/
     └── tutur-aceh/
     └── tutur-gayo/
     └── tutur-minangkabau/
+    └── tutur-sunda/
 ```
 
 ## Install
@@ -59,6 +61,7 @@ cp -R skills/tutur-bagongan-jogja "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/tutur-aceh "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/tutur-gayo "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/tutur-minangkabau "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R skills/tutur-sunda "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
 Then invoke it with:
@@ -70,6 +73,7 @@ Use $tutur-bagongan-jogja to adapt this text into Keraton Jogja style.
 Use $tutur-aceh to review this Bahasa Aceh draft.
 Use $tutur-gayo to review this Bahasa Gayo draft.
 Use $tutur-minangkabau to review this Bahasa Minangkabau draft.
+Use $tutur-sunda to review this Bahasa Sunda draft.
 ```
 
 ## Research Base

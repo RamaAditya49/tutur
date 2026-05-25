@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Sunda"
+  short_description: "Skill bahasa Sunda berundak-usuk"
+  default_prompt: "Use $tutur-sunda to adapt this text with a cautious Bahasa Sunda regional register."
