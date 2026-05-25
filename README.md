@@ -22,6 +22,8 @@ Tutur is not a "translate everything confidently" package. Indonesian regional l
 | Skill | Status | Offline resources | Purpose |
 | --- | --- | --- | --- |
 | `tutur-humanizer` | Ready | Yes | Rewrite or review Indonesian text so it sounds natural, human, and register-appropriate. |
+| `tutur-korporat-profesi` | Ready | Yes | Produce role-aware Indonesian workplace messages for sales, CS, admin, HRD, ops, finance, marketing, and leadership. |
+| `tutur-jabodetabek-urban` | Ready | Yes | Produce or review Jaksel, Jaktim, Bekasi, and neutral Jabodetabek urban styles without stereotyping. |
 | `tutur-kedhaton-solo` | Ready | Yes | Produce or adapt text with a source-aware Keraton Solo/Surakarta Kedhaton register. |
 | `tutur-bagongan-jogja` | Ready | Yes | Produce or adapt text with a source-aware Keraton Jogja/Yogyakarta Bagongan register. |
 | `tutur-aceh` | Ready | Yes | Produce or review Bahasa Aceh with a source-backed workflow. |
@@ -36,8 +38,16 @@ Planned skills:
 
 - `tutur-resmi`
 - `tutur-gaul`
-- `tutur-profesional`
-- `tutur-salesman`
+- `tutur-sales`
+- `tutur-customer-service`
+- `tutur-admin`
+- `tutur-hrd`
+- `tutur-finance-admin`
+- `tutur-marketing`
+- `tutur-jaksel`
+- `tutur-jaktim`
+- `tutur-bekasi`
+- `tutur-betawi-jakarta`
 - `tutur-sasak`
 - `tutur-banjar`
 - `tutur-bugis`
@@ -78,6 +88,8 @@ tutur/
     │   │   ├── examples.md
     │   │   └── ...
     │   └── scripts/
+    ├── tutur-korporat-profesi/
+    ├── tutur-jabodetabek-urban/
     ├── tutur-kedhaton-solo/
     ├── tutur-bagongan-jogja/
     ├── tutur-aceh/
@@ -154,6 +166,8 @@ Use $tutur-sunda to review this Bahasa Sunda output for politeness level.
 Use $tutur-jawa to rewrite this announcement in polite public Bahasa Jawa.
 Use $tutur-bali to check whether this temple announcement needs expert review.
 Use $tutur-kedhaton-solo to make a source-aware Keraton Solo-style output.
+Use $tutur-korporat-profesi to rewrite this HRD rejection email.
+Use $tutur-jabodetabek-urban to make this caption sound Jaksel but not forced.
 ```
 
 ## Offline Resources

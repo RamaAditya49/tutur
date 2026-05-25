@@ -11,8 +11,8 @@
 - Add specialist skills:
   - `tutur-resmi`
   - `tutur-gaul`
-  - `tutur-profesional`
-  - `tutur-salesman`
+  - `tutur-korporat-profesi`
+  - `tutur-jabodetabek-urban`
 - Add court-register skills:
   - `tutur-kedhaton-solo`
   - `tutur-bagongan-jogja`
@@ -26,6 +26,18 @@
 - Add a larger Indonesian phrase scanner.
 - Add optional presets for brand voice, document type, and audience.
 - Expand regional and court registers with stronger source material and expert-reviewed examples.
+- Split the umbrella corporate-register skill into role-specific skills when the resource base is richer:
+  - `tutur-sales`
+  - `tutur-customer-service`
+  - `tutur-admin`
+  - `tutur-hrd`
+  - `tutur-finance-admin`
+  - `tutur-marketing`
+- Split the urban Jabodetabek sociolect skill when better local examples are available:
+  - `tutur-jaksel`
+  - `tutur-jaktim`
+  - `tutur-bekasi`
+  - `tutur-betawi-jakarta`
 
 ## Non-Goals
 

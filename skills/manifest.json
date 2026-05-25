@@ -20,6 +20,22 @@
       "summary": "Humanize Indonesian writing across formal, professional, casual, slang, and sales contexts."
     },
     {
+      "name": "tutur-korporat-profesi",
+      "category": "corporate-register",
+      "status": "ready",
+      "confidence": "working-register",
+      "path": "skills/tutur-korporat-profesi",
+      "summary": "Role-aware Indonesian corporate communication for sales, CS, admin, HRD, ops, finance, marketing, and leadership."
+    },
+    {
+      "name": "tutur-jabodetabek-urban",
+      "category": "urban-sociolect",
+      "status": "ready",
+      "confidence": "guarded-sociolect",
+      "path": "skills/tutur-jabodetabek-urban",
+      "summary": "Source-aware Jaksel, Jaktim, Bekasi, and neutral Jabodetabek urban styles without stereotyping."
+    },
+    {
       "name": "tutur-kedhaton-solo",
       "category": "court-register",
       "status": "ready",

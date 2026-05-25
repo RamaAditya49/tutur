@@ -1,0 +1,5 @@
+interface:
+  display_name: "Tutur Korporat Profesi"
+  short_description: "Bahasa kerja untuk sales, CS, admin, HRD, dan tim."
+  default_prompt: "Use $tutur-korporat-profesi to rewrite this workplace message for the right role, channel, and audience."
+
