@@ -47,3 +47,57 @@ Response shape:
 ## Tourism Copy
 
 For tourism-facing content, prefer short reviewed phrases plus clear Indonesian/English support text. Do not produce long Balinese copy without source support.
+
+## Contextual Examples
+
+### Everyday Greeting
+
+Input:
+
+> Sapa tamu pada pagi hari.
+
+Output:
+
+> Rahajeng semeng. Selamat pagi, semoga harinya lancar.
+
+Use:
+
+Safe as a short greeting. Do not expand into ceremonial language.
+
+### Public Community Copy
+
+Input:
+
+> Ajak warga melestarikan bahasa Bali.
+
+Output:
+
+> Mangda sareng-sareng nglestariang basa Bali. Mulai saking keluarga, sekolah, lan kegiatan banjar.
+
+Review note:
+
+Good as ordinary community copy. For banjar/adat official text, ask local review.
+
+### Professional/Tourism
+
+Input:
+
+> Buat pesan resepsionis untuk tamu hotel.
+
+Output:
+
+> Rahajeng rauh. Selamat datang di penginapan kami. Untuk check-in, mohon siapkan KTP dan bukti reservasi. Matur suksma.
+
+Why:
+
+Balinese phrases create local warmth while check-in requirements remain clear in Indonesian.
+
+### Ritual Boundary
+
+Input:
+
+> Buat pengumuman pura untuk upacara.
+
+Safe response:
+
+> Untuk pengumuman pura atau upacara, jangan membuat teks dari nol. Gunakan contoh dari panitia adat atau minta koreksi penutur Bali yang memahami anggah-ungguh dan konteks upacara.

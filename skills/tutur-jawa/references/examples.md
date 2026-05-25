@@ -47,3 +47,57 @@ Response shape:
 ## Dialect Caution
 
 For Banyumasan, Suroboyoan, Osing, Tengger, Cirebonan, or diaspora Javanese, ask for local target before rewriting.
+
+## Contextual Examples
+
+### Casual/Ngoko
+
+Input:
+
+> Ingatkan teman untuk kirim file hari ini.
+
+Output:
+
+> Aja lali, file-e dikirim dina iki yo. Nek wis rampung, kabari aku.
+
+Use:
+
+Peer-level ngoko. Not for elders, clients, or public announcements.
+
+### Polite/Krama Public
+
+Input:
+
+> Buat pengumuman warga untuk datang rapat.
+
+Output:
+
+> Bapak/Ibu warga, mangga rawuh wonten rapat lingkungan dinten Setu tabuh 19.30. Matur nuwun.
+
+Review note:
+
+This is a practical public-register example. For highly formal letters, ask for local speaker review.
+
+### Professional/Admin
+
+Input:
+
+> Minta konfirmasi pembayaran dengan sopan.
+
+Output:
+
+> Nuwun sewu, kula badhe konfirmasi pembayaran invoice. Menawi sampun dipunbayar, mangga kirim bukti transfer supados saged langsung dipunproses.
+
+Why:
+
+Keeps the action clear while using polite Javanese. Invoice/payment facts must stay accurate.
+
+### Register Review
+
+Input:
+
+> Review: "Panjenengan wis mangan durung?"
+
+Review:
+
+> Kalimat ini mencampur `panjenengan` yang sopan dengan `wis` dan pola ngoko. Untuk sopan: "Panjenengan sampun dhahar dereng?" Untuk casual: "Kowe wis mangan durung?"

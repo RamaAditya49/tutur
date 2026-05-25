@@ -47,3 +47,57 @@ Response shape:
 ## Dialect Caution
 
 For Bawean, Sumenep, Bangkalan, Pamekasan, Sampang, or Tapal Kuda contexts, ask for the local target before rewriting.
+
+## Contextual Examples
+
+### Everyday/Community
+
+Input:
+
+> Ajak warga menjaga bahasa Madura.
+
+Output:
+
+> Ayo ajaga basa Madhura, mulai dari keluarga ben obrolan saben are.
+
+Review note:
+
+This is everyday/community style. Ask for local target before publishing broadly.
+
+### Polite Thanks
+
+Input:
+
+> Ucapkan terima kasih kepada tamu acara.
+
+Output:
+
+> Mator sakalangkong atas rawu'na Bapak/Ibu. Semoga acara paneka manfaat.
+
+Use:
+
+Short polite-event flavor. For formal written Madurese, verify spelling and level with local speaker.
+
+### Professional/Admin
+
+Input:
+
+> Buat pesan admin untuk peserta yang belum mengisi formulir.
+
+Output:
+
+> Mator sakalangkong. Mohon formulir peserta diisi hari ini paling lambat pukul 17.00. Jika sudah selesai, kirim konfirmasi ke admin.
+
+Why:
+
+The key operational details remain in Indonesian because form/deadline data must be unambiguous.
+
+### Register Review
+
+Input:
+
+> Cek teks AI yang memakai campuran Jawa dan Madura.
+
+Review:
+
+> Pisahkan dulu targetnya: Madura Sumenep, Bangkalan, Pamekasan, Sampang, Bawean, atau Tapal Kuda. Jangan mengganti kata Jawa/Indonesia satu per satu tanpa mengecek struktur dan tingkat kesopanan Madura.
