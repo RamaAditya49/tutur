@@ -75,6 +75,7 @@ Court-register skills already created:
 Regional-language skills created:
 
 - Aceh
+- Gayo
 
 Recommended court-register follow-up:
 

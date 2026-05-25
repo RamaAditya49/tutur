@@ -12,6 +12,7 @@ The first skill is `tutur-humanizer`: a humanizer for Indonesian text that can h
 | `tutur-kedhaton-solo` | Ready | Draft or adapt text with a cautious Keraton Solo/Surakarta Kedhaton register. |
 | `tutur-bagongan-jogja` | Ready | Draft or adapt text with a cautious Keraton Jogja/Yogyakarta Bagongan register. |
 | `tutur-aceh` | Ready | Draft or review Bahasa Aceh with a cautious source-backed workflow. |
+| `tutur-gayo` | Ready | Draft or review Bahasa Gayo with a cautious source-backed workflow. |
 
 Planned skills:
 
@@ -41,6 +42,7 @@ tutur/
     ├── tutur-kedhaton-solo/
     └── tutur-bagongan-jogja/
     └── tutur-aceh/
+    └── tutur-gayo/
 ```
 
 ## Install
@@ -53,6 +55,7 @@ cp -R skills/tutur-humanizer "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/tutur-kedhaton-solo "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/tutur-bagongan-jogja "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/tutur-aceh "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R skills/tutur-gayo "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
 Then invoke it with:
@@ -62,6 +65,7 @@ Use $tutur-humanizer to make this Indonesian text sound natural.
 Use $tutur-kedhaton-solo to adapt this text into Keraton Solo style.
 Use $tutur-bagongan-jogja to adapt this text into Keraton Jogja style.
 Use $tutur-aceh to review this Bahasa Aceh draft.
+Use $tutur-gayo to review this Bahasa Gayo draft.
 ```
 
 ## Research Base
