@@ -2,7 +2,7 @@
 
 ## Local Facts
 
-- Purpose: support cautious drafting and review for Bahasa Minangkabau.
+- Purpose: support source-aware generation and review for Bahasa Minangkabau.
 - Region/context: Sumatra Barat, rantau Minangkabau, and Minang communities.
 - ISO 639-3: `min`.
 - Glottocode: `mina1268`.
@@ -13,7 +13,7 @@
 
 - Do not reduce Minangkabau to "bahasa Padang" or generic Malay/Indonesian with Minang particles.
 - Do not assume one local form represents all Minangkabau speakers.
-- Be cautious with adat, kinship, title, and religious language.
+- Be source-aware with adat, kinship, title, and religious language.
 - Preserve Indonesian terms for modern technical vocabulary unless a verified Minangkabau term is available.
 - For public, adat, ritual, legal, educational, or official use, recommend native-speaker review.
 
@@ -37,4 +37,4 @@ Request:
 
 Safe response shape:
 
-> Tanyakan target audiens dulu. Jika untuk publik umum, buat draf sederhana dan tandai istilah yang perlu dicek oleh penutur Minangkabau.
+> Tanyakan target audiens dulu. Jika untuk publik umum, buat teks sederhana dan tandai istilah yang perlu dicek oleh penutur Minangkabau.

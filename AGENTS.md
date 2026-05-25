@@ -10,9 +10,11 @@ This repository contains portable AI-agent skills for Indonesian writing and reg
   - `SKILL.md`
   - `agents/openai.yaml`
   - `references/offline-brief.md`
+  - `references/local-mirror.md`
+  - `references/usage-patterns.md`
   - `references/sources.md`
   - `references/examples.md`
-- Regional and court-language skills must be conservative. Do not invent vocabulary, ritual language, titles, or cultural formulas.
+- Regional and court-language skills must be source-aware and usable offline. Do not invent vocabulary, ritual language, titles, or cultural formulas.
 - For each new regional language, commit and push after the skill validates before starting another language.
 
 ## Validation

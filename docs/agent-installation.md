@@ -11,12 +11,14 @@ tutur-sunda/
 │   └── openai.yaml
 └── references/
     ├── offline-brief.md
+    ├── local-mirror.md
+    ├── usage-patterns.md
     ├── sources.md
     ├── style-guide.md
     └── examples.md
 ```
 
-Agents should load only the metadata first. When the skill is needed, they should read `SKILL.md`, then `references/offline-brief.md`, then any specific reference file named by the skill.
+Agents should load only the metadata first. When the skill is needed, they should read `SKILL.md`, then `references/offline-brief.md`, `references/local-mirror.md`, `references/usage-patterns.md`, then any specific reference file named by the skill.
 
 Tools that want a machine-readable registry can read:
 
@@ -99,7 +101,7 @@ User-local install, if your local setup supports it:
 ./scripts/install-skills.sh --target "$HOME/.claude/skills" --all
 ```
 
-If the runner does not automatically discover `.claude/skills`, pass the specific `SKILL.md` and `references/offline-brief.md` into context.
+If the runner does not automatically discover `.claude/skills`, pass the specific `SKILL.md`, `references/offline-brief.md`, `references/local-mirror.md`, and `references/usage-patterns.md` into context.
 
 ## Cursor, Cline, Roo, Windsurf, Kilo Code, Kiro, Trae, Continue, OpenHands
 
@@ -131,17 +133,19 @@ Example:
 Hermes-style model runners often do not have a native skill loader. Use one of these patterns:
 
 1. Copy the skill folder into the runner's local registry if it has one.
-2. Add `SKILL.md` plus `references/offline-brief.md` to the system or developer context.
+2. Add `SKILL.md` plus `references/offline-brief.md`, `references/local-mirror.md`, and `references/usage-patterns.md` to the system or developer context.
 3. For a single task, pass this instruction:
 
 ```text
-Use the local Tutur skill folder. Read SKILL.md first. Then read references/offline-brief.md. Do not browse the internet unless the user explicitly asks for fresh verification.
+Use the local Tutur skill folder. Read SKILL.md first. Then read references/offline-brief.md, references/local-mirror.md, and references/usage-patterns.md. Do not browse the internet unless the user explicitly asks for fresh verification.
 ```
 
 For small-context models, include only:
 
 - `SKILL.md`
 - `references/offline-brief.md`
+- `references/local-mirror.md`
+- `references/usage-patterns.md`
 - `references/examples.md`
 
 For culturally sensitive text, also include:

@@ -12,9 +12,9 @@ Output:
 
 Note:
 
-This is a respectful Bagongan-inspired draft, not a verified palace protocol formula.
+This is a respectful Bagongan-inspired output, not a verified palace protocol formula.
 
-## More Plain Bagongan Draft
+## More Plain Bagongan Output
 
 Input:
 

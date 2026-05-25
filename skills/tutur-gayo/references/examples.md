@@ -1,6 +1,6 @@
 # Examples
 
-## Cautious Drafting
+## Source-Aware Generation
 
 Input:
 
@@ -8,7 +8,7 @@ Input:
 
 Safer response shape:
 
-1. Draft the message in Indonesian first.
+1. Produce the message in Indonesian first.
 2. Translate only verified short phrases into Gayo when sources support them.
 3. Mark uncertain terms for KBDA/native-speaker review.
 

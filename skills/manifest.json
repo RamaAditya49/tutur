@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "description": "Offline-first AI-agent skills for Indonesian writing and Indonesian regional-language work.",
   "skillFormat": "SKILL.md",
+  "requiredResources": [
+    "references/offline-brief.md",
+    "references/local-mirror.md",
+    "references/usage-patterns.md",
+    "references/sources.md",
+    "references/examples.md"
+  ],
   "skills": [
     {
       "name": "tutur-humanizer",
@@ -18,7 +25,7 @@
       "status": "ready",
       "confidence": "guarded-register",
       "path": "skills/tutur-kedhaton-solo",
-      "summary": "Cautious Keraton Solo / Surakarta Basa Kedhaton register."
+      "summary": "Source-aware Keraton Solo / Surakarta Basa Kedhaton register."
     },
     {
       "name": "tutur-bagongan-jogja",
@@ -26,7 +33,7 @@
       "status": "ready",
       "confidence": "guarded-register",
       "path": "skills/tutur-bagongan-jogja",
-      "summary": "Cautious Keraton Jogja / Yogyakarta Basa Bagongan register."
+      "summary": "Source-aware Keraton Jogja / Yogyakarta Basa Bagongan register."
     },
     {
       "name": "tutur-aceh",
@@ -34,7 +41,7 @@
       "status": "ready",
       "confidence": "guarded-regional",
       "path": "skills/tutur-aceh",
-      "summary": "Cautious Bahasa Aceh drafting and review."
+      "summary": "Source-aware Bahasa Aceh generation and review."
     },
     {
       "name": "tutur-gayo",
@@ -42,7 +49,7 @@
       "status": "ready",
       "confidence": "guarded-regional",
       "path": "skills/tutur-gayo",
-      "summary": "Cautious Bahasa Gayo drafting and review."
+      "summary": "Source-aware Bahasa Gayo generation and review."
     },
     {
       "name": "tutur-minangkabau",
@@ -50,7 +57,7 @@
       "status": "ready",
       "confidence": "guarded-regional",
       "path": "skills/tutur-minangkabau",
-      "summary": "Cautious Bahasa Minangkabau drafting and review."
+      "summary": "Source-aware Bahasa Minangkabau generation and review."
     },
     {
       "name": "tutur-sunda",
@@ -58,7 +65,7 @@
       "status": "ready",
       "confidence": "guarded-regional",
       "path": "skills/tutur-sunda",
-      "summary": "Cautious Bahasa Sunda drafting and review with speech-level handling."
+      "summary": "Source-aware Bahasa Sunda generation and review with speech-level handling."
     },
     {
       "name": "tutur-jawa",
@@ -66,7 +73,7 @@
       "status": "ready",
       "confidence": "guarded-regional",
       "path": "skills/tutur-jawa",
-      "summary": "Cautious Bahasa Jawa drafting and review with speech-level and dialect handling."
+      "summary": "Source-aware Bahasa Jawa generation and review with speech-level and dialect handling."
     },
     {
       "name": "tutur-madura",
@@ -74,7 +81,7 @@
       "status": "ready",
       "confidence": "guarded-regional",
       "path": "skills/tutur-madura",
-      "summary": "Cautious Bahasa Madura drafting and review with dialect and politeness handling."
+      "summary": "Source-aware Bahasa Madura generation and review with dialect and politeness handling."
     },
     {
       "name": "tutur-bali",
@@ -82,7 +89,7 @@
       "status": "ready",
       "confidence": "guarded-regional",
       "path": "skills/tutur-bali",
-      "summary": "Cautious Bahasa Bali drafting and review with anggah-ungguh handling."
+      "summary": "Source-aware Bahasa Bali generation and review with anggah-ungguh handling."
     }
   ]
 }

@@ -25,7 +25,7 @@ Bahasa Bali has anggah-ungguh/speech-level expectations. Do not write one flat "
 
 Use this skill for:
 
-- cautious regional-language drafts,
+- source-aware regional-language output,
 - tone adaptation,
 - localized greetings or short public text,
 - review of AI-generated local-language output,
@@ -33,6 +33,6 @@ Use this skill for:
 
 ## Practical Notes
 
-- Ask for target audience and speech level before drafting sensitive text.
+- Ask for target audience and speech level before writing sensitive text.
 - Keep religious, temple, and ceremony terms as provided unless the user supplies a verified local phrase.
 - For tourist-facing copy, prefer Indonesian or English plus a short reviewed Balinese phrase, not long unsupported Balinese prose.

@@ -10,6 +10,8 @@ Every ready skill must include:
 SKILL.md
 agents/openai.yaml
 references/offline-brief.md
+references/local-mirror.md
+references/usage-patterns.md
 references/sources.md
 references/examples.md
 ```
@@ -47,6 +49,29 @@ references/lexicon.md
 
 It should not copy full copyrighted dictionaries, books, or articles. Use short notes and summaries.
 
+## local-mirror.md
+
+`local-mirror.md` is the offline mirror of source facts and working language guidance. It should include:
+
+- source identity and stable facts,
+- language/register identity,
+- what the agent can do without browsing,
+- vocabulary and semantic rules,
+- generation rules,
+- starter lexicon policy or source-backed sample terms.
+
+It must not bulk-copy copyrighted dictionaries, books, articles, or PDFs. Mirror the operational knowledge, not the entire source text.
+
+## usage-patterns.md
+
+`usage-patterns.md` tells agents how to use the skill in real tasks. It should include:
+
+- ordinary output rules,
+- sample tasks,
+- register and semantic decisions,
+- review checklist,
+- output patterns for direct generation, review, and public-use text.
+
 ## sources.md
 
 `sources.md` stores source links and short source notes. It should still be useful offline by summarizing what each source contributes.
@@ -63,4 +88,4 @@ Run:
 ./scripts/validate-skills.sh
 ```
 
-The validation script checks required files and looks for sample sections in `offline-brief.md`.
+The validation script checks required files and looks for sample sections in `offline-brief.md`, `local-mirror.md`, and `usage-patterns.md`.

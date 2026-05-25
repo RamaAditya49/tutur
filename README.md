@@ -15,22 +15,22 @@ Every skill keeps its main instructions in `SKILL.md` and its reusable local con
 
 ## What This Is
 
-Tutur is not a "translate everything confidently" package. Indonesian regional languages, court registers, speech levels, and local dialects need care. Many skills in this repo are intentionally guarded: they help agents avoid fake fluency, ask for source samples when needed, and distinguish normal drafting from public, ritual, legal, or official use.
+Tutur is not a "translate everything confidently" package. Indonesian regional languages, court registers, speech levels, and local dialects need care. Many skills in this repo are intentionally guarded: they help agents avoid fake fluency, ask for source samples when needed, and distinguish normal generation from public, ritual, legal, or official use.
 
 ## Skills
 
 | Skill | Status | Offline resources | Purpose |
 | --- | --- | --- | --- |
 | `tutur-humanizer` | Ready | Yes | Rewrite or review Indonesian text so it sounds natural, human, and register-appropriate. |
-| `tutur-kedhaton-solo` | Ready | Yes | Draft or adapt text with a cautious Keraton Solo/Surakarta Kedhaton register. |
-| `tutur-bagongan-jogja` | Ready | Yes | Draft or adapt text with a cautious Keraton Jogja/Yogyakarta Bagongan register. |
-| `tutur-aceh` | Ready | Yes | Draft or review Bahasa Aceh with a cautious source-backed workflow. |
-| `tutur-gayo` | Ready | Yes | Draft or review Bahasa Gayo with a cautious source-backed workflow. |
-| `tutur-minangkabau` | Ready | Yes | Draft or review Bahasa Minangkabau with a cautious source-backed workflow. |
-| `tutur-sunda` | Ready | Yes | Draft or review Bahasa Sunda with careful speech-level handling. |
-| `tutur-jawa` | Ready | Yes | Draft or review Bahasa Jawa with careful speech-level and dialect handling. |
-| `tutur-madura` | Ready | Yes | Draft or review Bahasa Madura with careful speech-level and dialect handling. |
-| `tutur-bali` | Ready | Yes | Draft or review Bahasa Bali with careful anggah-ungguh handling. |
+| `tutur-kedhaton-solo` | Ready | Yes | Produce or adapt text with a source-aware Keraton Solo/Surakarta Kedhaton register. |
+| `tutur-bagongan-jogja` | Ready | Yes | Produce or adapt text with a source-aware Keraton Jogja/Yogyakarta Bagongan register. |
+| `tutur-aceh` | Ready | Yes | Produce or review Bahasa Aceh with a source-backed workflow. |
+| `tutur-gayo` | Ready | Yes | Produce or review Bahasa Gayo with a source-backed workflow. |
+| `tutur-minangkabau` | Ready | Yes | Produce or review Bahasa Minangkabau with a source-backed workflow. |
+| `tutur-sunda` | Ready | Yes | Produce or review Bahasa Sunda with careful speech-level handling. |
+| `tutur-jawa` | Ready | Yes | Produce or review Bahasa Jawa with careful speech-level and dialect handling. |
+| `tutur-madura` | Ready | Yes | Produce or review Bahasa Madura with careful speech-level and dialect handling. |
+| `tutur-bali` | Ready | Yes | Produce or review Bahasa Bali with careful anggah-ungguh handling. |
 
 Planned skills:
 
@@ -73,6 +73,8 @@ tutur/
     │   ├── agents/openai.yaml
     │   ├── references/
     │   │   ├── offline-brief.md
+    │   │   ├── local-mirror.md
+    │   │   ├── usage-patterns.md
     │   │   ├── examples.md
     │   │   └── ...
     │   └── scripts/
@@ -139,19 +141,19 @@ Detailed install notes: [docs/agent-installation.md](docs/agent-installation.md)
 
 1. Match the user request to a skill by name or description.
 2. Read `SKILL.md`.
-3. Read `references/offline-brief.md`.
+3. Read `references/offline-brief.md`, `references/local-mirror.md`, and `references/usage-patterns.md`.
 4. Read any specific referenced file such as `examples.md`, `style-guide.md`, `pattern-bank.md`, or `lexicon.md`.
-5. Do the task conservatively.
+5. Do the task with source discipline.
 6. Do not invent vocabulary, claims, citations, cultural formulas, or ritual language.
 
 Example prompts:
 
 ```text
 Use $tutur-humanizer to make this Indonesian text sound natural.
-Use $tutur-sunda to review this Bahasa Sunda draft for politeness level.
+Use $tutur-sunda to review this Bahasa Sunda output for politeness level.
 Use $tutur-jawa to rewrite this announcement in polite public Bahasa Jawa.
 Use $tutur-bali to check whether this temple announcement needs expert review.
-Use $tutur-kedhaton-solo to make a cautious Keraton Solo-style draft.
+Use $tutur-kedhaton-solo to make a source-aware Keraton Solo-style output.
 ```
 
 ## Offline Resources
@@ -161,10 +163,12 @@ Every ready skill must include:
 - `SKILL.md`
 - `agents/openai.yaml`
 - `references/offline-brief.md`
+- `references/local-mirror.md`
+- `references/usage-patterns.md`
 - `references/sources.md`
 - `references/examples.md`
 
-Language/register skills should also include `references/style-guide.md`. Court-register skills should include `references/lexicon.md` when a cautious starter lexicon is useful.
+Language/register skills should also include `references/style-guide.md`. Court-register skills should include `references/lexicon.md` when a source-aware starter lexicon is useful.
 
 Offline resource policy: [docs/offline-resources.md](docs/offline-resources.md)
 
@@ -180,7 +184,7 @@ This checks:
 
 - skill metadata with the skill validator,
 - required local resource files,
-- basic sample sections,
+- basic sample sections in the offline mirror files,
 - the Indonesian AI-phrase scanner smoke test.
 
 ## Research Base

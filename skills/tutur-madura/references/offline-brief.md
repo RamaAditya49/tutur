@@ -2,7 +2,7 @@
 
 ## Local Facts
 
-- Purpose: support cautious drafting and review for Bahasa Madura.
+- Purpose: support source-aware generation and review for Bahasa Madura.
 - Region/context: Pulau Madura, Tapal Kuda Jawa Timur, Bawean, and Madurese diaspora.
 - ISO 639-3: `mad`.
 - Common Glottolog reference: `nucl1460`.
@@ -19,7 +19,7 @@
 
 ## Sample Prompts
 
-- "Use $tutur-madura to review this Bahasa Madura draft."
+- "Use $tutur-madura to review this Bahasa Madura output."
 - "Check if this sounds like Madura or Indonesian/Javanese with replaced words."
 - "Make this public notice more appropriate for a Madurese audience."
 

@@ -1,6 +1,6 @@
 # Lexicon
 
-This is a cautious starter list, not a complete dictionary.
+This is a source-aware starter list, not a complete dictionary.
 
 ## Known Kedhaton Markers
 

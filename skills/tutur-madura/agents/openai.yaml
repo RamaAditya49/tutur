@@ -1,4 +1,4 @@
 interface:
   display_name: "Tutur Madura"
   short_description: "Skill bahasa Madura beretika"
-  default_prompt: "Use $tutur-madura to adapt this text with a cautious Bahasa Madura regional register."
+  default_prompt: "Use $tutur-madura to adapt this text with a source-aware Bahasa Madura regional register."

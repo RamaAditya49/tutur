@@ -2,7 +2,7 @@
 
 ## Local Facts
 
-- Purpose: support cautious drafting and review for Bahasa Bali.
+- Purpose: support source-aware generation and review for Bahasa Bali.
 - Region/context: Bali, Nusa Penida, Lombok bagian barat, and Balinese diaspora.
 - ISO 639-3: `ban`.
 - Glottocode: `bali1278`.
@@ -20,12 +20,12 @@
 ## Sample Prompts
 
 - "Use $tutur-bali to review whether this temple announcement needs expert review."
-- "Make a cautious Balinese greeting for a tourism poster."
-- "Check if this Balinese draft mixes speech levels."
+- "Make a source-aware Balinese greeting for a tourism poster."
+- "Check if this Balinese output mixes speech levels."
 
 ## Safe Output Patterns
 
-- Ask for audience and speech level before drafting sensitive text.
+- Ask for audience and speech level before writing sensitive text.
 - For tourism copy, prefer clear Indonesian/English plus short reviewed Balinese phrases.
 - For temple/adat text, avoid improvising and ask for verified source phrases.
 

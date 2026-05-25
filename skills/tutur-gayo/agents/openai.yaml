@@ -1,4 +1,4 @@
 interface:
   display_name: "Tutur Gayo"
   short_description: "Skill bahasa Gayo yang hati-hati"
-  default_prompt: "Use $tutur-gayo to adapt this text with a cautious Bahasa Gayo regional register."
+  default_prompt: "Use $tutur-gayo to adapt this text with a source-aware Bahasa Gayo regional register."

@@ -1,6 +1,6 @@
 # Examples
 
-## Cautious Drafting
+## Source-Aware Generation
 
 Input:
 
@@ -9,7 +9,7 @@ Input:
 Safer response shape:
 
 1. Ask whether the target is general Minang, local dialect, or adat context.
-2. Draft a simple Indonesian baseline.
+2. Produce a simple Indonesian baseline.
 3. Use verified Minangkabau wording where references support it.
 
 ## Review Mode

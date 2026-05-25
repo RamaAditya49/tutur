@@ -70,6 +70,8 @@ Read `references/pattern-bank.md` for a larger pattern list and replacement prin
 ## Resources
 
 - `references/offline-brief.md`: compact local brief for agents without internet access.
+- `references/local-mirror.md`: local mirror of Indonesian standards, register policy, and style semantics.
+- `references/usage-patterns.md`: task patterns and review checklist for offline use.
 - `references/sources.md`: official references used by this skill.
 - `references/register-map.md`: register decisions for resmi, formal, profesional, santai, gaul, sales, academic, and technical writing.
 - `references/pattern-bank.md`: Indonesian AI-sounding patterns and rewrite principles.

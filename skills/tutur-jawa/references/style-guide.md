@@ -25,7 +25,7 @@ Bahasa Jawa has strong speech-level and dialect variation. Do not treat "Jawa" a
 
 Use this skill for:
 
-- cautious regional-language drafts,
+- source-aware regional-language output,
 - tone adaptation,
 - localized greetings or short public text,
 - review of AI-generated local-language output,
@@ -33,6 +33,6 @@ Use this skill for:
 
 ## Practical Notes
 
-- Ask for target audience and speech level before drafting sensitive text.
+- Ask for target audience and speech level before writing sensitive text.
 - Be careful with pronouns, verbs for eating/going/saying, and kinship terms.
 - For Keraton Solo or Keraton Jogja, prefer the dedicated skills `tutur-kedhaton-solo` or `tutur-bagongan-jogja`.

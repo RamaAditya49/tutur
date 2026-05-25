@@ -15,7 +15,7 @@ Use Bahasa Aceh output only when:
 
 - the wording is sourced,
 - the user provides a sample,
-- or the requested output is clearly a draft.
+- or the user accepts a source-aware working output with uncertain terms marked.
 
 ## Safety Rules
 
@@ -30,7 +30,7 @@ Use Bahasa Aceh output only when:
 
 Use this skill for:
 
-- cautious regional-language drafts,
+- source-aware regional-language output,
 - tone adaptation,
 - localized greetings or short public text,
 - review of AI-generated local-language output,

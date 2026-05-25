@@ -18,6 +18,8 @@ skills/<skill-name>/
 │   └── openai.yaml
 └── references/
     ├── offline-brief.md
+    ├── local-mirror.md
+    ├── usage-patterns.md
     ├── sources.md
     └── examples.md
 ```
@@ -45,7 +47,7 @@ references/lexicon.md
 - Prefer official Badan Bahasa, Balai Bahasa, Labbineka, Peta Bahasa, or Glottolog references.
 - State source confidence clearly.
 - Add dialect and register warnings.
-- Include sample prompts and safe output shapes.
+- Include sample prompts, local mirror notes, usage patterns, and safe output shapes.
 
 ## Court Register Rules
 

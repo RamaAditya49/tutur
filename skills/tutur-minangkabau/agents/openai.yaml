@@ -1,4 +1,4 @@
 interface:
   display_name: "Tutur Minangkabau"
   short_description: "Skill bahasa Minangkabau hati-hati"
-  default_prompt: "Use $tutur-minangkabau to adapt this text with a cautious Bahasa Minangkabau regional register."
+  default_prompt: "Use $tutur-minangkabau to adapt this text with a source-aware Bahasa Minangkabau regional register."

@@ -15,6 +15,8 @@ REQUIRED_FILES = [
     "SKILL.md",
     "agents/openai.yaml",
     "references/offline-brief.md",
+    "references/local-mirror.md",
+    "references/usage-patterns.md",
     "references/sources.md",
     "references/examples.md",
 ]
@@ -24,6 +26,19 @@ REQUIRED_BRIEF_MARKERS = [
     "## Guardrails",
     "## Sample Prompts",
     "## Safe Output Patterns",
+]
+
+REQUIRED_MIRROR_MARKERS = [
+    "## Source Mirror",
+    "## Local Usability",
+    "## Vocabulary And Semantics",
+    "## Generation Rules",
+]
+
+REQUIRED_USAGE_MARKERS = [
+    "## Ordinary Output",
+    "## Sample Tasks",
+    "## Review Checklist",
 ]
 
 
@@ -42,6 +57,24 @@ def check_skill(skill_dir: Path) -> list[str]:
                 errors.append(f"{skill_dir.name}: offline-brief.md missing {marker}")
         if len(text.strip().splitlines()) < 24:
             errors.append(f"{skill_dir.name}: offline-brief.md is too thin")
+
+    mirror = skill_dir / "references/local-mirror.md"
+    if mirror.exists():
+        text = mirror.read_text(encoding="utf-8")
+        for marker in REQUIRED_MIRROR_MARKERS:
+            if marker not in text:
+                errors.append(f"{skill_dir.name}: local-mirror.md missing {marker}")
+        if len(text.strip().splitlines()) < 32:
+            errors.append(f"{skill_dir.name}: local-mirror.md is too thin")
+
+    usage = skill_dir / "references/usage-patterns.md"
+    if usage.exists():
+        text = usage.read_text(encoding="utf-8")
+        for marker in REQUIRED_USAGE_MARKERS:
+            if marker not in text:
+                errors.append(f"{skill_dir.name}: usage-patterns.md missing {marker}")
+        if len(text.strip().splitlines()) < 24:
+            errors.append(f"{skill_dir.name}: usage-patterns.md is too thin")
 
     return errors
 

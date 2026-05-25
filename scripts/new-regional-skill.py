@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Create a starter Tutur regional-language skill.
 
-The generated skill is intentionally conservative. It gives future agents a
-safe workflow and references without pretending to be fluent in a language that
-may have limited public documentation.
+The generated skill is offline-first. It gives future agents a usable local
+workflow and reference mirrors while still marking uncertainty for dialect,
+ritual, legal, and official contexts.
 """
 
 from __future__ import annotations
@@ -46,10 +46,10 @@ def build_skill(args: argparse.Namespace) -> None:
         short = short[:61].rstrip() + "..."
 
     description = (
-        f"Draft, adapt, or review text for Bahasa {language} with a cautious "
+        f"Produce, adapt, or review text for Bahasa {language} with an offline-first "
         f"regional-language workflow. Use when the user asks for Bahasa {language}, "
         f"{language} regional diction, local-language adaptation, or culturally "
-        f"aware Indonesian-to-{language} drafting without claiming native-level "
+        f"aware Indonesian-to-{language} wording without claiming native-level "
         f"fluency or inventing undocumented vocabulary."
     )
 
@@ -68,7 +68,7 @@ description: {description}
 
 ## Overview
 
-Use this skill to adapt, draft, or review text related to Bahasa {language}. Treat output as a careful draft unless strong dictionary, grammar, or native-speaker evidence is available.
+Use this skill to produce, adapt, or review text related to Bahasa {language}. Produce usable ordinary-context output from local resources. Mark uncertain wording instead of pretending it is verified.
 
 Region/context: {region}
 
@@ -84,7 +84,7 @@ Region/context: {region}
    - If the skill has only Level 1 sources, do not invent vocabulary.
    - If a local spelling or dialect choice is unclear, preserve the Indonesian term and add a short note.
 
-3. Draft conservatively.
+3. Compose with source discipline.
    - Keep names, places, titles, dates, and facts unchanged.
    - Prefer verified local words only.
    - For unknown terms, use Indonesian or ask for a local sample.
@@ -96,15 +96,17 @@ Region/context: {region}
 
 ## Output Style
 
-- For direct requests, return the draft first.
+- For direct requests, return the adapted output first.
 - For review requests, list risks and then provide a safer rewrite.
 - For public, ritual, legal, educational, or official use, recommend native-speaker or Balai Bahasa review.
 
 ## Resources
 
+- `references/offline-brief.md`: compact local brief for agents without internet access.
+- `references/local-mirror.md`: local mirror of source facts, vocabulary policy, and semantic guidance.
+- `references/usage-patterns.md`: task patterns and review checklist for offline use.
 - `references/sources.md`: source links and confidence level.
 - `references/style-guide.md`: practical register and safety rules.
-- `references/offline-brief.md`: compact local brief for agents without internet access.
 - `references/examples.md`: safe usage examples.
 """,
     )
@@ -115,7 +117,7 @@ Region/context: {region}
 interface:
   display_name: "{display}"
   short_description: "{short}"
-  default_prompt: "Use ${slug} to adapt this text with a cautious Bahasa {language} regional register."
+  default_prompt: "Use ${slug} to adapt this text with a source-aware Bahasa {language} regional register."
 """,
     )
 
@@ -138,7 +140,7 @@ Level 1: guardrail skill. Raise this level only after adding reliable dictionary
 
 ## Editorial Position
 
-This skill should support careful drafting and review. It should not claim full translation accuracy unless strong sources are added and the output has been reviewed by a competent speaker.
+This skill supports ordinary local-language generation and review when the needed wording is covered by local resources or a user sample. It should mark uncertain dialect, ceremonial, legal, and official wording for competent speaker review.
 """,
     )
 
@@ -149,7 +151,7 @@ This skill should support careful drafting and review. It should not claim full 
 
 ## Local Facts
 
-- Purpose: support cautious drafting and review for Bahasa {language}.
+- Purpose: support ordinary-context generation, adaptation, and review for Bahasa {language}.
 - Region/context: {region}
 - Source confidence: Level 1 until richer local references are added.
 - This skill should work without browsing.
@@ -164,8 +166,8 @@ This skill should support careful drafting and review. It should not claim full 
 
 ## Sample Prompts
 
-- "Use ${slug} to review this Bahasa {language} draft."
-- "Make a cautious Bahasa {language} version of this short message."
+- "Use ${slug} to review this Bahasa {language} text."
+- "Make a source-aware Bahasa {language} version of this short message."
 - "Check whether this text sounds like real Bahasa {language} or just Indonesian with local words."
 
 ## Safe Output Patterns
@@ -174,6 +176,84 @@ This skill should support careful drafting and review. It should not claim full 
 - For review: flag uncertain vocabulary, grammar interference, and register risks.
 - For unknown terms: keep Indonesian and mark them for verification.
 - For public use: recommend review by a competent speaker or language institution.
+""",
+    )
+
+    write(
+        skill_dir / "references" / "local-mirror.md",
+        f"""
+# Local Mirror
+
+## Source Mirror
+
+- Language/register: Bahasa {language}.
+- Region/context: {region}.
+- Source confidence: Level 1 until richer local references are added.
+- Source links copied from `sources.md`:
+{source_lines}
+
+## Local Usability
+
+Use this file as the offline substitute for source orientation. It does not copy a full dictionary. It gives the agent enough local context to decide what it can say directly, what it should keep in Indonesian, and what needs a user sample.
+
+Ordinary short text is allowed when the vocabulary and register are covered by this skill. Sensitive public, ritual, legal, official, or educational wording needs competent speaker review.
+
+## Vocabulary And Semantics
+
+- Keep identity terms, names, titles, institutions, and places unchanged unless the user provides the local form.
+- Preserve Indonesian words when the regional equivalent is unknown.
+- Do not decorate Indonesian grammar with random local words and call it Bahasa {language}.
+- Track audience, dialect/community, speech level, and purpose before choosing local terms.
+
+## Generation Rules
+
+1. Build the meaning in plain Indonesian first.
+2. Replace only the words and patterns supported by local references or user-provided samples.
+3. Keep uncertain terms visibly marked or left in Indonesian.
+4. Add a short review note only when the use case is public, ritual, legal, official, or dialect-sensitive.
+
+## Starter Lexicon Policy
+
+Add only verified terms here. Do not bulk-copy copyrighted dictionaries. Prefer short semantic notes, phrase patterns, and source-backed examples that help an agent write responsibly.
+""",
+    )
+
+    write(
+        skill_dir / "references" / "usage-patterns.md",
+        f"""
+# Usage Patterns
+
+## Ordinary Output
+
+For everyday messages, captions, short announcements, and tone adaptation, produce a usable output when local resources cover the wording. Keep the answer direct and avoid long disclaimers.
+
+## Sample Tasks
+
+- Rewrite a short Indonesian message with Bahasa {language} flavor.
+- Review a Bahasa {language} text for Indonesian interference.
+- Create two variants: everyday and more respectful.
+- Localize greetings, invitations, and community announcements.
+
+## Register And Semantics
+
+- Confirm audience when the request involves elders, institutions, ceremonies, or public signage.
+- Preserve semantic intent before changing vocabulary.
+- Avoid stereotypes, jokes about ethnicity, or invented cultural formulas.
+- Keep technical/legal/medical terms in Indonesian unless the user provides accepted local equivalents.
+
+## Review Checklist
+
+- Does the output mix Indonesian grammar with isolated local words?
+- Are all local terms covered by references or user samples?
+- Is the dialect/community target clear?
+- Are titles, names, dates, and facts unchanged?
+- Does the note clearly mark only the genuinely uncertain parts?
+
+## Output Patterns
+
+- Direct request: provide the adapted output first.
+- Review request: list risks, then provide safer wording.
+- Public text: include a short speaker-review note for uncertain terms.
 """,
     )
 
@@ -199,7 +279,7 @@ This skill should support careful drafting and review. It should not claim full 
 
 Use this skill for:
 
-- cautious regional-language drafts,
+- source-aware regional-language output,
 - tone adaptation,
 - localized greetings or short public text,
 - review of AI-generated local-language output,
@@ -212,7 +292,7 @@ Use this skill for:
         f"""
 # Examples
 
-## Cautious Drafting
+## Source-Aware Generation
 
 Input:
 
@@ -221,7 +301,7 @@ Input:
 Safe response shape:
 
 1. Ask for target audience and dialect if needed.
-2. Draft a clear Indonesian baseline.
+2. Write a clear Indonesian baseline.
 3. Use Bahasa {language} only where wording can be verified from sources or a user-provided sample.
 4. Mark uncertain terms for speaker review.
 

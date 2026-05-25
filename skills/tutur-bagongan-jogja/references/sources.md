@@ -26,4 +26,4 @@ Use KBBI/EYD only for Indonesian support text and explanatory notes. They are no
 
 ## Editorial Position
 
-This skill can create respectful, Bagongan-inspired drafts. It should not claim to produce authoritative palace protocol, ritual speech, or historically exact manuscript language.
+This skill can create respectful, Bagongan-inspired outputs. It should not claim to produce authoritative palace protocol, ritual speech, or historically exact manuscript language.

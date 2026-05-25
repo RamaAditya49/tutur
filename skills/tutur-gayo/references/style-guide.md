@@ -24,7 +24,7 @@ Bahasa Gayo is a regional language with its own identity. Do not treat it as a d
 
 Use this skill for:
 
-- cautious regional-language drafts,
+- source-aware regional-language output,
 - tone adaptation,
 - localized greetings or short public text,
 - review of AI-generated local-language output,

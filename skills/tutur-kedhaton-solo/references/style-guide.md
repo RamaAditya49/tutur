@@ -22,7 +22,7 @@ Surakarta Kedhaton tends to preserve krama sentence structure more strongly than
 
 ## Grammar Signals
 
-Use cautiously:
+Use with source awareness:
 
 - Passive prefix: `dipun-`
 - Formal suffix: `-aken`
@@ -54,4 +54,4 @@ Ask for source text or target role if:
 - The user requests ritual formulas.
 - The text will be published as authentic Surakarta court language.
 
-Otherwise, provide a draft with a short caveat.
+Otherwise, provide usable output with a short caveat.

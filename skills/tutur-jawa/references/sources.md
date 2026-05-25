@@ -6,7 +6,7 @@ Region/context: Jawa Tengah, DI Yogyakarta, Jawa Timur, diaspora Jawa, dan varia
 
 ## Source Confidence
 
-Level 2: guarded regional-language skill. Bahasa Jawa has public dictionary and grammar references, so this skill may support cautious drafting and review. It should not claim full accuracy for dialect-specific or honorific-sensitive text without speaker review.
+Level 2: guarded regional-language skill. Bahasa Jawa has public dictionary and grammar references, so this skill may support source-aware generation and review. It should not claim full accuracy for dialect-specific or honorific-sensitive text without speaker review.
 
 ## References
 
@@ -20,4 +20,4 @@ Level 2: guarded regional-language skill. Bahasa Jawa has public dictionary and 
 
 ## Editorial Position
 
-This skill should support careful drafting and review. It should not claim full translation accuracy unless strong sources are added and the output has been reviewed by a competent speaker.
+This skill should support source-aware generation and review. It should not claim full translation accuracy unless strong sources are added and the output has been reviewed by a competent speaker.

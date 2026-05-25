@@ -9,7 +9,7 @@
 
 ## Register Position
 
-Bahasa Madura is not a dialect of Bahasa Jawa. It has its own dialects and speech-level expectations. Before drafting, ask whether the target is everyday, polite, Sumenep-style, Tapal Kuda/Pendalungan, Bawean, or another local context.
+Bahasa Madura is not a dialect of Bahasa Jawa. It has its own dialects and speech-level expectations. Before writing, ask whether the target is everyday, polite, Sumenep-style, Tapal Kuda/Pendalungan, Bawean, or another local context.
 
 ## Safety Rules
 
@@ -25,7 +25,7 @@ Bahasa Madura is not a dialect of Bahasa Jawa. It has its own dialects and speec
 
 Use this skill for:
 
-- cautious regional-language drafts,
+- source-aware regional-language output,
 - tone adaptation,
 - localized greetings or short public text,
 - review of AI-generated local-language output,

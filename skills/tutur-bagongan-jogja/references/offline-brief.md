@@ -2,7 +2,7 @@
 
 ## Local Facts
 
-- Purpose: create cautious Yogyakarta/Jogja court-inspired drafts.
+- Purpose: create source-aware Yogyakarta/Jogja court-inspired outputs.
 - User-facing identity: Keraton Jogja.
 - More precise context: Keraton Kasultanan Yogyakarta.
 - Register: Basa Bagongan.
@@ -11,7 +11,7 @@
 
 ## Guardrails
 
-- Treat output as a draft unless the user provides verified source phrases.
+- Use the adapted text as working output for ordinary cultural copy; require verified source phrases for protocol-sensitive wording.
 - Do not claim ritual or palace-protocol authenticity.
 - Do not turn Bagongan into generic krama inggil.
 - Do not overuse rare or archaic vocabulary.
@@ -20,14 +20,14 @@
 ## Sample Prompts
 
 - "Use $tutur-bagongan-jogja to make this text sound more Keraton Jogja."
-- "Draft a Bagongan-inspired version for a cultural event."
+- "Produce a Bagongan-inspired version for a cultural event."
 - "Review whether this is Bagongan or just generic krama."
 
 ## Safe Output Patterns
 
 - Provide the adapted text first.
 - Add a short note if ceremony or status is unclear.
-- Offer variants: light flavor, Bagongan draft, formal explanation.
+- Offer variants: light flavor, Bagongan output, formal explanation.
 - Use `manira` / `pakenira` only when the context supports direct pronouns.
 
 ## Local Example
@@ -36,7 +36,7 @@ Input:
 
 > Jika Anda berkenan, kami akan datang besok pagi.
 
-Bagongan-inspired draft:
+Bagongan-inspired output:
 
 > Menawi pakenira kersa, manira badhe rawuh benjang enjing.
 

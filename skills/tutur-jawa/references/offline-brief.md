@@ -2,7 +2,7 @@
 
 ## Local Facts
 
-- Purpose: support cautious drafting and review for Bahasa Jawa.
+- Purpose: support source-aware generation and review for Bahasa Jawa.
 - Region/context: Jawa Tengah, DI Yogyakarta, Jawa Timur, diaspora Jawa, and local varieties.
 - ISO 639-3: `jav`.
 - Glottocode: `java1254`.
@@ -25,7 +25,7 @@
 
 ## Safe Output Patterns
 
-- Ask for target audience and speech level before sensitive drafting.
+- Ask for target audience and speech level before sensitive generation.
 - For review, flag ngoko, krama, and mixed-level risks.
 - For local varieties such as Banyumasan, Suroboyoan, Osing, Tengger, or Cirebonan, ask for the local target first.
 

@@ -22,7 +22,7 @@ Basa Bagongan is associated with respect and court identity, but it is not simpl
 
 ## Grammar Signals
 
-Use cautiously:
+Use with source awareness:
 
 - `manira`: I / first-person marker.
 - `pakenira`: you / second-person marker.
@@ -47,4 +47,4 @@ Ask for source text or target role if:
 - The user requests ritual formulas.
 - The text will be published as authentic Yogyakarta court language.
 
-Otherwise, provide a draft with a short caveat.
+Otherwise, provide usable output with a short caveat.

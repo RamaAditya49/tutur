@@ -1,4 +1,4 @@
 interface:
   display_name: "Tutur Bagongan Jogja"
   short_description: "Ragam bagongan khas Yogyakarta"
-  default_prompt: "Use $tutur-bagongan-jogja to adapt this text into a careful Yogyakarta Bagongan-inspired register."
+  default_prompt: "Use $tutur-bagongan-jogja to adapt this text into a source-aware Yogyakarta Bagongan-inspired register."

@@ -1,6 +1,6 @@
 # Examples
 
-## Cautious Adaptation
+## Source-Aware Adaptation
 
 Input:
 
@@ -8,7 +8,7 @@ Input:
 
 Safer response shape:
 
-> Provide a short Bahasa Indonesia draft first, then add a Bahasa Aceh draft only for phrases that can be checked against KBDA Daring or a user-provided sample.
+> Provide a short Bahasa Indonesia output first, then add a Bahasa Aceh output only for phrases that can be checked against KBDA Daring or a user-provided sample.
 
 Why:
 

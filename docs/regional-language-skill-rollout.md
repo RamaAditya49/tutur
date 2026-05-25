@@ -16,7 +16,12 @@ Primary source order:
 4. Peer-reviewed or university references.
 5. Community dictionaries only as supporting references, not as authority.
 
-Do not generate confident grammar, translation, or ceremonial usage when there is no good source. Low-resource language skills must be honest: they help structure requests, preserve names, request samples, and avoid hallucinated vocabulary.
+Do not generate unsupported grammar, translation, or ceremonial usage when there is no good source. Low-resource language skills must be honest: they help structure requests, preserve names, request samples, and avoid hallucinated vocabulary.
+
+Every ready skill must include a local mirror so agents can work without internet:
+
+- `references/local-mirror.md` for source facts, semantic rules, vocabulary policy, and generation rules.
+- `references/usage-patterns.md` for real task patterns, register decisions, and review checklist.
 
 ## Scale Notes
 

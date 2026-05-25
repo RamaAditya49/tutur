@@ -1,15 +1,15 @@
 ---
 name: tutur-kedhaton-solo
-description: Adapt, draft, or review text in a cautious Surakarta/Solo court-inspired Basa Kedhaton register. Use when the user asks for bahasa Keraton Solo, Basa Kedhaton, Surakarta court diction, abdi dalem-style phrasing, ceremonial Javanese flavor, or a respectful Javanese court tone without claiming perfect ritual authenticity.
+description: Produce, adapt, or review text in a source-aware Surakarta/Solo court-inspired Basa Kedhaton register. Use when the user asks for bahasa Keraton Solo, Basa Kedhaton, Surakarta court diction, abdi dalem-style phrasing, ceremonial Javanese flavor, or a respectful Javanese court tone without claiming perfect ritual authenticity.
 ---
 
 # Tutur Kedhaton Solo
 
 ## Overview
 
-Use this skill to adapt text toward the Surakarta court register known as Basa Kedhaton. Treat it as a careful stylistic and cultural register, not a guaranteed authentic palace or ritual translation.
+Use this skill to adapt text toward the Surakarta court register known as Basa Kedhaton. Treat it as a source-aware stylistic and cultural register, not a guaranteed authentic palace or ritual translation.
 
-Default to modest, respectful, Surakarta-leaning Javanese court diction. If the user needs a ceremonial script, palace protocol, ritual utterance, inscription, or manuscript-level accuracy, say that the output is a draft and should be checked by a Surakarta court-language expert.
+Default to modest, respectful, Surakarta-leaning Javanese court diction. If the user needs a ceremonial script, palace protocol, ritual utterance, inscription, or manuscript-level accuracy, mark it for Surakarta court-language expert review.
 
 ## Workflow
 
@@ -20,8 +20,8 @@ Default to modest, respectful, Surakarta-leaning Javanese court diction. If the 
 
 2. Choose the depth.
    - **Light flavor:** Preserve Indonesian meaning, add respectful court diction sparingly.
-   - **Court-style draft:** Use more Javanese krama and Kedhaton markers.
-   - **Ceremonial draft:** Be extra cautious, keep notes about uncertainty, and avoid inventing sacred/protocol formulas.
+   - **Court-style output:** Use more Javanese krama and Kedhaton markers.
+   - **Ceremonial-aware output:** Be source-aware, keep notes about uncertainty, and avoid inventing sacred/protocol formulas.
 
 3. Apply Surakarta Kedhaton signals.
    - Prefer krama sentence structure.
@@ -32,7 +32,7 @@ Default to modest, respectful, Surakarta-leaning Javanese court diction. If the 
 4. Final check.
    - Do not over-Javanize names, titles, institutions, dates, or factual details.
    - Keep honorifics consistent.
-   - Avoid mixing Yogyakarta Bagongan traits into a Solo Kedhaton output unless the user explicitly wants a comparative or hybrid draft.
+   - Avoid mixing Yogyakarta Bagongan traits into a Solo Kedhaton output unless the user explicitly wants a comparative or hybrid output.
 
 ## Pronoun Caution
 
@@ -44,13 +44,15 @@ Read `references/style-guide.md` before using pronouns. When unsure, rewrite to 
 
 - If the user asks for direct output, provide the adapted text first.
 - If accuracy is uncertain, add a short note after the text.
-- If asked for options, give "light", "formal", and "ceremonial draft" variants.
+- If asked for options, give "light", "formal", and "ceremonial-aware" variants.
 - Do not claim "bahasa keraton asli" unless the source phrase is verified.
 
 ## Resources
 
 - `references/offline-brief.md`: compact local brief for agents without internet access.
+- `references/local-mirror.md`: local mirror of source facts, vocabulary policy, and semantic guidance.
+- `references/usage-patterns.md`: task patterns and review checklist for offline use.
 - `references/sources.md`: research base and source links.
 - `references/style-guide.md`: Surakarta Kedhaton usage rules.
-- `references/lexicon.md`: cautious lexicon and terms to avoid inventing.
+- `references/lexicon.md`: source-aware lexicon and terms to avoid inventing.
 - `references/examples.md`: before/after examples.

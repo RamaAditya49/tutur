@@ -4,7 +4,7 @@ Date: 2026-05-25
 
 ## Goal
 
-Add court-register skills to Tutur without pretending that a general-purpose AI can produce fully authoritative palace speech. The skills should support careful drafts, stylistic adaptation, and cultural direction.
+Add court-register skills to Tutur without pretending that a general-purpose AI can produce fully authoritative palace speech. The skills should support source-aware outputs, stylistic adaptation, and cultural direction.
 
 ## Initial Scope
 

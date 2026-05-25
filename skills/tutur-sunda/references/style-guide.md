@@ -9,7 +9,7 @@
 
 ## Register Position
 
-Bahasa Sunda has speech-level sensitivity. Before drafting, identify whether the user wants casual/loma, polite/lemes, very respectful, public announcement style, or a specific local dialect. Do not mix levels casually.
+Bahasa Sunda has speech-level sensitivity. Before writing, identify whether the user wants casual/loma, polite/lemes, very respectful, public announcement style, or a specific local dialect. Do not mix levels casually.
 
 ## Safety Rules
 
@@ -25,7 +25,7 @@ Bahasa Sunda has speech-level sensitivity. Before drafting, identify whether the
 
 Use this skill for:
 
-- cautious regional-language drafts,
+- source-aware regional-language output,
 - tone adaptation,
 - localized greetings or short public text,
 - review of AI-generated local-language output,

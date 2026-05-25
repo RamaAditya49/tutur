@@ -2,7 +2,7 @@
 
 ## Local Facts
 
-- Purpose: support cautious drafting and review for Bahasa Gayo.
+- Purpose: support source-aware generation and review for Bahasa Gayo.
 - Region/context: dataran tinggi Aceh, terutama komunitas Gayo.
 - ISO 639-3: `gay`.
 - Glottocode: `gayo1244`.
@@ -19,14 +19,14 @@
 
 ## Sample Prompts
 
-- "Use $tutur-gayo to review this Bahasa Gayo draft."
-- "Make a cautious Gayo version of this short community message."
+- "Use $tutur-gayo to review this Bahasa Gayo output."
+- "Make a source-aware Gayo version of this short community message."
 - "Check whether this is Bahasa Gayo or Indonesian with Gayo words."
 
 ## Safe Output Patterns
 
 - Ask for target community/dialect when the audience is specific.
-- Draft in Indonesian first when source confidence is limited.
+- Produce in Indonesian first when source confidence is limited.
 - Translate only verified short phrases.
 - Mark uncertain terms for KBDA or speaker review.
 

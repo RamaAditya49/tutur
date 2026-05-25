@@ -12,9 +12,9 @@ Output:
 
 Note:
 
-This is a respectful Javanese draft with Surakarta-leaning court flavor, not a verified palace protocol formula.
+This is a respectful Javanese output with Surakarta-leaning court flavor, not a verified palace protocol formula.
 
-## More Formal Draft
+## More Formal Output
 
 Input:
 

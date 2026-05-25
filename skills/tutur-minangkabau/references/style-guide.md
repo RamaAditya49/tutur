@@ -24,7 +24,7 @@ Bahasa Minangkabau has strong regional identity and dialect variation. Do not re
 
 Use this skill for:
 
-- cautious regional-language drafts,
+- source-aware regional-language output,
 - tone adaptation,
 - localized greetings or short public text,
 - review of AI-generated local-language output,
@@ -33,5 +33,5 @@ Use this skill for:
 ## Practical Notes
 
 - Ask whether the target is public Minang, rantau tone, village/local dialect, or ceremonial adat context.
-- Be extra cautious with adat, kinship, title, and religious language.
+- Be source-aware with adat, kinship, title, and religious language.
 - Keep Indonesian terms for modern technical vocabulary unless a verified Minangkabau term is available.

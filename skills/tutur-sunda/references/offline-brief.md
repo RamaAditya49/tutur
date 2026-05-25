@@ -2,7 +2,7 @@
 
 ## Local Facts
 
-- Purpose: support cautious drafting and review for Bahasa Sunda.
+- Purpose: support source-aware generation and review for Bahasa Sunda.
 - Region/context: Jawa Barat, Banten, and Sundanese communities elsewhere.
 - ISO 639-3: `sun`.
 - Glottocode: `sund1252`.
@@ -19,7 +19,7 @@
 
 ## Sample Prompts
 
-- "Use $tutur-sunda to review this Bahasa Sunda draft for politeness."
+- "Use $tutur-sunda to review this Bahasa Sunda output for politeness."
 - "Rewrite this as polite public Sundanese."
 - "Check if this is too casual for a school announcement."
 

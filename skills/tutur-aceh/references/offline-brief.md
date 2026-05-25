@@ -2,7 +2,7 @@
 
 ## Local Facts
 
-- Purpose: support cautious drafting and review for Bahasa Aceh.
+- Purpose: support source-aware generation and review for Bahasa Aceh.
 - Region/context: Aceh and Acehnese communities outside Aceh.
 - ISO 639-3: `ace`.
 - Glottocode: `achi1257`.
@@ -19,8 +19,8 @@
 
 ## Sample Prompts
 
-- "Use $tutur-aceh to review this Bahasa Aceh draft."
-- "Make a cautious Bahasa Aceh version of this short greeting."
+- "Use $tutur-aceh to review this Bahasa Aceh output."
+- "Make a source-aware Bahasa Aceh version of this short greeting."
 - "Check if this text is just Indonesian grammar with Acehnese words."
 
 ## Safe Output Patterns
@@ -28,7 +28,7 @@
 - For translation: ask for dialect/audience if the text matters publicly.
 - For review: flag suspicious word choices and Indonesian-grammar interference.
 - For unknown terms: keep Indonesian and mark them for verification.
-- For short public text: provide a draft plus a review caveat.
+- For short public text: provide usable output plus a review caveat.
 
 ## Local Example
 
@@ -38,4 +38,4 @@ Request:
 
 Safe response shape:
 
-> Saya bisa buat draf, tetapi untuk publikasi sebaiknya dicek penutur Aceh. Jika tidak ada rujukan kata yang pasti, pertahankan kalimat Indonesia atau minta padanan dari KBDA/penutur.
+> Saya bisa buat teks, tetapi untuk publikasi sebaiknya dicek penutur Aceh. Jika tidak ada rujukan kata yang pasti, pertahankan kalimat Indonesia atau minta padanan dari KBDA/penutur.
