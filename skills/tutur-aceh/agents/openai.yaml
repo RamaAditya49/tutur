@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Aceh"
+  short_description: "Skill bahasa Aceh yang hati-hati"
+  default_prompt: "Use $tutur-aceh to adapt this text with a cautious Bahasa Aceh regional register."

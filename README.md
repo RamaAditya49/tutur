@@ -11,6 +11,7 @@ The first skill is `tutur-humanizer`: a humanizer for Indonesian text that can h
 | `tutur-humanizer` | Ready | Rewrite or review Indonesian text so it sounds natural, human, and register-appropriate. |
 | `tutur-kedhaton-solo` | Ready | Draft or adapt text with a cautious Keraton Solo/Surakarta Kedhaton register. |
 | `tutur-bagongan-jogja` | Ready | Draft or adapt text with a cautious Keraton Jogja/Yogyakarta Bagongan register. |
+| `tutur-aceh` | Ready | Draft or review Bahasa Aceh with a cautious source-backed workflow. |
 
 Planned skills:
 
@@ -39,6 +40,7 @@ tutur/
         └── scripts/
     ├── tutur-kedhaton-solo/
     └── tutur-bagongan-jogja/
+    └── tutur-aceh/
 ```
 
 ## Install
@@ -50,6 +52,7 @@ mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
 cp -R skills/tutur-humanizer "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/tutur-kedhaton-solo "${CODEX_HOME:-$HOME/.codex}/skills/"
 cp -R skills/tutur-bagongan-jogja "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R skills/tutur-aceh "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
 Then invoke it with:
@@ -58,6 +61,7 @@ Then invoke it with:
 Use $tutur-humanizer to make this Indonesian text sound natural.
 Use $tutur-kedhaton-solo to adapt this text into Keraton Solo style.
 Use $tutur-bagongan-jogja to adapt this text into Keraton Jogja style.
+Use $tutur-aceh to review this Bahasa Aceh draft.
 ```
 
 ## Research Base

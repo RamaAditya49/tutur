@@ -72,6 +72,10 @@ Court-register skills already created:
 - Keraton Solo / Surakarta Kedhaton
 - Keraton Jogja / Yogyakarta Bagongan
 
+Regional-language skills created:
+
+- Aceh
+
 Recommended court-register follow-up:
 
 - Mangkunegaran
