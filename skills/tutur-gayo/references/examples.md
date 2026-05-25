@@ -1,5 +1,26 @@
 # Examples
 
+## Target-Language Examples
+
+KBDA-backed Gayo vocabulary examples:
+
+- `belejer`: belajar.
+- `becerite`: bercerita.
+- `anak benen`: anak perempuan.
+- `anak rawan`: anak laki-laki.
+
+Working micro-example:
+
+> Belejer bahasa Gayo.
+
+Meaning:
+
+> Belajar bahasa Gayo.
+
+Note:
+
+This is a minimal working phrase using a verified Gayo verb. For a full public slogan, ask for a Gayo speaker sample or check a richer grammar source.
+
 ## Source-Aware Generation
 
 Input:

@@ -1,5 +1,21 @@
 # Examples
 
+## Target-Language Examples
+
+Target language: Bahasa Indonesia.
+
+Indonesian AI-like:
+
+> Di era digital yang terus berkembang, solusi inovatif ini menjadi kunci penting untuk meningkatkan produktivitas.
+
+Natural Indonesian:
+
+> Alat ini membantu tim bekerja lebih rapi dan mengurangi pekerjaan berulang.
+
+Formal Indonesian:
+
+> Alat ini membantu tim bekerja lebih tertata dan mengurangi pekerjaan berulang.
+
 ## Default Humanizer
 
 Before:

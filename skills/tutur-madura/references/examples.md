@@ -1,5 +1,27 @@
 # Examples
 
+## Target-Language Examples
+
+Everyday/community:
+
+> Ayo ajaga basa Madhura.
+
+Meaning:
+
+> Mari menjaga bahasa Madura.
+
+Polite phrase:
+
+> Mator sakalangkong.
+
+Meaning:
+
+> Terima kasih.
+
+Note:
+
+Use these as short examples only. For Sumenep, Bawean, Bangkalan, Pamekasan, Sampang, or Tapal Kuda context, ask for the local target before expanding the sentence.
+
 ## Register Check
 
 Input:

@@ -1,5 +1,27 @@
 # Examples
 
+## Target-Language Examples
+
+Everyday Minangkabau-oriented:
+
+> Mari kito jago baso Minang.
+
+Meaning:
+
+> Mari kita jaga bahasa Minang.
+
+Public/community variant:
+
+> Basamo kito rawat baso jo budaya Minang.
+
+Meaning:
+
+> Bersama kita rawat bahasa dan budaya Minang.
+
+Note:
+
+Use these for ordinary community copy. For adat, title, kinship, or ceremonial wording, ask for local review.
+
 ## Source-Aware Generation
 
 Input:

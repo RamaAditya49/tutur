@@ -41,6 +41,10 @@ REQUIRED_USAGE_MARKERS = [
     "## Review Checklist",
 ]
 
+REQUIRED_EXAMPLE_MARKERS = [
+    "## Target-Language Examples",
+]
+
 
 def check_skill(skill_dir: Path) -> list[str]:
     errors: list[str] = []
@@ -75,6 +79,13 @@ def check_skill(skill_dir: Path) -> list[str]:
                 errors.append(f"{skill_dir.name}: usage-patterns.md missing {marker}")
         if len(text.strip().splitlines()) < 24:
             errors.append(f"{skill_dir.name}: usage-patterns.md is too thin")
+
+    examples = skill_dir / "references/examples.md"
+    if examples.exists():
+        text = examples.read_text(encoding="utf-8")
+        for marker in REQUIRED_EXAMPLE_MARKERS:
+            if marker not in text:
+                errors.append(f"{skill_dir.name}: examples.md missing {marker}")
 
     return errors
 

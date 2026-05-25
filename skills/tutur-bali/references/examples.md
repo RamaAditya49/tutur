@@ -1,5 +1,27 @@
 # Examples
 
+## Target-Language Examples
+
+Everyday greeting:
+
+> Rahajeng semeng.
+
+Meaning:
+
+> Selamat pagi.
+
+Community/public phrase:
+
+> Mangda sareng-sareng nglestariang basa Bali.
+
+Meaning:
+
+> Mari bersama-sama melestarikan bahasa Bali.
+
+Note:
+
+Use these for ordinary greeting/community copy. For temple, adat, ritual, or status-sensitive wording, ask for expert review.
+
 ## Register Check
 
 Input:

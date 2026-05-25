@@ -1,5 +1,27 @@
 # Examples
 
+## Target-Language Examples
+
+Ngoko/everyday:
+
+> Ayo padha njaga basa Jawa.
+
+Meaning:
+
+> Mari kita menjaga bahasa Jawa.
+
+Krama/public:
+
+> Mangga sami nguri-uri basa Jawi.
+
+Meaning:
+
+> Mari bersama-sama melestarikan bahasa Jawa.
+
+Note:
+
+Use ngoko for familiar contexts and krama for public, elder-facing, or formal contexts.
+
 ## Register Check
 
 Input:

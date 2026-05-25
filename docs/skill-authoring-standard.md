@@ -47,7 +47,7 @@ references/lexicon.md
 - Prefer official Badan Bahasa, Balai Bahasa, Labbineka, Peta Bahasa, or Glottolog references.
 - State source confidence clearly.
 - Add dialect and register warnings.
-- Include sample prompts, local mirror notes, usage patterns, and safe output shapes.
+- Include sample prompts, local mirror notes, usage patterns, safe output shapes, and actual target-language examples.
 
 ## Court Register Rules
 

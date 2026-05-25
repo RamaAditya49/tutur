@@ -292,6 +292,14 @@ Use this skill for:
         f"""
 # Examples
 
+## Target-Language Examples
+
+Use this section for actual Bahasa {language} examples after verified vocabulary, phrases, or native-speaker samples are available.
+
+- Indonesian: "Mari jaga bahasa daerah kita."
+- Bahasa {language}: `[add verified Bahasa {language} sentence here]`
+- Note: keep unverified words in Indonesian and mark them for review.
+
 ## Source-Aware Generation
 
 Input:

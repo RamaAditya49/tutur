@@ -1,5 +1,27 @@
 # Examples
 
+## Target-Language Examples
+
+Bagongan-inspired:
+
+> Menawi pakenira kersa, manira badhe rawuh benjang enjing.
+
+Meaning:
+
+> Jika Anda berkenan, saya/kami akan datang besok pagi.
+
+Formal explanation:
+
+> Kaaturaken bilih pepanggihan dipunundur rumiyin.
+
+Meaning:
+
+> Disampaikan bahwa pertemuan ditunda dahulu.
+
+Note:
+
+These are working Bagongan-inspired examples, not verified palace protocol.
+
 ## Light Bagongan Flavor
 
 Input:

@@ -1,5 +1,27 @@
 # Examples
 
+## Target-Language Examples
+
+Surakarta-leaning court-inspired:
+
+> Kula nyuwun idin ngaturaken pawartos bilih adicara badhe kawiwitan tabuh wolu dalu.
+
+Meaning:
+
+> Kami mohon izin menyampaikan kabar bahwa acara akan dimulai pukul delapan malam.
+
+Respectful blessing:
+
+> Mugi kulawarga ageng tansah pinaringan wilujeng saha katentreman.
+
+Meaning:
+
+> Semoga keluarga besar selalu diberi keselamatan dan ketenteraman.
+
+Note:
+
+These are working court-inspired examples, not verified palace protocol.
+
 ## Light Court Flavor
 
 Input:

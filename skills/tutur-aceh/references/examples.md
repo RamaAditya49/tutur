@@ -1,5 +1,23 @@
 # Examples
 
+## Target-Language Examples
+
+Source-backed Aceh example from KBDA:
+
+> Jak tapeureuno aneuk geutanyoe mariet basa Aceh.
+
+Meaning:
+
+> Mari ajarkan anak kita berbahasa Aceh.
+
+Short poster variant:
+
+> Jak tapeureuno aneuk geutanyoe mariet basa Aceh.
+
+Note:
+
+Use this as a verified short example pattern. For a broader slogan such as "Mari jaga bahasa daerah kita", keep uncertain terms marked or ask for a speaker check.
+
 ## Source-Aware Adaptation
 
 Input:

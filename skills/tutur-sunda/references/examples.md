@@ -1,5 +1,27 @@
 # Examples
 
+## Target-Language Examples
+
+Everyday/loma:
+
+> Hayu urang ngamumule basa Sunda.
+
+Meaning:
+
+> Mari kita melestarikan bahasa Sunda.
+
+Polite public:
+
+> Mangga urang sami-sami ngamumule basa Sunda.
+
+Meaning:
+
+> Mari kita bersama-sama melestarikan bahasa Sunda.
+
+Note:
+
+Use the polite form for school, public, or elder-facing contexts unless the user asks for casual tone.
+
 ## Register Check
 
 Input:

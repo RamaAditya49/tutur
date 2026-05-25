@@ -185,6 +185,7 @@ This checks:
 - skill metadata with the skill validator,
 - required local resource files,
 - basic sample sections in the offline mirror files,
+- target-language examples in every `examples.md`,
 - the Indonesian AI-phrase scanner smoke test.
 
 ## Research Base

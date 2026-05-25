@@ -80,6 +80,8 @@ It must not bulk-copy copyrighted dictionaries, books, articles, or PDFs. Mirror
 
 `examples.md` should include realistic requests and safe answer patterns. For low-resource languages, examples may show how to ask for context or avoid false fluency instead of pretending the agent can translate anything.
 
+Every `examples.md` must include `## Target-Language Examples` with actual output in the target language/register. For low-resource languages, this may be a short verified phrase, source-backed vocabulary phrase, or micro-example with a review note.
+
 ## Validation
 
 Run:
