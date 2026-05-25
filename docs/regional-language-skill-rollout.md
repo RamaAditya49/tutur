@@ -79,6 +79,7 @@ Regional-language skills created:
 - Minangkabau
 - Sunda
 - Jawa
+- Madura
 
 Recommended court-register follow-up:
 
