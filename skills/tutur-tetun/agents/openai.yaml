@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Tetun"
+  short_description: "Bahasa Tetun Belu-Malaka, bukan Dili"
+  default_prompt: "Use $tutur-tetun to adapt this text with a source-aware Bahasa Tetun register."
