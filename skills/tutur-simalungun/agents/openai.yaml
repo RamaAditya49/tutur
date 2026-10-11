@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Simalungun"
+  short_description: "Horas Simalungun, sahap bukan hata Toba"
+  default_prompt: "Use $tutur-simalungun to adapt this text with a source-aware Bahasa Simalungun register."
