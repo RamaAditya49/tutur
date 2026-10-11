@@ -274,6 +274,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-paser",
       "summary": "Source-aware Bahasa Paser generation and review with unlabeled dialect examples."
+    },
+    {
+      "name": "tutur-tidung",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-tidung",
+      "summary": "Source-aware Bahasa Tidung Sesayap generation and review with northern Tidung kept apart."
     }
   ]
 }
