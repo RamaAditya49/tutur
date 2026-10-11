@@ -194,6 +194,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-komering",
       "summary": "Source-aware Bahasa Komering generation and review, separate from Lampung."
+    },
+    {
+      "name": "tutur-karo",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-karo",
+      "summary": "Source-aware Bahasa Karo generation and review without Toba greetings."
     }
   ]
 }
