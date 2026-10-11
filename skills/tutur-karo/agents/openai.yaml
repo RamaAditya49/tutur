@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Karo"
+  short_description: "Mejuah-juah dan bujur, cakap Karo"
+  default_prompt: "Use $tutur-karo to adapt this text with a source-aware Bahasa Karo register."
