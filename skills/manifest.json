@@ -378,6 +378,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-dawan",
       "summary": "Source-aware Bahasa Dawan / Uab Meto generation and review with valley limits."
+    },
+    {
+      "name": "tutur-tetun",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-tetun",
+      "summary": "Source-aware Belu and Malaka Tetun generation and review, separate from Tetun Dili."
     }
   ]
 }
