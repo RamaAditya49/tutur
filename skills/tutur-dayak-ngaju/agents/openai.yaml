@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Dayak Ngaju"
+  short_description: "Ngaju hulu sungai, bukan Dayak lain"
+  default_prompt: "Use $tutur-dayak-ngaju to adapt this text with a source-aware Bahasa Ngaju register."
