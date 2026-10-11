@@ -314,6 +314,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-tolaki",
       "summary": "Source-aware Bahasa Tolaki generation and review, separate from Muna and Wolio."
+    },
+    {
+      "name": "tutur-muna",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-muna",
+      "summary": "Source-aware Bahasa Muna generation and review with infix spelling kept visible."
     }
   ]
 }

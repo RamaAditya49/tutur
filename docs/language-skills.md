@@ -54,6 +54,7 @@ This document gives agentic tools a compact index of Tutur's current language an
 | `tutur-toraja` | Visit greeting `manasumo raka?` and short lines such as `puntingku`. | This is Toraja-Sa'dan as documented, not a funeral register. | Review required for Rambu Solo and aluk. | Do not invent funeral or aluk formulas. Belonging sits at the end of the noun. |
 | `tutur-mandar` | `meloaq ummande`, `tabeq`, and `diang karewa macoa u tarima`. | Glottal is written `q` in this dictionary. | Review required for adat and for Balanipa, Banggae, and Pamboang. | Not Bugis and not Makassar. Respectful you is `itaq`. |
 | `tutur-tolaki` | Open with `tabea` or `tabee`, then the request. | Six Peta Bahasa dialects stay apart. | Review required for adat. | Not Muna and not Wolio. `tabea inggomiu` is for peers, not for talking down to a child. |
+| `tutur-muna` | Street greeting `o-k[um]ala ne hamai?` from van den Berg. | Brackets mark an infix. They are not letters to read aloud. | Review required for other Muna dialects and adat. | Not Wolio and not Tolaki. The language name in these lines is `wamba Wuna`. |
 
 ## Agent Loading Rule
 

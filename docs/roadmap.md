@@ -47,6 +47,7 @@
   - `tutur-toraja`
   - `tutur-mandar`
   - `tutur-tolaki`
+  - `tutur-muna`
 - Add court-register skills:
   - `tutur-kedhaton-solo`
   - `tutur-bagongan-jogja`
