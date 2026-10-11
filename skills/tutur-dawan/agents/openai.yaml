@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Dawan"
+  short_description: "Bahasa Dawan Uab Meto, sebut ragam"
+  default_prompt: "Use $tutur-dawan to adapt this text with a source-aware Bahasa Dawan register."
