@@ -38,6 +38,7 @@
   - `tutur-pakpak`
   - `tutur-nias`
   - `tutur-mentawai`
+  - `tutur-dayak-ngaju`
 - Add court-register skills:
   - `tutur-kedhaton-solo`
   - `tutur-bagongan-jogja`

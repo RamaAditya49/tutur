@@ -242,6 +242,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-mentawai",
       "summary": "Source-aware Bahasa Mentawai generation and review with island and ritual limits."
+    },
+    {
+      "name": "tutur-dayak-ngaju",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-dayak-ngaju",
+      "summary": "Source-aware Bahasa Ngaju generation and review, not a cover for other Dayak languages."
     }
   ]
 }

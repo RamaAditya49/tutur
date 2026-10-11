@@ -45,6 +45,7 @@ This document gives agentic tools a compact index of Tutur's current language an
 | `tutur-pakpak` | `njuah-njuah` and `njuah-njuah mo kita karinana` from the Pakpak book. | Name the suak before public use. | Review required for adat and script. | Not Karo `mejuah-juah` and not Horas. `tulanmu` means your bone, not uncle. |
 | `tutur-nias` | `Ya'ahowu`, answered with the same word, plus `Ono Niha` and `Li Niha`. | After the greeting, the errand stays Indonesian. | Review required for adat, healing, and wedding formulas. | Do not invent a Nias ceremony around the greeting. |
 | `tutur-mentawai` | `abekia` for kabar and `surak` or `sura'` for thanks when the dictionary gloss is the source. | Island and office facts stay Indonesian. Office-wall names stay unglossed. | Review required for uma, sikerei, healing, and wedding. | Do not force one spelling across Siberut, Sipora, and Pagai. |
+| `tutur-dayak-ngaju` | Ngaju lines such as `dohop ikei` and `tarima kasih` from the 2013 dictionary. | This folder is Ngaju only. | Review required for ritual and for any other Dayak language. | `ngaju` means upstream. It is not the name of every Dayak language. |
 
 ## Agent Loading Rule
 
