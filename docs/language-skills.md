@@ -51,6 +51,7 @@ This document gives agentic tools a compact index of Tutur's current language an
 | `tutur-paser` | `selamat ma`, `ise kabar iko?`, and `tabe depo ulun tuo`. | Dictionary examples are not labeled by village. | Review required for soyong and adat. | `iko` is you. Do not swap in Kutai `awak` or `mendi`. |
 | `tutur-tidung` | Sesayap lines such as `kenjulu tupar seluarku` from the Salimbatu study. | Northern Tidung is a different ISO code. | Review required for other dialects and adat. | Not Kutai and not Banjar. Possession sticks to the noun. |
 | `tutur-bajau` | Flores Sea words `ma'i`, `nggai`, `malasso`, and `kampoh` only. | The rest of any message stays Indonesian. | Review required for ceremony and for other Bajau shores. | Not Sabah Bajau, and not one ritual style for every Bajau community. |
+| `tutur-toraja` | Visit greeting `manasumo raka?` and short lines such as `puntingku`. | This is Toraja-Sa'dan as documented, not a funeral register. | Review required for Rambu Solo and aluk. | Do not invent funeral or aluk formulas. Belonging sits at the end of the noun. |
 
 ## Agent Loading Rule
 

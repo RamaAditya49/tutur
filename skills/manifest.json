@@ -290,6 +290,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-bajau",
       "summary": "Source-aware Bahasa Bajo Flores Sea words with no pan-Bajau ceremony."
+    },
+    {
+      "name": "tutur-toraja",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-toraja",
+      "summary": "Source-aware Bahasa Toraja-Sa'dan generation and review with funeral language excluded."
     }
   ]
 }
