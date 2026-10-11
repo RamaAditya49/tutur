@@ -186,6 +186,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-kerinci",
       "summary": "Source-aware Bahasa Kerinci Siulak words with no invented full sentences."
+    },
+    {
+      "name": "tutur-komering",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-komering",
+      "summary": "Source-aware Bahasa Komering generation and review, separate from Lampung."
     }
   ]
 }

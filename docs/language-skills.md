@@ -38,6 +38,7 @@ This document gives agentic tools a compact index of Tutur's current language an
 | `tutur-palembang` | Everyday lines such as `makan apo kau?` and peer `awak` from the Palembang dictionary. | Keep Bebaso out of family chat. | Review required for keraton Bebaso and upstream Musi. | Do not turn every a into o and call it Palembang. |
 | `tutur-rejang` | Short Lebong address lines such as `Mak gen kabar kumu uyo` when that fieldwork gloss is the source. | Longer text stays Indonesian. | Review required for other Rejang dialects and adat. | Do not treat Curup or Kepahiang as the Lebong sample. |
 | `tutur-kerinci` | Siulak picture-dictionary words such as `umah`, `lawang`, and `sinanyan`. | Messages stay mixed because the book has words, not sentences. | Review required for other Kerinci kecamatan and adat. | `abang` on the color page means red, not older brother. |
+| `tutur-komering` | `tabik` when passing seated elders, plus `nyak` and `niku`, from the Komering dictionary. | Operational detail stays Indonesian. | Review required for adat and unlabeled dialect examples. | `tabik` here is not Lampung `tabik pun`. |
 
 ## Agent Loading Rule
 
