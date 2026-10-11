@@ -51,6 +51,7 @@
   - `tutur-wolio`
   - `tutur-gorontalo`
   - `tutur-minahasa-tombulu`
+  - `tutur-bima`
 - Add court-register skills:
   - `tutur-kedhaton-solo`
   - `tutur-bagongan-jogja`

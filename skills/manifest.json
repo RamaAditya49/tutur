@@ -346,6 +346,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-minahasa-tombulu",
       "summary": "Source-aware Bahasa Tombulu generation and review, separate from other Minahasa languages."
+    },
+    {
+      "name": "tutur-bima",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-bima",
+      "summary": "Source-aware Bahasa Bima generation and review with speech-level pronouns."
     }
   ]
 }

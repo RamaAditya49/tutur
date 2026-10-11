@@ -105,7 +105,8 @@ for skill in \
   tutur-muna \
   tutur-wolio \
   tutur-gorontalo \
-  tutur-minahasa-tombulu
+  tutur-minahasa-tombulu \
+  tutur-bima
 do
   npx --yes clawhub --workdir "$HOME/.openclaw/workspace" --dir skills install "$skill"
 done

@@ -58,6 +58,7 @@ This document gives agentic tools a compact index of Tutur's current language an
 | `tutur-wolio` | `tabea`, `tulungi`, `inda pokia`, and `yapai ta porope ingkita?` from the 1985 dictionary. | Words in that dictionary end in a vowel. | Review required for Keraton and sara language in Baadia. | Not Muna. Respectful you is `ingkita`. |
 | `tutur-gorontalo` | `Wolo habali?` for kabar and `Odu'olo` for thanks. | Not Manado Malay. | Review required for dialect spelling and for teknonyms. | Do not merge Kota, Suwawa, Atinggola, and Bolango into one spelling. |
 | `tutur-minahasa-tombulu` | `Syambae` and `Kura-mo?` as short greetings. | Do not paste Tombulu words onto Melayu Manado. | Review required for dialect and adat. | Not Tonsea, Tontemboan, or Toulour. Phrase-table greetings are support, not a full grammar. |
+| `tutur-bima` | Pronoun split `mada`/`ita` versus `nahu`/`nggomi`, plus short address lines. | Not Samawa and not Sasak. | Review required for adat and for nickname sound changes. | One addressee gets one pronoun set. Do not invent a new honorific name. |
 
 ## Agent Loading Rule
 

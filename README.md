@@ -63,6 +63,7 @@ Tutur is not a "translate everything confidently" package. Indonesian regional l
 | `tutur-wolio` | Ready | Yes | Produce or review Bahasa Wolio from the 1985 dictionary, with court language left alone. |
 | `tutur-gorontalo` | Ready | Yes | Produce or review Bahasa Gorontalo greetings from the conversation book, not Melayu Manado. |
 | `tutur-minahasa-tombulu` | Ready | Yes | Produce or review Bahasa Tombulu greetings without mixing them into Manado Malay. |
+| `tutur-bima` | Ready | Yes | Produce or review Nggahi Mbojo with the halus and kasa pronouns kept apart. |
 
 Planned skills:
 
@@ -153,7 +154,8 @@ tutur/
     ├── tutur-muna/
     ├── tutur-wolio/
     ├── tutur-gorontalo/
-    └── tutur-minahasa-tombulu/
+    ├── tutur-minahasa-tombulu/
+    └── tutur-bima/
 ```
 
 ## Quick Install
@@ -214,7 +216,8 @@ for skill in \
   tutur-muna \
   tutur-wolio \
   tutur-gorontalo \
-  tutur-minahasa-tombulu
+  tutur-minahasa-tombulu \
+  tutur-bima
 do
   npx --yes clawhub --workdir ~/.openclaw/workspace --dir skills install "$skill"
 done
