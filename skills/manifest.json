@@ -402,6 +402,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-ternate",
       "summary": "Source-aware Bahasa Ternate generation and review, separate from Tidore and Ternate Malay."
+    },
+    {
+      "name": "tutur-papua-malay",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-papua-malay",
+      "summary": "Source-aware Melayu Papua generation and review, limited to that Malay variety."
     }
   ]
 }

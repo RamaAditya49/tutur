@@ -112,7 +112,8 @@ for skill in \
   tutur-dawan \
   tutur-tetun \
   tutur-ambon-malay \
-  tutur-ternate
+  tutur-ternate \
+  tutur-papua-malay
 do
   npx --yes clawhub --workdir "$HOME/.openclaw/workspace" --dir skills install "$skill"
 done

@@ -65,6 +65,7 @@ This document gives agentic tools a compact index of Tutur's current language an
 | `tutur-tetun` | Belu and Malaka lines such as `He'e` and `Mai Bapa ita lao`. | Tetun Dili is a separate register. | Review required for adat and for official Tetun. | Do not mix Belu `hau`/`lao` with Fehan `ha'u`/`la'o` in one message. |
 | `tutur-ambon-malay` | Whole lines such as `Ale mo pi mana`, with `beta`, `ose`, and `katong`. | This is a Malay contact variety, not bahasa tanah. | Review required before using it for another Maluku language. | Do not glue Ambon particles onto a formal Indonesian brochure. |
 | `tutur-ternate` | `ngori` with `to-` on the verb, and rank-based pronouns from the sketch. | Not Tidore and not Melayu Ternate. | Review required for sultanate court language. | Do not write Indonesian and stick `ngori` on the front. |
+| `tutur-papua-malay` | Corpus lines with `sa`, `ko`, `pace`, `kitong`, and `jangang`. | This skill is Papuan Malay only. | Review required before treating any other Papuan language as covered. | Not Dani, Biak, Sentani, or Asmat. The negative is `jangang`, not Ambonese `jang`. |
 
 ## Agent Loading Rule
 

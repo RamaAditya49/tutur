@@ -101,6 +101,8 @@ Regional-language skills created:
 - Madura
 - Bali
 
+The live list is `docs/language-rollout-queue.md`. The batch from Betawi through Papuan Malay is ready as source-aware skills. Hundreds of mapped languages are still unwritten on purpose.
+
 Recommended court-register follow-up:
 
 - Mangkunegaran

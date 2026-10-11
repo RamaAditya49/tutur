@@ -82,10 +82,29 @@ If a language has speech levels, dialects, or ritual restrictions, those must ap
 - `tutur-tetun`
 - `tutur-ambon-malay`
 - `tutur-ternate`
+- `tutur-papua-malay`
 
 ## Active Queue
 
-1. `tutur-papua-malay`
+The Betawi-through-Papuan-Malay batch is now under Current Ready Skills. Hundreds of mapped languages remain. Do not generate them by swapping a language name into one template. Research one language from Badan Bahasa, Balai Bahasa, and Peta Bahasa, and stop when a local line cannot be quoted.
+
+1. `tutur-melayu-manado`
+2. `tutur-melayu-kupang`
+3. `tutur-melayu-riau`
+4. `tutur-jambi`
+5. `tutur-besemah`
+6. `tutur-osing`
+7. `tutur-banyumasan`
+8. `tutur-kaili-ledo`
+9. `tutur-banggai`
+10. `tutur-iban`
+11. `tutur-kenyah`
+12. `tutur-biak`
+13. `tutur-dani`
+14. `tutur-galela`
+15. `tutur-tobelo`
+16. `tutur-buru`
+17. `tutur-kei`
 
 This queue is intentionally not final. After each batch, add the next documented languages from Labbineka/Peta Bahasa and continue.
 
