@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Mentawai"
+  short_description: "Sapaan Mentawai lintas pulau"
+  default_prompt: "Use $tutur-mentawai to adapt this text with a source-aware Bahasa Mentawai register."
