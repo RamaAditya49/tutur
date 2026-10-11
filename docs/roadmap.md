@@ -33,6 +33,7 @@
   - `tutur-kerinci`
   - `tutur-komering`
   - `tutur-karo`
+  - `tutur-simalungun`
 - Add court-register skills:
   - `tutur-kedhaton-solo`
   - `tutur-bagongan-jogja`
