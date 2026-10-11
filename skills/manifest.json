@@ -226,6 +226,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-pakpak",
       "summary": "Source-aware Bahasa Pakpak generation and review, separate from Karo and Toba."
+    },
+    {
+      "name": "tutur-nias",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-nias",
+      "summary": "Source-aware Bahasa Nias generation and review with ceremony left to speakers."
     }
   ]
 }

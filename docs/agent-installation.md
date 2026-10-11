@@ -90,7 +90,8 @@ for skill in \
   tutur-karo \
   tutur-simalungun \
   tutur-mandailing \
-  tutur-pakpak
+  tutur-pakpak \
+  tutur-nias
 do
   npx --yes clawhub --workdir "$HOME/.openclaw/workspace" --dir skills install "$skill"
 done

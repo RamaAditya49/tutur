@@ -36,6 +36,7 @@
   - `tutur-simalungun`
   - `tutur-mandailing`
   - `tutur-pakpak`
+  - `tutur-nias`
 - Add court-register skills:
   - `tutur-kedhaton-solo`
   - `tutur-bagongan-jogja`
