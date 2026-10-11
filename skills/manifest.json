@@ -154,6 +154,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-lampung",
       "summary": "Source-aware Bahasa Lampung generation and review with Api/A, Nyo/O, and aksara caution."
+    },
+    {
+      "name": "tutur-betawi",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-betawi",
+      "summary": "Source-aware Bahasa Betawi generation and review with pronoun and kampung caution."
     }
   ]
 }
