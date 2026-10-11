@@ -330,6 +330,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-wolio",
       "summary": "Source-aware Bahasa Wolio generation and review with Baadia court language excluded."
+    },
+    {
+      "name": "tutur-gorontalo",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-gorontalo",
+      "summary": "Source-aware Bahasa Gorontalo generation and review, separate from Manado Malay."
     }
   ]
 }

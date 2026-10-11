@@ -56,6 +56,7 @@ This document gives agentic tools a compact index of Tutur's current language an
 | `tutur-tolaki` | Open with `tabea` or `tabee`, then the request. | Six Peta Bahasa dialects stay apart. | Review required for adat. | Not Muna and not Wolio. `tabea inggomiu` is for peers, not for talking down to a child. |
 | `tutur-muna` | Street greeting `o-k[um]ala ne hamai?` from van den Berg. | Brackets mark an infix. They are not letters to read aloud. | Review required for other Muna dialects and adat. | Not Wolio and not Tolaki. The language name in these lines is `wamba Wuna`. |
 | `tutur-wolio` | `tabea`, `tulungi`, `inda pokia`, and `yapai ta porope ingkita?` from the 1985 dictionary. | Words in that dictionary end in a vowel. | Review required for Keraton and sara language in Baadia. | Not Muna. Respectful you is `ingkita`. |
+| `tutur-gorontalo` | `Wolo habali?` for kabar and `Odu'olo` for thanks. | Not Manado Malay. | Review required for dialect spelling and for teknonyms. | Do not merge Kota, Suwawa, Atinggola, and Bolango into one spelling. |
 
 ## Agent Loading Rule
 

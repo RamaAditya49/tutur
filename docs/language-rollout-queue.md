@@ -73,19 +73,19 @@ If a language has speech levels, dialects, or ritual restrictions, those must ap
 - `tutur-tolaki`
 - `tutur-muna`
 - `tutur-wolio`
+- `tutur-gorontalo`
 
 ## Active Queue
 
-1. `tutur-gorontalo`
-2. `tutur-minahasa-tombulu`
-3. `tutur-bima`
-4. `tutur-sumbawa`
-5. `tutur-manggarai`
-6. `tutur-dawan`
-7. `tutur-tetun`
-8. `tutur-ambon-malay`
-9. `tutur-ternate`
-10. `tutur-papua-malay`
+1. `tutur-minahasa-tombulu`
+2. `tutur-bima`
+3. `tutur-sumbawa`
+4. `tutur-manggarai`
+5. `tutur-dawan`
+6. `tutur-tetun`
+7. `tutur-ambon-malay`
+8. `tutur-ternate`
+9. `tutur-papua-malay`
 
 This queue is intentionally not final. After each batch, add the next documented languages from Labbineka/Peta Bahasa and continue.
 
