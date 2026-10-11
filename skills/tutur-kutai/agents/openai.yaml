@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Kutai"
+  short_description: "Kutai Tenggarong, bukan Banjar"
+  default_prompt: "Use $tutur-kutai to adapt this text with a source-aware Bahasa Kutai register."
