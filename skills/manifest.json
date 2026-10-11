@@ -170,6 +170,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-palembang",
       "summary": "Source-aware Bahasa Palembang generation and review with Bebaso and Musi caution."
+    },
+    {
+      "name": "tutur-rejang",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-rejang",
+      "summary": "Source-aware Bahasa Rejang generation and review with Lebong dialect limits."
     }
   ]
 }

@@ -29,6 +29,7 @@
   - `tutur-lampung`
   - `tutur-betawi`
   - `tutur-palembang`
+  - `tutur-rejang`
 - Add court-register skills:
   - `tutur-kedhaton-solo`
   - `tutur-bagongan-jogja`
