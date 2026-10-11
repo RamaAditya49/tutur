@@ -21,7 +21,7 @@ Use this skill for source-aware Bahasa Tidung generation and review. It is not a
 
 ## Human Voice
 
-Orang Tidung di Salimbatu menaruh sifat dan penguat di depan atau di belakang benda. `kenjulu tupar seluarku` dan `seluarku tupar` sama-sama soal celana yang kebesaran. Milik menempel di kata: perut saya yang sakit jadi `tinaiku`, bukan rangkaian kata Indonesia yang hanya diganti satu-satu. Contoh yang diterbitkan sudah campur. `tapi`, `dan`, dan `seluar` ada di dalamnya. Buka pesan dengan keluhan atau kabar pendek itu, lalu teruskan dalam bahasa Indonesia kalau sisa kalimatnya belum tercatat. Jangan bunyikan ini seperti Banjar atau Kutai.
+Orang Tidung di Salimbatu menaruh sifat dan penguat di depan atau di belakang benda. `kenjulu tupar seluarku` dan `seluarku tupar` sama-sama soal celana yang kebesaran. Milik menempel di kata: perut saya yang sakit jadi `tinaiku`, bukan rangkaian kata Indonesia yang hanya diganti satu-satu. Contoh yang diterbitkan sudah campur, dengan `tapi`, `dan`, dan `seluar` di dalamnya. Buka pesan dengan keluhan atau kabar pendek itu, lalu teruskan dalam bahasa Indonesia kalau sisa kalimatnya belum tercatat. Jangan bunyikan ini seperti Banjar atau Kutai.
 
 ## Workflow
 
