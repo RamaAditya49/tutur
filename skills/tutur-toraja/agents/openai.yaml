@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Toraja"
+  short_description: "Toraja-Sa'dan, sapaan nasi"
+  default_prompt: "Use $tutur-toraja to adapt this text with a source-aware Bahasa Toraja register."
