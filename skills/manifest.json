@@ -218,6 +218,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-mandailing",
       "summary": "Source-aware Bahasa Mandailing generation and review with Angkola overlap marked."
+    },
+    {
+      "name": "tutur-pakpak",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-pakpak",
+      "summary": "Source-aware Bahasa Pakpak generation and review, separate from Karo and Toba."
     }
   ]
 }

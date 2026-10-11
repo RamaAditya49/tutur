@@ -59,33 +59,33 @@ If a language has speech levels, dialects, or ritual restrictions, those must ap
 - `tutur-karo`
 - `tutur-simalungun`
 - `tutur-mandailing`
+- `tutur-pakpak`
 
 ## Active Queue
 
-1. `tutur-pakpak`
-2. `tutur-nias`
-3. `tutur-mentawai`
-4. `tutur-dayak-ngaju`
-5. `tutur-maanyan`
-6. `tutur-kutai`
-7. `tutur-paser`
-8. `tutur-tidung`
-9. `tutur-bajau`
-10. `tutur-toraja`
-11. `tutur-mandar`
-12. `tutur-tolaki`
-13. `tutur-muna`
-14. `tutur-wolio`
-15. `tutur-gorontalo`
-16. `tutur-minahasa-tombulu`
-17. `tutur-bima`
-18. `tutur-sumbawa`
-19. `tutur-manggarai`
-20. `tutur-dawan`
-21. `tutur-tetun`
-22. `tutur-ambon-malay`
-23. `tutur-ternate`
-24. `tutur-papua-malay`
+1. `tutur-nias`
+2. `tutur-mentawai`
+3. `tutur-dayak-ngaju`
+4. `tutur-maanyan`
+5. `tutur-kutai`
+6. `tutur-paser`
+7. `tutur-tidung`
+8. `tutur-bajau`
+9. `tutur-toraja`
+10. `tutur-mandar`
+11. `tutur-tolaki`
+12. `tutur-muna`
+13. `tutur-wolio`
+14. `tutur-gorontalo`
+15. `tutur-minahasa-tombulu`
+16. `tutur-bima`
+17. `tutur-sumbawa`
+18. `tutur-manggarai`
+19. `tutur-dawan`
+20. `tutur-tetun`
+21. `tutur-ambon-malay`
+22. `tutur-ternate`
+23. `tutur-papua-malay`
 
 This queue is intentionally not final. After each batch, add the next documented languages from Labbineka/Peta Bahasa and continue.
 
