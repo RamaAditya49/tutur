@@ -362,6 +362,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-sumbawa",
       "summary": "Source-aware Bahasa Sumbawa Besar generation and review with other Samawa dialects unmarked."
+    },
+    {
+      "name": "tutur-manggarai",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-manggarai",
+      "summary": "Source-aware Bahasa Manggarai words with dialect and adat left open."
     }
   ]
 }
