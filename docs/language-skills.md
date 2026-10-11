@@ -59,6 +59,7 @@ This document gives agentic tools a compact index of Tutur's current language an
 | `tutur-gorontalo` | `Wolo habali?` for kabar and `Odu'olo` for thanks. | Not Manado Malay. | Review required for dialect spelling and for teknonyms. | Do not merge Kota, Suwawa, Atinggola, and Bolango into one spelling. |
 | `tutur-minahasa-tombulu` | `Syambae` and `Kura-mo?` as short greetings. | Do not paste Tombulu words onto Melayu Manado. | Review required for dialect and adat. | Not Tonsea, Tontemboan, or Toulour. Phrase-table greetings are support, not a full grammar. |
 | `tutur-bima` | Pronoun split `mada`/`ita` versus `nahu`/`nggomi`, plus short address lines. | Not Samawa and not Sasak. | Review required for adat and for nickname sound changes. | One addressee gets one pronoun set. Do not invent a new honorific name. |
+| `tutur-sumbawa` | Sumbawa Besar `Apa rungan, Kanti?` and short glossed requests. | Taliwang, Jereweh, and Tongo are named and not filled in. | Review required for adat. | Not Bima and not Sasak. `kaji`, `diri nan`, and `sia` are not interchangeable. |
 
 ## Agent Loading Rule
 

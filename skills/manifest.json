@@ -354,6 +354,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-bima",
       "summary": "Source-aware Bahasa Bima generation and review with speech-level pronouns."
+    },
+    {
+      "name": "tutur-sumbawa",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-sumbawa",
+      "summary": "Source-aware Bahasa Sumbawa Besar generation and review with other Samawa dialects unmarked."
     }
   ]
 }
