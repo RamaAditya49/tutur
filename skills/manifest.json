@@ -282,6 +282,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-tidung",
       "summary": "Source-aware Bahasa Tidung Sesayap generation and review with northern Tidung kept apart."
+    },
+    {
+      "name": "tutur-bajau",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-bajau",
+      "summary": "Source-aware Bahasa Bajo Flores Sea words with no pan-Bajau ceremony."
     }
   ]
 }

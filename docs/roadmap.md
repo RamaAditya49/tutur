@@ -43,6 +43,7 @@
   - `tutur-kutai`
   - `tutur-paser`
   - `tutur-tidung`
+  - `tutur-bajau`
 - Add court-register skills:
   - `tutur-kedhaton-solo`
   - `tutur-bagongan-jogja`
