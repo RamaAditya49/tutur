@@ -210,6 +210,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-simalungun",
       "summary": "Source-aware Bahasa Simalungun generation and review with horas limits."
+    },
+    {
+      "name": "tutur-mandailing",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-mandailing",
+      "summary": "Source-aware Bahasa Mandailing generation and review with Angkola overlap marked."
     }
   ]
 }

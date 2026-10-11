@@ -41,6 +41,7 @@ This document gives agentic tools a compact index of Tutur's current language an
 | `tutur-komering` | `tabik` when passing seated elders, plus `nyak` and `niku`, from the Komering dictionary. | Operational detail stays Indonesian. | Review required for adat and unlabeled dialect examples. | `tabik` here is not Lampung `tabik pun`. |
 | `tutur-karo` | `mejuah-juah` and `bujur` from the Karo dictionary. | The rest of the message stays Indonesian. | Review required for kinship, adat, and script. | Do not import Toba `Horas` or `Mauliate`. |
 | `tutur-simalungun` | `horas` as the dictionary meeting greeting, and short lines such as `ulang ho hanam i jin`. | Words missing from that file stay Indonesian. | Review required for adat and lemmas tagged Tb. | `mauliate` is not in the dictionary file used here. |
+| `tutur-mandailing` | `santabi di hamu sude` and `mauliate` from the Angkola-Mandailing dictionary. | Keep Angkola-only labels out of a Mandailing request. | Review required for adat, marga, and kinship. | Do not open a Mandailing chat with Toba-style Horas. |
 
 ## Agent Loading Rule
 

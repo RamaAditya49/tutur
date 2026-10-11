@@ -46,6 +46,7 @@ Tutur is not a "translate everything confidently" package. Indonesian regional l
 | `tutur-komering` | Ready | Yes | Produce or review Bahasa Komering without treating it as Bahasa Lampung. |
 | `tutur-karo` | Ready | Yes | Produce or review cakap Karo from dictionary lines, separate from Batak Toba. |
 | `tutur-simalungun` | Ready | Yes | Produce or review Bahasa Simalungun from the Balai Bahasa dictionary, not from Toba. |
+| `tutur-mandailing` | Ready | Yes | Produce or review Bahasa Mandailing from the shared Angkola-Mandailing dictionary. |
 
 Planned skills:
 
@@ -119,7 +120,8 @@ tutur/
     ├── tutur-kerinci/
     ├── tutur-komering/
     ├── tutur-karo/
-    └── tutur-simalungun/
+    ├── tutur-simalungun/
+    └── tutur-mandailing/
 ```
 
 ## Quick Install
@@ -163,7 +165,8 @@ for skill in \
   tutur-kerinci \
   tutur-komering \
   tutur-karo \
-  tutur-simalungun
+  tutur-simalungun \
+  tutur-mandailing
 do
   npx --yes clawhub --workdir ~/.openclaw/workspace --dir skills install "$skill"
 done
