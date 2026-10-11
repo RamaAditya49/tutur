@@ -66,6 +66,7 @@ Tutur is not a "translate everything confidently" package. Indonesian regional l
 | `tutur-bima` | Ready | Yes | Produce or review Nggahi Mbojo with the halus and kasa pronouns kept apart. |
 | `tutur-sumbawa` | Ready | Yes | Produce or review Bahasa Sumbawa Besar lines without mixing in Bima or Sasak. |
 | `tutur-manggarai` | Ready | Yes | Produce or review short Bahasa Manggarai words with the dialect left unnamed. |
+| `tutur-dawan` | Ready | Yes | Produce or review Bahasa Dawan with the valley named and thanks left uninvented. |
 
 Planned skills:
 
@@ -159,7 +160,8 @@ tutur/
     ├── tutur-minahasa-tombulu/
     ├── tutur-bima/
     ├── tutur-sumbawa/
-    └── tutur-manggarai/
+    ├── tutur-manggarai/
+    └── tutur-dawan/
 ```
 
 ## Quick Install
@@ -223,7 +225,8 @@ for skill in \
   tutur-minahasa-tombulu \
   tutur-bima \
   tutur-sumbawa \
-  tutur-manggarai
+  tutur-manggarai \
+  tutur-dawan
 do
   npx --yes clawhub --workdir ~/.openclaw/workspace --dir skills install "$skill"
 done

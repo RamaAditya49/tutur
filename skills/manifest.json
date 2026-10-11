@@ -370,6 +370,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-manggarai",
       "summary": "Source-aware Bahasa Manggarai words with dialect and adat left open."
+    },
+    {
+      "name": "tutur-dawan",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-dawan",
+      "summary": "Source-aware Bahasa Dawan / Uab Meto generation and review with valley limits."
     }
   ]
 }
