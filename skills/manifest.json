@@ -266,6 +266,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-kutai",
       "summary": "Source-aware Bahasa Kutai Tenggarong generation and review, separate from Kota Bangun."
+    },
+    {
+      "name": "tutur-paser",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-paser",
+      "summary": "Source-aware Bahasa Paser generation and review with unlabeled dialect examples."
     }
   ]
 }

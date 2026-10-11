@@ -41,6 +41,7 @@
   - `tutur-dayak-ngaju`
   - `tutur-maanyan`
   - `tutur-kutai`
+  - `tutur-paser`
 - Add court-register skills:
   - `tutur-kedhaton-solo`
   - `tutur-bagongan-jogja`
