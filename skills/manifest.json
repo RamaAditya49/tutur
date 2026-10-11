@@ -250,6 +250,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-dayak-ngaju",
       "summary": "Source-aware Bahasa Ngaju generation and review, not a cover for other Dayak languages."
+    },
+    {
+      "name": "tutur-maanyan",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-maanyan",
+      "summary": "Source-aware Bahasa Maanyan generation and review with ritual register excluded."
     }
   ]
 }
