@@ -40,6 +40,7 @@ Tutur is not a "translate everything confidently" package. Indonesian regional l
 | `tutur-batak-toba` | Ready | Yes | Produce or review Bahasa Batak Toba with kinship, marga, adat, and script caution. |
 | `tutur-lampung` | Ready | Yes | Produce or review Bahasa Lampung with Api/A, Nyo/O, and aksara caution. |
 | `tutur-betawi` | Ready | Yes | Produce or review Bahasa Betawi from attested Chaer lines, with name-first requests. |
+| `tutur-palembang` | Ready | Yes | Produce or review Bahasa Palembang with sari-ari and Bebaso kept apart. |
 
 Planned skills:
 
@@ -107,7 +108,8 @@ tutur/
     ├── tutur-makassar/
     ├── tutur-batak-toba/
     ├── tutur-lampung/
-    └── tutur-betawi/
+    ├── tutur-betawi/
+    └── tutur-palembang/
 ```
 
 ## Quick Install
@@ -145,7 +147,8 @@ for skill in \
   tutur-makassar \
   tutur-batak-toba \
   tutur-lampung \
-  tutur-betawi
+  tutur-betawi \
+  tutur-palembang
 do
   npx --yes clawhub --workdir ~/.openclaw/workspace --dir skills install "$skill"
 done

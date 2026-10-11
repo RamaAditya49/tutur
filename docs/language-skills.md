@@ -35,6 +35,7 @@ This document gives agentic tools a compact index of Tutur's current language an
 | `tutur-batak-toba` | Everyday Batak Toba greetings such as `Horas`, `Mauliate`, and `Hata Batak Toba` when source-backed. | Use Batak Toba-aware Indonesian with clear public facts. | Review required for adat, wedding, marga, church/ritual, kinship, and Batak script text. | Do not guess kinship terms such as `Amang`, `Inang`, `Lae`, `Ito`, `Tulang`, `Hula-hula`, `Boru`, or `Dongan tubu`. |
 | `tutur-lampung` | Everyday Lampung phrases such as `Tabik pun`, `Api kabar?`, `Nyow kabar?`, and `Kabar wawai` when source-backed. | Use dialect-labelled Lampung-aware Indonesian with clear public facts. | Review required for adat, ritual, wedding, aksara Lampung, and formal public text. | Do not mix Api/A and Nyo/O dialect forms without labeling. |
 | `tutur-betawi` | Requests such as `Bé, beliin Mamat sepédé dong` when the Chaer dictionary covers them. | Keep the errand in Indonesian after the attested request. | Review required for kampung dialect and public print. | Polite lines in that dictionary drop pronouns and use `Bé` or `Bang`. |
+| `tutur-palembang` | Everyday lines such as `makan apo kau?` and peer `awak` from the Palembang dictionary. | Keep Bebaso out of family chat. | Review required for keraton Bebaso and upstream Musi. | Do not turn every a into o and call it Palembang. |
 
 ## Agent Loading Rule
 

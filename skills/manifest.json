@@ -162,6 +162,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-betawi",
       "summary": "Source-aware Bahasa Betawi generation and review with pronoun and kampung caution."
+    },
+    {
+      "name": "tutur-palembang",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-palembang",
+      "summary": "Source-aware Bahasa Palembang generation and review with Bebaso and Musi caution."
     }
   ]
 }
