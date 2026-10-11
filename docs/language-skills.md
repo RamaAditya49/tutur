@@ -63,6 +63,7 @@ This document gives agentic tools a compact index of Tutur's current language an
 | `tutur-manggarai` | Short words such as `iyo`, `di'a`, and `hau` from the Verheijen extract. | The wordlist has no dialect label. Say that. | Review required for dialect and adat. Do not invent a new go'et. | Not Sikka, Lamaholot, or Komodo. `lonto leok` is a sitting practice, not a sentence pattern. |
 | `tutur-dawan` | `Tabe` as hello. In the Amfoang list, `leko` means healthy, not thanks. | Name the valley before public use. | Review required for adat. | Not Tetun and not Kupang Malay. Do not mix Amfoang spellings with an unlabeled phrase table. |
 | `tutur-tetun` | Belu and Malaka lines such as `He'e` and `Mai Bapa ita lao`. | Tetun Dili is a separate register. | Review required for adat and for official Tetun. | Do not mix Belu `hau`/`lao` with Fehan `ha'u`/`la'o` in one message. |
+| `tutur-ambon-malay` | Whole lines such as `Ale mo pi mana`, with `beta`, `ose`, and `katong`. | This is a Malay contact variety, not bahasa tanah. | Review required before using it for another Maluku language. | Do not glue Ambon particles onto a formal Indonesian brochure. |
 
 ## Agent Loading Rule
 

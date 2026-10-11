@@ -56,6 +56,7 @@
   - `tutur-manggarai`
   - `tutur-dawan`
   - `tutur-tetun`
+  - `tutur-ambon-malay`
 - Add court-register skills:
   - `tutur-kedhaton-solo`
   - `tutur-bagongan-jogja`
