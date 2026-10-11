@@ -258,6 +258,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-maanyan",
       "summary": "Source-aware Bahasa Maanyan generation and review with ritual register excluded."
+    },
+    {
+      "name": "tutur-kutai",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-kutai",
+      "summary": "Source-aware Bahasa Kutai Tenggarong generation and review, separate from Kota Bangun."
     }
   ]
 }

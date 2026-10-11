@@ -52,6 +52,7 @@ Tutur is not a "translate everything confidently" package. Indonesian regional l
 | `tutur-mentawai` | Ready | Yes | Produce or review Bahasa Mentawai from short glosses, with island spelling left open. |
 | `tutur-dayak-ngaju` | Ready | Yes | Produce or review Bahasa Ngaju from the Balai Bahasa dictionary, not a generic Dayak voice. |
 | `tutur-maanyan` | Ready | Yes | Produce or review Bahasa Maanyan from glossed everyday lines, not from Ngaju. |
+| `tutur-kutai` | Ready | Yes | Produce or review Bahasa Kutai Tenggarong from the Kantor Bahasa dictionary. |
 
 Planned skills:
 
@@ -131,7 +132,8 @@ tutur/
     ├── tutur-nias/
     ├── tutur-mentawai/
     ├── tutur-dayak-ngaju/
-    └── tutur-maanyan/
+    ├── tutur-maanyan/
+    └── tutur-kutai/
 ```
 
 ## Quick Install
@@ -181,7 +183,8 @@ for skill in \
   tutur-nias \
   tutur-mentawai \
   tutur-dayak-ngaju \
-  tutur-maanyan
+  tutur-maanyan \
+  tutur-kutai
 do
   npx --yes clawhub --workdir ~/.openclaw/workspace --dir skills install "$skill"
 done

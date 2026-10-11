@@ -47,6 +47,7 @@ This document gives agentic tools a compact index of Tutur's current language an
 | `tutur-mentawai` | `abekia` for kabar and `surak` or `sura'` for thanks when the dictionary gloss is the source. | Island and office facts stay Indonesian. Office-wall names stay unglossed. | Review required for uma, sikerei, healing, and wedding. | Do not force one spelling across Siberut, Sipora, and Pagai. |
 | `tutur-dayak-ngaju` | Ngaju lines such as `dohop ikei` and `tarima kasih` from the 2013 dictionary. | This folder is Ngaju only. | Review required for ritual and for any other Dayak language. | `ngaju` means upstream. It is not the name of every Dayak language. |
 | `tutur-maanyan` | Short glossed lines such as `amahku tulak bagawi` and `lewu yeru haut matueh`. | Ritual pangunraun stays out. | Review required for adat and for Warukin speech that has shifted toward Banjar. | Not Ngaju. Do not paste `yiti` onto an Indonesian sentence. |
+| `tutur-kutai` | Tenggarong lines such as `hambat-hambat nyawa blm mendi`. | Kota Bangun is a different catalog entry. | Review required for pantun, Jawi manuscripts, and court text. | Not Banjar Samarinda. `nyawa` is I, `awak` is you. |
 
 ## Agent Loading Rule
 
