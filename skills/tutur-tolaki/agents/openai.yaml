@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Tolaki"
+  short_description: "Bahasa Tolaki Konawe, beda Wolio"
+  default_prompt: "Use $tutur-tolaki to adapt this text with a source-aware Bahasa Tolaki register."
