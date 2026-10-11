@@ -58,6 +58,7 @@ Tutur is not a "translate everything confidently" package. Indonesian regional l
 | `tutur-bajau` | Ready | Yes | Produce or review Bahasa Bajo Flores Sea words, then continue in Indonesian. |
 | `tutur-toraja` | Ready | Yes | Produce or review Bahasa Toraja-Sa'dan greetings and short grammar lines only. |
 | `tutur-mandar` | Ready | Yes | Produce or review Bahasa Mandar from the Balai Bahasa dictionary, not from Bugis. |
+| `tutur-tolaki` | Ready | Yes | Produce or review Bahasa Tolaki with a source-backed tabea opening. |
 
 Planned skills:
 
@@ -143,7 +144,8 @@ tutur/
     ├── tutur-tidung/
     ├── tutur-bajau/
     ├── tutur-toraja/
-    └── tutur-mandar/
+    ├── tutur-mandar/
+    └── tutur-tolaki/
 ```
 
 ## Quick Install
@@ -199,7 +201,8 @@ for skill in \
   tutur-tidung \
   tutur-bajau \
   tutur-toraja \
-  tutur-mandar
+  tutur-mandar \
+  tutur-tolaki
 do
   npx --yes clawhub --workdir ~/.openclaw/workspace --dir skills install "$skill"
 done

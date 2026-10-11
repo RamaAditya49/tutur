@@ -306,6 +306,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-mandar",
       "summary": "Source-aware Bahasa Mandar generation and review with q-spelling and variety labels."
+    },
+    {
+      "name": "tutur-tolaki",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-tolaki",
+      "summary": "Source-aware Bahasa Tolaki generation and review, separate from Muna and Wolio."
     }
   ]
 }
