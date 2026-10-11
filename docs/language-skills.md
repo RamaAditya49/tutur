@@ -57,6 +57,7 @@ This document gives agentic tools a compact index of Tutur's current language an
 | `tutur-muna` | Street greeting `o-k[um]ala ne hamai?` from van den Berg. | Brackets mark an infix. They are not letters to read aloud. | Review required for other Muna dialects and adat. | Not Wolio and not Tolaki. The language name in these lines is `wamba Wuna`. |
 | `tutur-wolio` | `tabea`, `tulungi`, `inda pokia`, and `yapai ta porope ingkita?` from the 1985 dictionary. | Words in that dictionary end in a vowel. | Review required for Keraton and sara language in Baadia. | Not Muna. Respectful you is `ingkita`. |
 | `tutur-gorontalo` | `Wolo habali?` for kabar and `Odu'olo` for thanks. | Not Manado Malay. | Review required for dialect spelling and for teknonyms. | Do not merge Kota, Suwawa, Atinggola, and Bolango into one spelling. |
+| `tutur-minahasa-tombulu` | `Syambae` and `Kura-mo?` as short greetings. | Do not paste Tombulu words onto Melayu Manado. | Review required for dialect and adat. | Not Tonsea, Tontemboan, or Toulour. Phrase-table greetings are support, not a full grammar. |
 
 ## Agent Loading Rule
 

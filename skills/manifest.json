@@ -338,6 +338,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-gorontalo",
       "summary": "Source-aware Bahasa Gorontalo generation and review, separate from Manado Malay."
+    },
+    {
+      "name": "tutur-minahasa-tombulu",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-minahasa-tombulu",
+      "summary": "Source-aware Bahasa Tombulu generation and review, separate from other Minahasa languages."
     }
   ]
 }
