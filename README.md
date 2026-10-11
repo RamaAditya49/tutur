@@ -69,6 +69,7 @@ Tutur is not a "translate everything confidently" package. Indonesian regional l
 | `tutur-dawan` | Ready | Yes | Produce or review Bahasa Dawan with the valley named and thanks left uninvented. |
 | `tutur-tetun` | Ready | Yes | Produce or review household Tetun from Belu and Malaka transcripts, not Tetun Dili. |
 | `tutur-ambon-malay` | Ready | Yes | Produce or review Melayu Ambon from dictionary sentences, as people actually mix it. |
+| `tutur-ternate` | Ready | Yes | Produce or review Bahasa Ternate clauses with the verb prefix still attached. |
 
 Planned skills:
 
@@ -165,7 +166,8 @@ tutur/
     ├── tutur-manggarai/
     ├── tutur-dawan/
     ├── tutur-tetun/
-    └── tutur-ambon-malay/
+    ├── tutur-ambon-malay/
+    └── tutur-ternate/
 ```
 
 ## Quick Install
@@ -232,7 +234,8 @@ for skill in \
   tutur-manggarai \
   tutur-dawan \
   tutur-tetun \
-  tutur-ambon-malay
+  tutur-ambon-malay \
+  tutur-ternate
 do
   npx --yes clawhub --workdir ~/.openclaw/workspace --dir skills install "$skill"
 done

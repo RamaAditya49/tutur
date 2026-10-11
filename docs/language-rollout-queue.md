@@ -81,11 +81,11 @@ If a language has speech levels, dialects, or ritual restrictions, those must ap
 - `tutur-dawan`
 - `tutur-tetun`
 - `tutur-ambon-malay`
+- `tutur-ternate`
 
 ## Active Queue
 
-1. `tutur-ternate`
-2. `tutur-papua-malay`
+1. `tutur-papua-malay`
 
 This queue is intentionally not final. After each batch, add the next documented languages from Labbineka/Peta Bahasa and continue.
 

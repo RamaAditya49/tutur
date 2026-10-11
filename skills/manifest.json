@@ -394,6 +394,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-ambon-malay",
       "summary": "Source-aware Melayu Ambon generation and review, not a stand-in for bahasa tanah."
+    },
+    {
+      "name": "tutur-ternate",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-ternate",
+      "summary": "Source-aware Bahasa Ternate generation and review, separate from Tidore and Ternate Malay."
     }
   ]
 }
