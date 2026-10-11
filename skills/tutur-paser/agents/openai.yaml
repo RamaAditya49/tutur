@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Paser"
+  short_description: "Bahasa Paser, sepuluh dialek"
+  default_prompt: "Use $tutur-paser to adapt this text with a source-aware Bahasa Paser register."
