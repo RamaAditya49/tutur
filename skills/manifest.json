@@ -178,6 +178,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-rejang",
       "summary": "Source-aware Bahasa Rejang generation and review with Lebong dialect limits."
+    },
+    {
+      "name": "tutur-kerinci",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-kerinci",
+      "summary": "Source-aware Bahasa Kerinci Siulak words with no invented full sentences."
     }
   ]
 }
