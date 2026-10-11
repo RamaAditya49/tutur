@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Rejang"
+  short_description: "Rejang Lebong: uku, kumu, dan ite"
+  default_prompt: "Use $tutur-rejang to adapt this text with a source-aware Bahasa Rejang register."

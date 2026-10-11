@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Palembang"
+  short_description: "Baso Palembang sari-ari, kode Musi"
+  default_prompt: "Use $tutur-palembang to adapt this text with a source-aware Bahasa Palembang register."

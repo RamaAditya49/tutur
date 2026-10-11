@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Mandailing"
+  short_description: "Santabi Mandailing, bukan horas Toba"
+  default_prompt: "Use $tutur-mandailing to adapt this text with a source-aware Bahasa Mandailing register."

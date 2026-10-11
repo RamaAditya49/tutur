@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Muna"
+  short_description: "Wuna Katobu, sapaan di jalan"
+  default_prompt: "Use $tutur-muna to adapt this text with a source-aware Bahasa Muna register."

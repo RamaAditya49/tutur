@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Maanyan"
+  short_description: "Maanyan Barito, beda dari Ngaju"
+  default_prompt: "Use $tutur-maanyan to adapt this text with a source-aware Bahasa Maanyan register."

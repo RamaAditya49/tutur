@@ -51,41 +51,60 @@ If a language has speech levels, dialects, or ritual restrictions, those must ap
 - `tutur-makassar`
 - `tutur-batak-toba`
 - `tutur-lampung`
+- `tutur-betawi`
+- `tutur-palembang`
+- `tutur-rejang`
+- `tutur-kerinci`
+- `tutur-komering`
+- `tutur-karo`
+- `tutur-simalungun`
+- `tutur-mandailing`
+- `tutur-pakpak`
+- `tutur-nias`
+- `tutur-mentawai`
+- `tutur-dayak-ngaju`
+- `tutur-maanyan`
+- `tutur-kutai`
+- `tutur-paser`
+- `tutur-tidung`
+- `tutur-bajau`
+- `tutur-toraja`
+- `tutur-mandar`
+- `tutur-tolaki`
+- `tutur-muna`
+- `tutur-wolio`
+- `tutur-gorontalo`
+- `tutur-minahasa-tombulu`
+- `tutur-bima`
+- `tutur-sumbawa`
+- `tutur-manggarai`
+- `tutur-dawan`
+- `tutur-tetun`
+- `tutur-ambon-malay`
+- `tutur-ternate`
+- `tutur-papua-malay`
 
 ## Active Queue
 
-1. `tutur-betawi`
-2. `tutur-palembang`
-3. `tutur-rejang`
-4. `tutur-kerinci`
-5. `tutur-komering`
-6. `tutur-karo`
-7. `tutur-simalungun`
-8. `tutur-mandailing`
-9. `tutur-pakpak`
-10. `tutur-nias`
-11. `tutur-mentawai`
-12. `tutur-dayak-ngaju`
-13. `tutur-maanyan`
-14. `tutur-kutai`
-15. `tutur-paser`
-16. `tutur-tidung`
-17. `tutur-bajau`
-18. `tutur-toraja`
-19. `tutur-mandar`
-20. `tutur-tolaki`
-21. `tutur-muna`
-22. `tutur-wolio`
-23. `tutur-gorontalo`
-24. `tutur-minahasa-tombulu`
-25. `tutur-bima`
-26. `tutur-sumbawa`
-27. `tutur-manggarai`
-28. `tutur-dawan`
-29. `tutur-tetun`
-30. `tutur-ambon-malay`
-31. `tutur-ternate`
-32. `tutur-papua-malay`
+The Betawi-through-Papuan-Malay batch is now under Current Ready Skills. Hundreds of mapped languages remain. Do not generate them by swapping a language name into one template. Research one language from Badan Bahasa, Balai Bahasa, and Peta Bahasa, and stop when a local line cannot be quoted.
+
+1. `tutur-melayu-manado`
+2. `tutur-melayu-kupang`
+3. `tutur-melayu-riau`
+4. `tutur-jambi`
+5. `tutur-besemah`
+6. `tutur-osing`
+7. `tutur-banyumasan`
+8. `tutur-kaili-ledo`
+9. `tutur-banggai`
+10. `tutur-iban`
+11. `tutur-kenyah`
+12. `tutur-biak`
+13. `tutur-dani`
+14. `tutur-galela`
+15. `tutur-tobelo`
+16. `tutur-buru`
+17. `tutur-kei`
 
 This queue is intentionally not final. After each batch, add the next documented languages from Labbineka/Peta Bahasa and continue.
 

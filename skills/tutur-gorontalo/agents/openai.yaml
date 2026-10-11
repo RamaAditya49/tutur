@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Gorontalo"
+  short_description: "Hulontalo, bukan Melayu Manado"
+  default_prompt: "Use $tutur-gorontalo to adapt this text with a source-aware Bahasa Gorontalo register."

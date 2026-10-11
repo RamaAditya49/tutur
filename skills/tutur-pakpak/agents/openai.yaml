@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Pakpak"
+  short_description: "Njuah-njuah Pakpak, lain Karo lain Toba"
+  default_prompt: "Use $tutur-pakpak to adapt this text with a source-aware Bahasa Pakpak register."

@@ -81,7 +81,39 @@ for skill in \
   tutur-bugis \
   tutur-makassar \
   tutur-batak-toba \
-  tutur-lampung
+  tutur-lampung \
+  tutur-betawi \
+  tutur-palembang \
+  tutur-rejang \
+  tutur-kerinci \
+  tutur-komering \
+  tutur-karo \
+  tutur-simalungun \
+  tutur-mandailing \
+  tutur-pakpak \
+  tutur-nias \
+  tutur-mentawai \
+  tutur-dayak-ngaju \
+  tutur-maanyan \
+  tutur-kutai \
+  tutur-paser \
+  tutur-tidung \
+  tutur-bajau \
+  tutur-toraja \
+  tutur-mandar \
+  tutur-tolaki \
+  tutur-muna \
+  tutur-wolio \
+  tutur-gorontalo \
+  tutur-minahasa-tombulu \
+  tutur-bima \
+  tutur-sumbawa \
+  tutur-manggarai \
+  tutur-dawan \
+  tutur-tetun \
+  tutur-ambon-malay \
+  tutur-ternate \
+  tutur-papua-malay
 do
   npx --yes clawhub --workdir "$HOME/.openclaw/workspace" --dir skills install "$skill"
 done

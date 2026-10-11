@@ -39,6 +39,38 @@ Tutur is not a "translate everything confidently" package. Indonesian regional l
 | `tutur-makassar` | Ready | Yes | Produce or review Bahasa Makassar with politeness marker, script, and Makassar Malay distinction. |
 | `tutur-batak-toba` | Ready | Yes | Produce or review Bahasa Batak Toba with kinship, marga, adat, and script caution. |
 | `tutur-lampung` | Ready | Yes | Produce or review Bahasa Lampung with Api/A, Nyo/O, and aksara caution. |
+| `tutur-betawi` | Ready | Yes | Produce or review Bahasa Betawi from attested Chaer lines, with name-first requests. |
+| `tutur-palembang` | Ready | Yes | Produce or review Bahasa Palembang with sari-ari and Bebaso kept apart. |
+| `tutur-rejang` | Ready | Yes | Produce or review Bahasa Rejang from glossed Lebong speech, not a province-wide translation. |
+| `tutur-kerinci` | Ready | Yes | Produce or review Bahasa Kerinci Siulak from picture-dictionary words only. |
+| `tutur-komering` | Ready | Yes | Produce or review Bahasa Komering without treating it as Bahasa Lampung. |
+| `tutur-karo` | Ready | Yes | Produce or review cakap Karo from dictionary lines, separate from Batak Toba. |
+| `tutur-simalungun` | Ready | Yes | Produce or review Bahasa Simalungun from the Balai Bahasa dictionary, not from Toba. |
+| `tutur-mandailing` | Ready | Yes | Produce or review Bahasa Mandailing from the shared Angkola-Mandailing dictionary. |
+| `tutur-pakpak` | Ready | Yes | Produce or review Bahasa Pakpak with its own greeting and suak labels. |
+| `tutur-nias` | Ready | Yes | Produce or review Bahasa Nias greetings from the Ya'ahowu reader, not new ritual lines. |
+| `tutur-mentawai` | Ready | Yes | Produce or review Bahasa Mentawai from short glosses, with island spelling left open. |
+| `tutur-dayak-ngaju` | Ready | Yes | Produce or review Bahasa Ngaju from the Balai Bahasa dictionary, not a generic Dayak voice. |
+| `tutur-maanyan` | Ready | Yes | Produce or review Bahasa Maanyan from glossed everyday lines, not from Ngaju. |
+| `tutur-kutai` | Ready | Yes | Produce or review Bahasa Kutai Tenggarong from the Kantor Bahasa dictionary. |
+| `tutur-paser` | Ready | Yes | Produce or review Bahasa Paser from the Kantor Bahasa dictionary, not from Kutai. |
+| `tutur-tidung` | Ready | Yes | Produce or review Southern Tidung Sesayap lines without pretending one Tidung spelling. |
+| `tutur-bajau` | Ready | Yes | Produce or review Bahasa Bajo Flores Sea words, then continue in Indonesian. |
+| `tutur-toraja` | Ready | Yes | Produce or review Bahasa Toraja-Sa'dan greetings and short grammar lines only. |
+| `tutur-mandar` | Ready | Yes | Produce or review Bahasa Mandar from the Balai Bahasa dictionary, not from Bugis. |
+| `tutur-tolaki` | Ready | Yes | Produce or review Bahasa Tolaki with a source-backed tabea opening. |
+| `tutur-muna` | Ready | Yes | Produce or review standard Muna from van den Berg's glossed lines. |
+| `tutur-wolio` | Ready | Yes | Produce or review Bahasa Wolio from the 1985 dictionary, with court language left alone. |
+| `tutur-gorontalo` | Ready | Yes | Produce or review Bahasa Gorontalo greetings from the conversation book, not Melayu Manado. |
+| `tutur-minahasa-tombulu` | Ready | Yes | Produce or review Bahasa Tombulu greetings without mixing them into Manado Malay. |
+| `tutur-bima` | Ready | Yes | Produce or review Nggahi Mbojo with the halus and kasa pronouns kept apart. |
+| `tutur-sumbawa` | Ready | Yes | Produce or review Bahasa Sumbawa Besar lines without mixing in Bima or Sasak. |
+| `tutur-manggarai` | Ready | Yes | Produce or review short Bahasa Manggarai words with the dialect left unnamed. |
+| `tutur-dawan` | Ready | Yes | Produce or review Bahasa Dawan with the valley named and thanks left uninvented. |
+| `tutur-tetun` | Ready | Yes | Produce or review household Tetun from Belu and Malaka transcripts, not Tetun Dili. |
+| `tutur-ambon-malay` | Ready | Yes | Produce or review Melayu Ambon from dictionary sentences, as people actually mix it. |
+| `tutur-ternate` | Ready | Yes | Produce or review Bahasa Ternate clauses with the verb prefix still attached. |
+| `tutur-papua-malay` | Ready | Yes | Produce or review Melayu Papua from recorded lines, not from another Papuan language. |
 
 Planned skills:
 
@@ -105,7 +137,39 @@ tutur/
     ├── tutur-bugis/
     ├── tutur-makassar/
     ├── tutur-batak-toba/
-    └── tutur-lampung/
+    ├── tutur-lampung/
+    ├── tutur-betawi/
+    ├── tutur-palembang/
+    ├── tutur-rejang/
+    ├── tutur-kerinci/
+    ├── tutur-komering/
+    ├── tutur-karo/
+    ├── tutur-simalungun/
+    ├── tutur-mandailing/
+    ├── tutur-pakpak/
+    ├── tutur-nias/
+    ├── tutur-mentawai/
+    ├── tutur-dayak-ngaju/
+    ├── tutur-maanyan/
+    ├── tutur-kutai/
+    ├── tutur-paser/
+    ├── tutur-tidung/
+    ├── tutur-bajau/
+    ├── tutur-toraja/
+    ├── tutur-mandar/
+    ├── tutur-tolaki/
+    ├── tutur-muna/
+    ├── tutur-wolio/
+    ├── tutur-gorontalo/
+    ├── tutur-minahasa-tombulu/
+    ├── tutur-bima/
+    ├── tutur-sumbawa/
+    ├── tutur-manggarai/
+    ├── tutur-dawan/
+    ├── tutur-tetun/
+    ├── tutur-ambon-malay/
+    ├── tutur-ternate/
+    └── tutur-papua-malay/
 ```
 
 ## Quick Install
@@ -142,7 +206,39 @@ for skill in \
   tutur-bugis \
   tutur-makassar \
   tutur-batak-toba \
-  tutur-lampung
+  tutur-lampung \
+  tutur-betawi \
+  tutur-palembang \
+  tutur-rejang \
+  tutur-kerinci \
+  tutur-komering \
+  tutur-karo \
+  tutur-simalungun \
+  tutur-mandailing \
+  tutur-pakpak \
+  tutur-nias \
+  tutur-mentawai \
+  tutur-dayak-ngaju \
+  tutur-maanyan \
+  tutur-kutai \
+  tutur-paser \
+  tutur-tidung \
+  tutur-bajau \
+  tutur-toraja \
+  tutur-mandar \
+  tutur-tolaki \
+  tutur-muna \
+  tutur-wolio \
+  tutur-gorontalo \
+  tutur-minahasa-tombulu \
+  tutur-bima \
+  tutur-sumbawa \
+  tutur-manggarai \
+  tutur-dawan \
+  tutur-tetun \
+  tutur-ambon-malay \
+  tutur-ternate \
+  tutur-papua-malay
 do
   npx --yes clawhub --workdir ~/.openclaw/workspace --dir skills install "$skill"
 done

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Bima"
+  short_description: "Nggahi Mbojo, bukan bahasa Samawa"
+  default_prompt: "Use $tutur-bima to adapt this text with a source-aware Bahasa Bima register."

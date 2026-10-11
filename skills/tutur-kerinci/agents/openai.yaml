@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Kerinci"
+  short_description: "Kerinci Siulak: umah, lawang, sinanyan"
+  default_prompt: "Use $tutur-kerinci to adapt this text with a source-aware Bahasa Kerinci register."

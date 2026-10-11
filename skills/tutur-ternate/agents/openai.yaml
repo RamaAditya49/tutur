@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Ternate"
+  short_description: "Bahasa Ternate, bukan Melayu Ternate"
+  default_prompt: "Use $tutur-ternate to adapt this text with a source-aware Bahasa Ternate register."

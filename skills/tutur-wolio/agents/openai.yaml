@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Wolio"
+  short_description: "Wolio Baubau, bukan bahasa Muna"
+  default_prompt: "Use $tutur-wolio to adapt this text with a source-aware Bahasa Wolio register."

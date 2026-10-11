@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Bajau"
+  short_description: "Bahasa Bajo Laut Flores, klaster"
+  default_prompt: "Use $tutur-bajau to adapt this text with a source-aware Bahasa Bajau register."

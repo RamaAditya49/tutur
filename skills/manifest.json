@@ -154,6 +154,262 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-lampung",
       "summary": "Source-aware Bahasa Lampung generation and review with Api/A, Nyo/O, and aksara caution."
+    },
+    {
+      "name": "tutur-betawi",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-betawi",
+      "summary": "Source-aware Bahasa Betawi generation and review with pronoun and kampung caution."
+    },
+    {
+      "name": "tutur-palembang",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-palembang",
+      "summary": "Source-aware Bahasa Palembang generation and review with Bebaso and Musi caution."
+    },
+    {
+      "name": "tutur-rejang",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-rejang",
+      "summary": "Source-aware Bahasa Rejang generation and review with Lebong dialect limits."
+    },
+    {
+      "name": "tutur-kerinci",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-kerinci",
+      "summary": "Source-aware Bahasa Kerinci Siulak words with no invented full sentences."
+    },
+    {
+      "name": "tutur-komering",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-komering",
+      "summary": "Source-aware Bahasa Komering generation and review, separate from Lampung."
+    },
+    {
+      "name": "tutur-karo",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-karo",
+      "summary": "Source-aware Bahasa Karo generation and review without Toba greetings."
+    },
+    {
+      "name": "tutur-simalungun",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-simalungun",
+      "summary": "Source-aware Bahasa Simalungun generation and review with horas limits."
+    },
+    {
+      "name": "tutur-mandailing",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-mandailing",
+      "summary": "Source-aware Bahasa Mandailing generation and review with Angkola overlap marked."
+    },
+    {
+      "name": "tutur-pakpak",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-pakpak",
+      "summary": "Source-aware Bahasa Pakpak generation and review, separate from Karo and Toba."
+    },
+    {
+      "name": "tutur-nias",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-nias",
+      "summary": "Source-aware Bahasa Nias generation and review with ceremony left to speakers."
+    },
+    {
+      "name": "tutur-mentawai",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-mentawai",
+      "summary": "Source-aware Bahasa Mentawai generation and review with island and ritual limits."
+    },
+    {
+      "name": "tutur-dayak-ngaju",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-dayak-ngaju",
+      "summary": "Source-aware Bahasa Ngaju generation and review, not a cover for other Dayak languages."
+    },
+    {
+      "name": "tutur-maanyan",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-maanyan",
+      "summary": "Source-aware Bahasa Maanyan generation and review with ritual register excluded."
+    },
+    {
+      "name": "tutur-kutai",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-kutai",
+      "summary": "Source-aware Bahasa Kutai Tenggarong generation and review, separate from Kota Bangun."
+    },
+    {
+      "name": "tutur-paser",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-paser",
+      "summary": "Source-aware Bahasa Paser generation and review with unlabeled dialect examples."
+    },
+    {
+      "name": "tutur-tidung",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-tidung",
+      "summary": "Source-aware Bahasa Tidung Sesayap generation and review with northern Tidung kept apart."
+    },
+    {
+      "name": "tutur-bajau",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-bajau",
+      "summary": "Source-aware Bahasa Bajo Flores Sea words with no pan-Bajau ceremony."
+    },
+    {
+      "name": "tutur-toraja",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-toraja",
+      "summary": "Source-aware Bahasa Toraja-Sa'dan generation and review with funeral language excluded."
+    },
+    {
+      "name": "tutur-mandar",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-mandar",
+      "summary": "Source-aware Bahasa Mandar generation and review with q-spelling and variety labels."
+    },
+    {
+      "name": "tutur-tolaki",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-tolaki",
+      "summary": "Source-aware Bahasa Tolaki generation and review, separate from Muna and Wolio."
+    },
+    {
+      "name": "tutur-muna",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-muna",
+      "summary": "Source-aware Bahasa Muna generation and review with infix spelling kept visible."
+    },
+    {
+      "name": "tutur-wolio",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-wolio",
+      "summary": "Source-aware Bahasa Wolio generation and review with Baadia court language excluded."
+    },
+    {
+      "name": "tutur-gorontalo",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-gorontalo",
+      "summary": "Source-aware Bahasa Gorontalo generation and review, separate from Manado Malay."
+    },
+    {
+      "name": "tutur-minahasa-tombulu",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-minahasa-tombulu",
+      "summary": "Source-aware Bahasa Tombulu generation and review, separate from other Minahasa languages."
+    },
+    {
+      "name": "tutur-bima",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-bima",
+      "summary": "Source-aware Bahasa Bima generation and review with speech-level pronouns."
+    },
+    {
+      "name": "tutur-sumbawa",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-sumbawa",
+      "summary": "Source-aware Bahasa Sumbawa Besar generation and review with other Samawa dialects unmarked."
+    },
+    {
+      "name": "tutur-manggarai",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-manggarai",
+      "summary": "Source-aware Bahasa Manggarai words with dialect and adat left open."
+    },
+    {
+      "name": "tutur-dawan",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-dawan",
+      "summary": "Source-aware Bahasa Dawan / Uab Meto generation and review with valley limits."
+    },
+    {
+      "name": "tutur-tetun",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-tetun",
+      "summary": "Source-aware Belu and Malaka Tetun generation and review, separate from Tetun Dili."
+    },
+    {
+      "name": "tutur-ambon-malay",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-ambon-malay",
+      "summary": "Source-aware Melayu Ambon generation and review, not a stand-in for bahasa tanah."
+    },
+    {
+      "name": "tutur-ternate",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-ternate",
+      "summary": "Source-aware Bahasa Ternate generation and review, separate from Tidore and Ternate Malay."
+    },
+    {
+      "name": "tutur-papua-malay",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-papua-malay",
+      "summary": "Source-aware Melayu Papua generation and review, limited to that Malay variety."
     }
   ]
 }

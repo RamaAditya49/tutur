@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Nias"
+  short_description: "Ya'ahowu untuk register Li Niha"
+  default_prompt: "Use $tutur-nias to adapt this text with a source-aware Bahasa Nias register."

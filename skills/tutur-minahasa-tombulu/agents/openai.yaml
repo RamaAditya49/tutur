@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Tombulu"
+  short_description: "Bahasa Tombulu Tomohon, bukan Manado"
+  default_prompt: "Use $tutur-minahasa-tombulu to adapt this text with a source-aware Bahasa Tombulu register."

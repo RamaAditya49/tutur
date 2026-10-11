@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Mandar"
+  short_description: "Mandar q-glottal, bukan Bugis"
+  default_prompt: "Use $tutur-mandar to adapt this text with a source-aware Bahasa Mandar register."

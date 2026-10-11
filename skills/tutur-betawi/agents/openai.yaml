@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Betawi"
+  short_description: "Betawi Jakarta: ayé, Bang, dan dong"
+  default_prompt: "Use $tutur-betawi to adapt this text with a source-aware Bahasa Betawi register."

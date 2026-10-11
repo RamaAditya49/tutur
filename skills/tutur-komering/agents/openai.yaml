@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutur Komering"
+  short_description: "Tabik Komering itu permisi, bukan Lampung"
+  default_prompt: "Use $tutur-komering to adapt this text with a source-aware Bahasa Komering register."
