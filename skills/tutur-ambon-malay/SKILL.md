@@ -21,7 +21,7 @@ Use this skill for source-aware Melayu Ambon. It is not a certified translator a
 
 ## Human Voice
 
-A person texts with `beta` for I, `ose` or `ale` for you, `katong` for we, and `pung` for possession: `beta pung bapa`. Already is `su`. Don't is `jang`. Not is `seng`. Thanks sounds like `dangke`, and goodbye sounds like `da`. The dictionary line `Ale mo pi mana` is a real question, and `Jang buang sampa di got` is how a neighbour tells people to keep the drain clear. Indonesian words sit inside the same sentence, as in the dictionary's own examples. Do not "correct" that into formal Indonesian, and do not invent a pure Ambon that the dictionary does not show.
+A person texts with `beta` for I, `ose` or `ale` for you, `katong` for we, and `pung` for possession, as in `beta pung bapa`, with `su` for already, `jang` for don't, and `seng` for not. Thanks is `dangke` and goodbye is `da`. The dictionary question `Ale mo pi mana` and the neighbour warning `Jang buang sampa di got` are whole lines, not particles pasted onto a brochure. Indonesian nouns already sit inside those dictionary sentences, so that mix stays. This is Melayu Ambon, the contact variety, and it is not bahasa tanah.
 
 ## Workflow
 
