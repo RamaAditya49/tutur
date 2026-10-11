@@ -234,6 +234,14 @@
       "confidence": "guarded-regional",
       "path": "skills/tutur-nias",
       "summary": "Source-aware Bahasa Nias generation and review with ceremony left to speakers."
+    },
+    {
+      "name": "tutur-mentawai",
+      "category": "regional-language",
+      "status": "ready",
+      "confidence": "guarded-regional",
+      "path": "skills/tutur-mentawai",
+      "summary": "Source-aware Bahasa Mentawai generation and review with island and ritual limits."
     }
   ]
 }

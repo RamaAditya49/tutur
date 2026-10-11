@@ -44,6 +44,7 @@ This document gives agentic tools a compact index of Tutur's current language an
 | `tutur-mandailing` | `santabi di hamu sude` and `mauliate` from the Angkola-Mandailing dictionary. | Keep Angkola-only labels out of a Mandailing request. | Review required for adat, marga, and kinship. | Do not open a Mandailing chat with Toba-style Horas. |
 | `tutur-pakpak` | `njuah-njuah` and `njuah-njuah mo kita karinana` from the Pakpak book. | Name the suak before public use. | Review required for adat and script. | Not Karo `mejuah-juah` and not Horas. `tulanmu` means your bone, not uncle. |
 | `tutur-nias` | `Ya'ahowu`, answered with the same word, plus `Ono Niha` and `Li Niha`. | After the greeting, the errand stays Indonesian. | Review required for adat, healing, and wedding formulas. | Do not invent a Nias ceremony around the greeting. |
+| `tutur-mentawai` | `abekia` for kabar and `surak` or `sura'` for thanks when the dictionary gloss is the source. | Island and office facts stay Indonesian. Office-wall names stay unglossed. | Review required for uma, sikerei, healing, and wedding. | Do not force one spelling across Siberut, Sipora, and Pagai. |
 
 ## Agent Loading Rule
 
